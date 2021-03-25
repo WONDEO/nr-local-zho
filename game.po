@@ -1,4 +1,15 @@
 # ----------------------------------------------------------
+# Beta 1.1.60版本 新添加字符串
+
+msgctxt "accounting_pax_new"
+msgid "Started trip"
+msgstr "    本日新乘客"
+
+msgctxt "accounting_pax_never_serviced"
+msgid "Never serviced"
+msgstr "    历史新乘客"
+
+# ----------------------------------------------------------
 # Beta 1.1.59版本 新添加字符串
 
 msgctxt "right_bar_assets"
@@ -414,7 +425,7 @@ msgstr "站票"
 
 msgctxt "tag_steam"
 msgid "Steam"
-msgstr "蒸汽"
+msgstr "蒸汽机车"
 
 msgctxt "tag_tender"
 msgid "Tender"
@@ -434,7 +445,7 @@ msgstr "有轨电车"
 
 msgctxt "tag_turbine"
 msgid "Turbine"
-msgstr "涡轮"
+msgstr "涡轮机车"
 
 msgctxt "tag_tyres"
 msgid "Tyres"
@@ -442,7 +453,7 @@ msgstr "轮胎"
 
 msgctxt "tags_gauge"
 msgid "Gauge"
-msgstr "仪表"
+msgstr "轨距"
 
 msgctxt "tags_misc"
 msgid "Misc."
@@ -3247,10 +3258,9 @@ msgctxt "wrong_schema_mod"
 msgid "This mod data is enabled in the current game, but its installed files require a newer game version. Update the game."
 msgstr "此模组在当前游戏中已启用，但其安装的文件需要更新的游戏版本。请更新游戏"
 
-
 # ----------------------------------------------------------
-#删除的（老版本）字符串
-
+# 删除的（老版本）字符串
+ 
 msgctxt "info_table_pax_fare"
 msgid "Fare"
 msgstr "车费"
