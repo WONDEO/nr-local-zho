@@ -490,7 +490,7 @@ msgstr "60 分钟"
 
 msgctxt "acc_export_desc"
 msgid "Accounting data has been exported to {}"
-msgstr "财务数据已导出至{}"
+msgstr "财务数据已导出到 {}"
 
 msgctxt "acc_export_title"
 msgid "Exported accounting data"
@@ -582,7 +582,7 @@ msgstr "  新行程旅客"
 
 msgctxt "accounting_pax_post"
 msgid "pax"
-msgstr "人"
+msgstr "乘客"
 
 msgctxt "accounting_pax_reached_depot"
 msgid "Refund: reached depot"
@@ -982,15 +982,15 @@ msgstr "建造"
 
 msgctxt "build_all_bp"
 msgid "Build all blueprints"
-msgstr "建设所有蓝图"
+msgstr "建造所有蓝图"
 
 msgctxt "build_my_bp"
 msgid "Build my blueprints"
-msgstr "建设我的蓝图"
+msgstr "建造我的蓝图"
 
 msgctxt "build_selected_bp"
 msgid "Build selected blueprints"
-msgstr "建设选择的蓝图"
+msgstr "建造选择的蓝图"
 
 msgctxt "building_all_kinds_info"
 msgid "Show all building kinds and pick your favorites"
@@ -1266,7 +1266,7 @@ msgstr "删除收藏夹"
 
 msgctxt "confirm_construction"
 msgid "Confirm construction"
-msgstr "确认建设"
+msgstr "确认建造"
 
 msgctxt "confirm_delete"
 msgid "Confirm delete"
@@ -1286,7 +1286,7 @@ msgstr "你确定要删除线路 {} 吗？"
 
 msgctxt "confirm_intervention_line"
 msgid "Confirm line intervention"
-msgstr "线路干预"
+msgstr "确认线路干预"
 
 msgctxt "confirm_intervention_line_desc"
 msgid "Do you want to issue an intervention to all the trains currently running the line named {0} for a price of ${1}?"
@@ -1318,7 +1318,7 @@ msgstr "冲突"
 
 msgctxt "conflicts_pop_desc"
 msgid "One or more tracks have conflicts and cannot be constructed, or their validation is still pending. Move, edit or delete all tracks marked in red."
-msgstr "一条或多条轨道发生冲突或仍在验证中，无法建设、移动、编辑或删除所有红色标记的轨道"
+msgstr "一条或多条轨道发生冲突或仍在验证中，无法建造、移动、编辑或删除所有红色标记的轨道"
 
 msgctxt "connecting_elip"
 msgid "Connecting..."
@@ -1422,7 +1422,7 @@ msgstr "轨迹点"
 
 msgctxt "constraint_xform_grid_snap"
 msgid "Snap:"
-msgstr "移至固定点:"
+msgstr "移到固定点:"
 
 msgctxt "constraint_xform_rotate"
 msgid "Rotate:"
@@ -1450,7 +1450,7 @@ msgstr "没有待建的蓝图"
 
 msgctxt "construction_conflicts_cash"
 msgid "Not enough money for construction"
-msgstr "没有足够的资金用于建设"
+msgstr "没有足够的资金用于建造"
 
 msgctxt "construction_conflicts_error"
 msgid "Conflicts block construction"
@@ -1482,7 +1482,7 @@ msgstr "美术"
 
 msgctxt "credits_programming"
 msgid "Programming and design"
-msgstr "编程与设计"
+msgstr "程序设计"
 
 msgctxt "credits_thanks"
 msgid "Thanks"
@@ -1554,7 +1554,7 @@ msgstr "仅删除蓝图"
 
 msgctxt "delete_tracks"
 msgid "Delete objects"
-msgstr "删除对象"
+msgstr "删除轨道"
 
 msgctxt "demand_clone"
 msgid "Clone demand curve"
@@ -2178,7 +2178,7 @@ msgstr "乘客将离开，并将不会登上这条线路的列车"
 
 msgctxt "editor_warn_too_long_manual_interval"
 msgid "The manual interval exceeds the duration of the line. It will be ignored or work unreliably.\nIncrease the line custom duration value to at least the manual interval value."
-msgstr "手动间隔时间超过了线路运行时长，这将可能出错。 \n请自定义线路运行时长，把循环运行耗时增加至手动间隔的时间。"
+msgstr "手动间隔时间超过了线路运行时长，这将可能出错。 \n请自定义线路运行时长，把循环运行耗时增加到手动间隔的时间。"
 
 msgctxt "editor_warn_train_speed_too_high"
 msgid "Trains might be unable to make up for delays at this cruise speed."
@@ -2218,7 +2218,7 @@ msgstr "无法打开临时文件:"
 
 msgctxt "error_cannot_rename_save"
 msgid "Cannot rename temporary file: {} into {} "
-msgstr "无法重命名临时文件: {} 至 {}"
+msgstr "无法重命名临时文件: {} 到 {}"
 
 msgctxt "error_corrupted_file"
 msgid "Corrupted file: "
@@ -2314,7 +2314,7 @@ msgstr "游戏版本:"
 
 msgctxt "filter_all_matches"
 msgid "{} models"
-msgstr "{} 组列车模型"
+msgstr "{} 组列车型号"
 
 msgctxt "filter_high"
 msgid "High"
@@ -2358,7 +2358,7 @@ msgstr "从 {0} 到 {1} {2}"
 
 msgctxt "filter_some_matches"
 msgid "{0} of {1} models"
-msgstr "找到 {0}/{1} 组列车模型"
+msgstr "找到 {0}/{1} 组列车型号"
 
 msgctxt "filter_year_intro"
 msgid "Year introduced"
@@ -2454,7 +2454,7 @@ msgstr "NIMBY Rails 百科"
 
 msgctxt "geo_export_desc"
 msgid "Tracks and buildings GeoJSON has been exported to {}"
-msgstr "轨道和建筑的 GeoJson 已导出至 {}"
+msgstr "轨道和建筑的 GeoJson 已导出到 {}"
 
 msgctxt "geo_export_title"
 msgid "Exported GeoJSON"
@@ -3082,7 +3082,7 @@ msgstr "线路设置:"
 
 msgctxt "lineeditor_bp_station"
 msgid "Build your tracks blueprint to enable this platform"
-msgstr "建设你的轨道蓝图以启用此车站"
+msgstr "建造你的轨道蓝图以启用此车站"
 
 msgctxt "lineeditor_change_stop_basic"
 msgid "Click on station platform arrows to change the stop platform"
@@ -4174,7 +4174,7 @@ msgstr "< 服务器公告为空 >"
 
 msgctxt "motd_empty_url"
 msgid "< Host chat link is empty or invalid >"
-msgstr "< 主机聊天链接为空或无效 >"
+msgstr "< 服务器聊天链接为空或无效 >"
 
 msgctxt "motd_url_desc"
 msgid "Optionally paste here a URL that clients can visit to join your chat. For example, a Discord invite."
@@ -4218,7 +4218,7 @@ msgstr "服务器信息"
 
 msgctxt "mp_host_label"
 msgid "Host"
-msgstr "主机"
+msgstr "服务器"
 
 msgctxt "mp_info_acl"
 msgid "Access"
@@ -4246,7 +4246,7 @@ msgstr "网络状态"
 
 msgctxt "mpinfo_stats_stream"
 msgid "Stream stats (hoster UI)"
-msgstr "流统计(主机界面)"
+msgstr "流统计(服务器界面)"
 
 msgctxt "mplo_default_demand"
 msgid "<Controlled by the mod>"
@@ -4742,7 +4742,7 @@ msgstr "离开 {0} [{1}]"
 
 msgctxt "path2_walk"
 msgid "Walk for {}"
-msgstr "步行至 {}"
+msgstr "步行到 {}"
 
 msgctxt "pax_new_time"
 msgid "New"
@@ -5374,7 +5374,7 @@ msgstr "替换为当前游戏"
 
 msgctxt "share_game_replace_desc"
 msgid "Delete existing game and upload current game to nimbyrails.com and create a link to share it"
-msgstr "删除当前游戏并将其上传至 nimbyrails.com，并创建一个共享连接"
+msgstr "删除当前游戏并将其上传到 nimbyrails.com，并创建一个共享连接"
 
 msgctxt "share_game_upload"
 msgid "Upload current game"
@@ -5382,7 +5382,7 @@ msgstr "上传当前游戏"
 
 msgctxt "share_game_upload_desc"
 msgid "Upload current game to nimbyrails.com and create a link to share it"
-msgstr "上传当前游戏并将其上传至 nimbyrails.com，并创建一个共享连接"
+msgstr "上传当前游戏并将其上传到 nimbyrails.com，并创建一个共享连接"
 
 msgctxt "share_home_by"
 msgid "By {}"
@@ -5406,7 +5406,7 @@ msgstr "共享 API 错误 {}"
 
 msgctxt "share_net_error_cannot_connect"
 msgid "Cannot connect to sharing service"
-msgstr "无法连接至共享服务"
+msgstr "无法连接到共享服务"
 
 msgctxt "share_querying_slot"
 msgid "< Loading... >"
@@ -5894,7 +5894,7 @@ msgstr "电力"
 
 msgctxt "tag_end_of_train"
 msgid "End of train"
-msgstr "守车"
+msgstr "车尾"
 
 msgctxt "tag_fantasy"
 msgid "Fantasy"
@@ -5962,7 +5962,7 @@ msgstr "直线电机"
 
 msgctxt "tag_locomotive"
 msgid "Locomotive"
-msgstr "火车头"
+msgstr "车头"
 
 msgctxt "tag_long_distance"
 msgid "Long distance"
@@ -6598,7 +6598,7 @@ msgstr "${} /天"
 
 msgctxt "train_info_mass"
 msgid "Mass / empty:"
-msgstr "总重 / 空重:"
+msgstr "总重 / 净重:"
 
 msgctxt "train_info_max_accel"
 msgid "Max acceleration:"
@@ -7382,7 +7382,7 @@ msgstr "车站长度过长"
 
 msgctxt "wrong_protocol_desc"
 msgid "Your serialization and protocol do not match with the server. Make sure both your game and the server are running exactly the same game version, as displayed in the main menu."
-msgstr "您的游戏版本与主机不匹配。确保你的游戏和主机的游戏都是同一个版本"
+msgstr "您的游戏版本与服务器不匹配。确保你的游戏和服务器的游戏都是同一个版本"
 
 msgctxt "wrong_schema_mod"
 msgid "This mod data is enabled in the current game, but its installed files require a newer game version. Update the game."
@@ -7981,15 +7981,15 @@ msgstr "停车 {} 到达站台中间位置"
 
 msgctxt "stream_ahead_desc"
 msgid "You are ahead of the host. Pausing your clock to wait for it."
-msgstr "你的时间已经超前于主机时间了，请暂停时间以同步主机时间"
+msgstr "你的时间已经超前于服务器时间了，请暂停时间以同步服务器时间"
 
 msgctxt "stream_catch_up_desc"
 msgid "You are falling behind the host. Speeding up the clock to catch up."
-msgstr "你的时间已经落后于主机时间了，请加快时间以同步主机时间"
+msgstr "你的时间已经落后于服务器时间了，请加快时间以同步服务器时间"
 
 msgctxt "stream_catch_up_desc2"
 msgid "You are falling behind the host. Speeding up the clock to catch up. Lag frames: {}"
-msgstr "你的时间已经落后于主机时间 {} 帧了，请加快时间以同步主机时间。"
+msgstr "你的时间已经落后于服务器时间 {} 帧了，请加快时间以同步服务器时间。"
 
 msgctxt "tag_deposit"
 msgid "Deposit"
