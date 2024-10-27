@@ -4486,7 +4486,7 @@ msgstr "需求曲线编辑器"
 
 msgctxt "option_company_geo_export"
 msgid "Export GeoJSON"
-msgstr "导出的 GeoJson"
+msgstr "导出 GeoJson"
 
 msgctxt "option_company_mod_poi_layer_editor"
 msgid "Mod POI layer options"
