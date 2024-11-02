@@ -11550,43 +11550,51 @@ msgstr "中国地铁无砟 V2"
 
 msgctxt "CRTS II_slab_420_name"
 msgid "CRTS II_slab_420"
-msgstr "CRTS II 板式无砟轨道 420"
+msgstr "CRTS II 型板式无砟轨道 420"
 
 msgctxt "CRTS II_slab_380_name"
 msgid "CRTS II_slab_380"
-msgstr "CRTS II 板式无砟轨道 380"
+msgstr "CRTS II 型板式无砟轨道 380"
 
 msgctxt "CRTS II_slab_350_name"
 msgid "CRTS II_slab_350"
-msgstr "CRTS II 板式无砟轨道 350"
+msgstr "CRTS II 型板式无砟轨道 350"
 
 msgctxt "CRTS II_slab_310_name"
 msgid "CRTS II_slab_310"
-msgstr "CRTS II 板式无砟轨道 310"
+msgstr "CRTS II 型板式无砟轨道 310"
 
 msgctxt "CRTS III_350_name"
 msgid "CRTS III_350"
-msgstr "CRTS III 无砟轨道 350"
+msgstr "CRTS III 型板式无砟轨道 350"
 
 msgctxt "CRTS III_310_name"
 msgid "CRTS III_310"
-msgstr "CRTS III 无砟轨道 350"
+msgstr "CRTS III 型板式无砟轨道 310"
 
 msgctxt "CRTS III_250_name"
 msgid "CRTS III_250"
-msgstr "CRTS III 无砟轨道 250"
+msgstr "CRTS III 型板式无砟轨道 250"
 
 msgctxt "CRTS II_double block_350_name"
 msgid "CRTS II_DBL_350"
-msgstr "CRTS II 双块式 350"
+msgstr "CRTS II 型双块无砟轨道 350"
 
 msgctxt "CRTS I Slab1_320_name"
 msgid "CRTS I Slab1_320"
-msgstr "CRTS I 板式无砟A 320"
+msgstr "CRTS I 型板式无砟轨道A 320"
 
 msgctxt "CRTS I Slab2_320_name"
 msgid "CRTS I Slab2_320"
-msgstr "CRTS I 板式无砟B 320"
+msgstr "CRTS I 型板式无砟轨道B 320"
+
+msgctxt "CRTS I_double block_350_name"
+msgid "CRTS I_double block_350"
+msgstr "CRTS I 型双块无砟轨道 350"
+
+msgctxt "CRTS I_double block_310_name"
+msgid "CRTS I_double block_310"
+msgstr "CRTS I 型双块无砟轨道 310"
 
 # ----- 
 # Ground Mod
