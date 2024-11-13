@@ -11290,6 +11290,86 @@ msgctxt "nla_china_metro2_s_d_c_2"
 msgid "Metro Type Suburb D (3-4 Cars)"
 msgstr "地铁市域D型 (3-4节)"
 
+msgctxt "nla_china_metro2_s_c_head_name"
+msgid "China Metro Type Suburb C head"
+msgstr "中国地铁市域C型 头车"
+
+msgctxt "nla_china_metro2_s_c_head_coupler_name"
+msgid "China Metro Type Suburb C head with coupler"
+msgstr "中国地铁市域C型 头车 附车钩"
+
+msgctxt "nla_china_metro2_s_c_mhead_name"
+msgid "China Metro Type Suburb C head with motor"
+msgstr "中国地铁市域C型 有动力头车"
+
+msgctxt "nla_china_metro2_s_c_mhead_coupler_name"
+msgid "China Metro Type Suburb C head with motor and coupler"
+msgstr "中国地铁市域C型 有动力头车 附车钩"
+
+msgctxt "nla_china_metro2_s_c_car_name"
+msgid "China Metro Type Suburb C car"
+msgstr "中国地铁市域C型 无动力车"
+
+msgctxt "nla_china_metro2_s_c_mcar_name"
+msgid "China Metro Type Suburb C car with motor"
+msgstr "中国地铁市域C型 动力车"
+
+msgctxt "nla_china_metro2_s_c_mu_name"
+msgid "China Metro Type S-C"
+msgstr "中国地铁S-C型列车"
+
+msgctxt "nla_china_metro2_s_c_c_1"
+msgid "Metro Type Suburb C (4-8 Cars)"
+msgstr "地铁市域C型 (4-8节)"
+
+msgctxt "nla_china_metro2_s_c_c_2"
+msgid "Metro Type Suburb C (3-4 Cars)"
+msgstr "地铁市域C型 (3-4节)"
+
+# ----- 
+# 中国地铁 China urban rail transit (metro) rolling stocks SUPplementary 2.0
+# ID:3364479413
+
+msgctxt "nla_china_metro2_c1_head_name"
+msgid "China Metro Type C1 head"
+msgstr "中国地铁C1型 头车"
+
+msgctxt "nla_china_metro2_c1_mhead_name"
+msgid "China Metro Type C1 head with motor"
+msgstr "中国地铁C1型 有动力头车"
+
+msgctxt "nla_china_metro2_c1_car_name"
+msgid "China Metro Type C1 car"
+msgstr "中国地铁C1型 无动力车"
+
+msgctxt "nla_china_metro2_c1_mcar_name"
+msgid "China Metro Type C1 car with motor"
+msgstr "中国地铁C1型 动力车"
+
+msgctxt "nla_china_metro2_c1_mu_name"
+msgid "China Metro Type C1"
+msgstr "中国地铁C1型列车"
+
+msgctxt "nla_china_metro2_c1_c_1"
+msgid "Metro Type C1 (3-8 Cars)"
+msgstr "地铁C1型 (3-8节)"
+
+msgctxt "nla_china_metro2_lbgz_mhead_name"
+msgid "China Metro Type Lb head with motor"
+msgstr "中国地铁Lb型 有动力头车"
+
+msgctxt "nla_china_metro2_lbgz_mcar_name"
+msgid "China Metro Type Lb car with motor"
+msgstr "中国地铁Lb型 动力车"
+
+msgctxt "nla_china_metro2_lb_mu_name"
+msgid "China Metro Type Lb"
+msgstr "中国地铁Lb型列车"
+
+msgctxt "nla_china_metro2_lbgz_c_1"
+msgid "Metro Type Lb (4-6 Cars)"
+msgstr "地铁Lb型 (4-6节)"
+
 # ----- 
 # 其他
 
