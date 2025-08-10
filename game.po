@@ -922,7 +922,7 @@ msgstr "确认删除"
 
 msgctxt "confirm_delete_desc"
 msgid "One or more selected objects are already built. Deleting them will not refund your money. This operation cannot be undone. Are you sure?"
-msgstr "一个或多个选定的对象已经建成。删除它们不会退还你的钱。此操作无法撤销。你确定吗？"
+msgstr "一个或多个选定的对象已经建成。删除它们不会退还你的资金。此操作无法撤销。你确定吗？"
 
 msgctxt "confirm_delete_line"
 msgid "Confirm line deletion"
@@ -942,11 +942,11 @@ msgstr "本次干预将重新设定所有 {0} 线路的列车位置，并支付�
 
 msgctxt "confirm_set_no_cash"
 msgid "Confirm switching to unlimited money"
-msgstr "确认切换到无限金钱模式"
+msgstr "确认切换到无限资金模式"
 
 msgctxt "confirm_set_no_cash_desc"
 msgid "Switching to unlimited money cannot be undone. Are you sure?"
-msgstr "如果切换到无限金钱模式将无法切换回来，你确定要切换吗?"
+msgstr "如果切换到无限资金模式将无法切换回来，你确定要切换吗?"
 
 msgctxt "confirm_set_no_couplers"
 msgid "Confirm switching to unrestricted coupling"
@@ -1226,7 +1226,7 @@ msgstr "<禁用>"
 
 msgctxt "demand_default_name"
 msgid "Population"
-msgstr "人口:"
+msgstr "人口"
 
 msgctxt "demand_delete"
 msgid "Delete selected demand curve"
@@ -2214,7 +2214,7 @@ msgstr "各自模拟"
 
 msgctxt "host_sim_mode_private_desc"
 msgid "Time, train motion and pax simulation is independent for each client.\nTracks, lines and trains are edited cooperatively.\nScales to larger build sizes than shared simulation.\nGames are always set to unlimited money."
-msgstr "每个玩家的时间、列车运动和乘客模拟都是独立的。 \n轨道、线路和列车可协同编辑。 \n比完全同步更适合大构建尺寸。 \n强制启用无限金钱。"
+msgstr "每个玩家的时间、列车运动和乘客模拟都是独立的。 \n轨道、线路和列车可协同编辑。 \n比完全同步更适合大构建尺寸。 \n强制启用无限资金。"
 
 msgctxt "host_sim_mode_shared"
 msgid "Shared between all players"
@@ -3990,11 +3990,11 @@ msgstr "地图样式模组:"
 
 msgctxt "mvo_track_editor_always_on_top"
 msgid "Track editor always on top"
-msgstr "轨道永远在最上层"
+msgstr "轨道编辑时置顶"
 
 msgctxt "mvo_track_editor_station_influence"
 msgid "Track editor station influence"
-msgstr "轨道编辑车站的影响"
+msgstr "轨道编辑时显示车站影响范围"
 
 msgctxt "mvo_user_labels"
 msgid "User labels"
@@ -4122,7 +4122,7 @@ msgstr "新车站默认值"
 
 msgctxt "no_cash_pop_desc"
 msgid "Not enough money to build the blueprint. Delete some blueprint tracks or make more money."
-msgstr "没有足够的钱来建造蓝图，删除一些蓝图轨道或赚取更多的钱"
+msgstr "没有足够的资金来建造蓝图，删除一些蓝图轨道或赚取更多的资金"
 
 msgctxt "no_line_header"
 msgid "<No line>"
@@ -4242,7 +4242,7 @@ msgstr "车站标签:"
 
 msgctxt "option_company_switch_no_cash"
 msgid "Switch to unlimited money"
-msgstr "切换到无限金钱模式"
+msgstr "切换到无限资金模式"
 
 msgctxt "option_company_switch_no_couplers"
 msgid "Switch to unrestricted coupling"
@@ -4274,7 +4274,7 @@ msgstr "新轨道重叠距离:"
 
 msgctxt "option_no_cash"
 msgid "Unlimited money"
-msgstr "无限金钱"
+msgstr "无限资金"
 
 msgctxt "option_no_couplers"
 msgid "Unrestricted coupling"
@@ -5974,7 +5974,7 @@ msgstr "订阅新的模组"
 
 msgctxt "switch_no_cash"
 msgid "Switch to unlimited"
-msgstr "切换到无限金钱模式"
+msgstr "切换到无限资金模式"
 
 msgctxt "switch_no_couplers"
 msgid "Switch to unrestricted"
@@ -7098,7 +7098,7 @@ msgstr "余额不足"
 
 msgctxt "train_purchase_no_cash_desc"
 msgid "Not enough money to purchase the train(s). Pick a cheaper train, less trains, less cars, or make more money."
-msgstr "没有足够的钱以购买火车。请选择更便宜的火车、更少的火车、更少的车厢或赚更多的钱"
+msgstr "没有足够的资金来购买火车。请选择更便宜的火车、更少的火车、更少的车厢或赚更多的资金"
 
 msgctxt "train_recompo_apply"
 msgid "Apply changes"
