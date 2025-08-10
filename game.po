@@ -1,124 +1,104 @@
 # ----------------------------------------------------------
-# 1.16.16 版本 新添加字符串
+# 1.17.11 版本 新添加字符串
 
-msgctxt "constraint_overlap_distance"
-msgid "Overlap distance:"
-msgstr "重叠距离:"
+msgctxt "alerts_listing_clear_all"
+msgid "Clear all"
+msgstr "全部清空"
 
-msgctxt "constraint_overlap_distance_tip"
-msgid "Distance between track centers which is considered a collision area for path checking purposes.\nOnly considers the longest distance if two tracks differ."
-msgstr "出于路径检查的目的，轨道中心之间的距离被视为碰撞区域。\n仅考虑两条轨道不相交时的最长距离。"
+msgctxt "alerts_listing_header"
+msgid "{0} pending alerts, {1} seen"
+msgstr "警报待处理: {0}，已查看: {1}"
 
-msgctxt "kb_track_plat_promote"
-msgid "Tracks: promote platform"
-msgstr "轨道:升级为站台"
+msgctxt "control_main_mode"
+msgid "Control"
+msgstr "脚本(高级)"
 
-msgctxt "lineeditor_alt_platforms_out_of_station"
-msgid "Out of station"
-msgstr "站外"
+msgctxt "controlditor_tp_delete"
+msgid "Delete selected script"
+msgstr "删除所选脚本"
 
-msgctxt "lineeditor_warn_deprecated_waypoint_secondary"
-msgid "WAYPOINTS WITH SECONDARY STOPS ARE DEPRECATED STARTING FROM 1.16. This system is intented for stopping trains, not for picking alternative paths for through trains. This loophole will be removed in a future version."
-msgstr "从1.16版本开始，带有备用站台的导航点将被弃用。该系统旨在停靠列车，而不是为直达列车选择备用路线。这个漏洞将在未来的版本中被修复。"
+msgctxt "kb_mode_control"
+msgid "Mode: control"
+msgstr "模式:脚本"
 
-msgctxt "lineeditor_warn_need_stop_sel_signal"
-msgid "Station does not have stop selection signals, trains cannot perform secondary platform selection. Click to pick stop selection signals in the station editor."
-msgstr "车站没有站台选择信号，列车无法进行备用站台选择。在车站编辑器中单击以拾取站台选择信号。"
+msgctxt "option_ui_color_button"
+msgid "Buttons:"
+msgstr "按钮:"
 
-msgctxt "option_company_track_overlap_distance"
-msgid "New track overlap dist.:"
-msgstr "新轨道重叠距离:"
+msgctxt "option_ui_color_input"
+msgid "Input area:"
+msgstr "文本框:"
 
-msgctxt "sched_editor_enable_train"
-msgid "Enable train:"
-msgstr "启用列车:"
+msgctxt "option_ui_color_reset"
+msgid "Default colors"
+msgstr "默认颜色"
 
-msgctxt "sched_editor_pad"
-msgid "Continue into next order"
-msgstr "继续下个指令"
+msgctxt "option_ui_color_text"
+msgid "Text:"
+msgstr "文本:"
 
-msgctxt "sched_editor_tab_trains"
-msgid "Trains"
-msgstr "列车"
+msgctxt "option_ui_color_window_bg"
+msgid "Background:"
+msgstr "背景:"
 
-msgctxt "sched_shift_train_unassigned"
-msgid "Unassigned"
-msgstr "未分配"
+msgctxt "sched_editor_reorder_trains"
+msgid "Reorder trains"
+msgstr "重新订购列车"
 
-msgctxt "sched_train_pick_to_enable"
-msgid "< Pick train >"
-msgstr "< 选择列车 >"
+msgctxt "script_editor_basics"
+msgid "Basics"
+msgstr "基础"
 
-msgctxt "schedule_group_trains_table_shifts"
-msgid "Shifts"
-msgstr "班次"
+msgctxt "script_editor_tags"
+msgid "Tags:"
+msgstr "标签:"
 
-msgctxt "schedule_group_trains_table_trains"
-msgid "Trains"
-msgstr "列车"
+msgctxt "script_list_filter_alert_only_warning"
+msgid "Only with errors"
+msgstr "仅包含错误"
 
-msgctxt "signal_check_beyond_stops"
-msgid "Check beyond stops"
-msgstr "检查停车后情况"
+msgctxt "script_list_filter_alert_short"
+msgid "Errors"
+msgstr "错误"
 
-msgctxt "station_editor_stop_select_signals"
-msgid "Stop selection signals"
-msgstr "站台选择信号"
+msgctxt "script_list_filter_all"
+msgid "All scripts"
+msgstr "所有脚本"
 
-msgctxt "stop_picker_adv_length"
-msgid "Length: {}m"
-msgstr "长度: {}m"
+msgctxt "script_list_filter_all_short"
+msgid "All"
+msgstr "所有"
 
-msgctxt "train_alert_dispatch_busy_shifts"
-msgid "Cannot dispatch: enabled shifts are already assigned"
-msgstr "无法调度: 已分配启用的班次"
+msgctxt "script_name_edit"
+msgid "Name:"
+msgstr "名称:"
 
-msgctxt "train_alert_dispatch_busy_tracks"
-msgid "Cannot dispatch: tracks are busy"
-msgstr "无法调度: 轨道繁忙"
+msgctxt "scripts_n_0"
+msgid "0 scripts"
+msgstr "0个 脚本"
 
-msgctxt "train_alert_dispatch_no_shifts"
-msgid "Cannot dispatch: not enabled in active schedules"
-msgstr "无法调度: 在活动的时刻表中未启用"
+msgctxt "scripts_n_1"
+msgid "1 script"
+msgstr "1个 脚本"
 
-msgctxt "train_info_status_broken"
-msgid "Unknown train state"
-msgstr "列车状态未知"
+msgctxt "scripts_n_many"
+msgid "%d scripts"
+msgstr "%d个 脚本"
 
-msgctxt "train_info_status_dispatch_cooldown"
-msgid "Attempting dispatch in {}s"
-msgstr "调度 {} 秒后启动"
+msgctxt "signal_name_auto"
+msgid "Auto"
+msgstr "自动"
 
-msgctxt "train_list_filter_alert_unassigned"
-msgid "Unassigned"
-msgstr "未分配"
+msgctxt "stop_picker_adv_length_auto"
+msgid "(auto)"
+msgstr "(自动)"
 
-msgctxt "train_list_filter_unassigned"
-msgid "Only unassigned"
-msgstr "仅未分配"
-
-msgctxt "train_orders_auto_enable_sched"
-msgid "Auto enable trains in shifts"
-msgstr "自动分班次启用列车"
-
-msgctxt "train_orders_disable_sched_shift"
-msgid "Disable shift"
-msgstr "禁用班次"
-
-msgctxt "train_orders_edit_shift_editor"
-msgid "Open in schedule editor"
-msgstr "在时刻表编辑器中打开"
-
-msgctxt "train_orders_enable_sched_shift"
-msgid "Enable shift"
-msgstr "启用班次"
-
-msgctxt "traineditor_order_start_time_arrange_bop_desc"
-msgid "Set time to the latest possible time which makes this order not have a padding wait on its last run\nIgnores pending day of week and start time edits\nMulti day orders will only consider the first day"
-msgstr "将时间设置为最晚可能的时间，使此指令在最后一次运行时无缓冲等待\n忽略一周中的待定日期和开始时间编辑\n多日指令将只考虑首日"
+msgctxt "stop_picker_adv_length_manual"
+msgid "(manual)"
+msgstr "(手动)"
 
 # ----------------------------------------------------------
-# 1.15.16 及以前版本 字符串
+# 1.16.16 及以前版本 字符串
 
 msgctxt "10_minutes"
 msgid "10 minutes"
@@ -1035,6 +1015,14 @@ msgstr "乘"
 msgctxt "constraint_offset2_set"
 msgid "Set"
 msgstr "设"
+
+msgctxt "constraint_overlap_distance"
+msgid "Overlap distance:"
+msgstr "重叠距离:"
+
+msgctxt "constraint_overlap_distance_tip"
+msgid "Distance between track centers which is considered a collision area for path checking purposes.\nOnly considers the longest distance if two tracks differ."
+msgstr "出于路径检查的目的，轨道中心之间的距离被视为碰撞区域。\n仅考虑两条轨道不相交时的最长距离。"
 
 msgctxt "constraint_pick"
 msgid "Pick parent"
@@ -2540,6 +2528,10 @@ msgctxt "kb_track_pick_parent"
 msgid "Tracks: pick par. parent"
 msgstr "轨道:选择父轨道"
 
+msgctxt "kb_track_plat_promote"
+msgid "Tracks: promote platform"
+msgstr "轨道:升级为站台"
+
 msgctxt "kb_track_poi"
 msgid "Tracks: new POI"
 msgstr "轨道:新 POI"
@@ -2699,6 +2691,10 @@ msgstr "备用站台:"
 msgctxt "lineeditor_alt_platforms_n"
 msgid "Total: {}"
 msgstr "总计: {}"
+
+msgctxt "lineeditor_alt_platforms_out_of_station"
+msgid "Out of station"
+msgstr "站外"
 
 msgctxt "lineeditor_alt_signal"
 msgid "When a train reaches this path signal, it will be capable of changing its destination platform if its current choice is busy, and only if it belongs to this station.\nOnly trains whose current line stop is configured for multiple platforms will be able to change their destination platform.\nOnly path signals with a direct path to the main and all secondary platforms will properly enable this feature."
@@ -3034,7 +3030,7 @@ msgstr "< 选择列表 >"
 
 msgctxt "lineeditor_restrict_lines_map"
 msgid "Restrict listing to visible lines on map (approximately)"
-msgstr "仅列出地图上可见的线路（近似）"
+msgstr "仅列出地图上可见的线路(近似)"
 
 msgctxt "lineeditor_service_level"
 msgid "Service level:"
@@ -3212,6 +3208,14 @@ msgctxt "lineeditor_wait_kind_normal"
 msgid "Wait on platforms"
 msgstr "在站台轨道上等候"
 
+msgctxt "lineeditor_warn_deprecated_waypoint_secondary"
+msgid "WAYPOINTS WITH SECONDARY STOPS ARE DEPRECATED STARTING FROM 1.16. This system is intented for stopping trains, not for picking alternative paths for through trains. This loophole will be removed in a future version."
+msgstr "从1.16版本开始，带有备用站台的导航点将被弃用。该系统旨在停靠列车，而不是为直达列车选择备用路线。这个漏洞将在未来的版本中被修复。"
+
+msgctxt "lineeditor_warn_need_stop_sel_signal"
+msgid "Station does not have stop selection signals, trains cannot perform secondary platform selection. Click to pick stop selection signals in the station editor."
+msgstr "车站没有站台选择信号，列车无法进行备用站台选择。在车站编辑器中单击以拾取站台选择信号。"
+
 msgctxt "lines"
 msgid "Lines"
 msgstr "线路"
@@ -3342,7 +3346,7 @@ msgstr "接受新的贷款"
 
 msgctxt "loan_contract_amount"
 msgid "$M Amount:"
-msgstr "贷款金额（百万）:"
+msgstr "贷款金额(百万)"
 
 msgctxt "loan_contract_ko"
 msgid "Not approved"
@@ -4264,6 +4268,10 @@ msgctxt "option_company_time_zones_zero"
 msgid "Always 0"
 msgstr "保持UTC+0"
 
+msgctxt "option_company_track_overlap_distance"
+msgid "New track overlap dist.:"
+msgstr "新轨道重叠距离:"
+
 msgctxt "option_no_cash"
 msgid "Unlimited money"
 msgstr "无限金钱"
@@ -4922,7 +4930,7 @@ msgstr "以本站为目的地乘客"
 
 msgctxt "rtstat_pax_with_next"
 msgid "Pax with next stop at"
-msgstr "在本站下车（含中转）乘客"
+msgstr "在本站下车(含中转)乘客"
 
 msgctxt "rtstat_pax_with_origin"
 msgid "Pax with origin at"
@@ -5048,6 +5056,10 @@ msgctxt "sched_editor_color"
 msgid "Color:"
 msgstr "颜色:"
 
+msgctxt "sched_editor_enable_train"
+msgid "Enable train:"
+msgstr "启用列车:"
+
 msgctxt "sched_editor_max_repeat"
 msgid "Max"
 msgstr "最大值"
@@ -5055,6 +5067,10 @@ msgstr "最大值"
 msgctxt "sched_editor_name"
 msgid "Name:"
 msgstr "名称:"
+
+msgctxt "sched_editor_pad"
+msgid "Continue into next order"
+msgstr "继续下个指令"
 
 msgctxt "sched_editor_shift_order_edit_enabled"
 msgid "Enable order"
@@ -5091,6 +5107,10 @@ msgstr "指令"
 msgctxt "sched_editor_tab_timetable"
 msgid "Timetable"
 msgstr "时刻表"
+
+msgctxt "sched_editor_tab_trains"
+msgid "Trains"
+msgstr "列车"
 
 msgctxt "sched_group_interval_n_shifts"
 msgid "{0}, {1} shifts"
@@ -5143,6 +5163,14 @@ msgstr "< 未分配 >"
 msgctxt "sched_shift_train_unassign"
 msgid "Unassign current train"
 msgstr "取消当前分配列车"
+
+msgctxt "sched_shift_train_unassigned"
+msgid "Unassigned"
+msgstr "未分配"
+
+msgctxt "sched_train_pick_to_enable"
+msgid "< Pick train >"
+msgstr "< 选择列车 >"
 
 msgctxt "schededitor_order_edit_mode"
 msgid "Edit"
@@ -5263,6 +5291,14 @@ msgstr "%d 时刻表"
 msgctxt "schedule_group_shift_override_offset"
 msgid "Offset:"
 msgstr "偏移:"
+
+msgctxt "schedule_group_trains_table_shifts"
+msgid "Shifts"
+msgstr "班次"
+
+msgctxt "schedule_group_trains_table_trains"
+msgid "Trains"
+msgstr "列车"
 
 msgctxt "schedules"
 msgid "Schedules"
@@ -5455,6 +5491,10 @@ msgstr "与全局等待时间相同"
 msgctxt "signal_alert_opts"
 msgid "Alert on:"
 msgstr "警报:"
+
+msgctxt "signal_check_beyond_stops"
+msgid "Check beyond stops"
+msgstr "检查停车后情况"
 
 msgctxt "signal_check_hit_occ"
 msgid "Occupied by {}"
@@ -5659,6 +5699,10 @@ msgstr "车站属性"
 msgctxt "station_editor_basics"
 msgid "Basics"
 msgstr "基础"
+
+msgctxt "station_editor_stop_select_signals"
+msgid "Stop selection signals"
+msgstr "站台选择信号"
 
 msgctxt "station_editor_walk_links"
 msgid "Walk links"
@@ -5875,6 +5919,10 @@ msgstr "{0}m"
 msgctxt "stop_picker_adv"
 msgid "Advanced mode"
 msgstr "高级模式 "
+
+msgctxt "stop_picker_adv_length"
+msgid "Length: {}m"
+msgstr "长度: {}m"
 
 msgctxt "stop_picker_basic"
 msgid "Basic mode"
@@ -6440,6 +6488,18 @@ msgctxt "train_alert_center_train"
 msgid "Go to train"
 msgstr "前往列车位置"
 
+msgctxt "train_alert_dispatch_busy_shifts"
+msgid "Cannot dispatch: enabled shifts are already assigned"
+msgstr "无法调度: 已分配启用的班次"
+
+msgctxt "train_alert_dispatch_busy_tracks"
+msgid "Cannot dispatch: tracks are busy"
+msgstr "无法调度: 轨道繁忙"
+
+msgctxt "train_alert_dispatch_no_shifts"
+msgid "Cannot dispatch: not enabled in active schedules"
+msgstr "无法调度: 在活动的时刻表中未启用"
+
 msgctxt "train_alert_line_banner"
 msgid "{} ({} / {})\n{}\nSince: {} UTC{}"
 msgstr "{} ({} / {}) \n{} \n发生时间: {} UTC{}"
@@ -6772,9 +6832,17 @@ msgctxt "train_info_speed"
 msgid "Speed / max:"
 msgstr "当前速度 / 最大速度:"
 
+msgctxt "train_info_status_broken"
+msgid "Unknown train state"
+msgstr "列车状态未知"
+
 msgctxt "train_info_status_collision"
 msgid "Collision"
 msgstr "碰撞"
+
+msgctxt "train_info_status_dispatch_cooldown"
+msgid "Attempting dispatch in {}s"
+msgstr "调度 {} 秒后启动"
 
 msgctxt "train_info_status_line_closed"
 msgid "Line is closed"
@@ -6835,6 +6903,10 @@ msgstr "警告"
 msgctxt "train_list_filter_alert_stale"
 msgid "Stale"
 msgstr "失效"
+
+msgctxt "train_list_filter_alert_unassigned"
+msgid "Unassigned"
+msgstr "未分配"
 
 msgctxt "train_list_filter_alert_waiting_spawn"
 msgid "Waiting spawn"
@@ -6908,6 +6980,10 @@ msgctxt "train_list_filter_tags"
 msgid "Group by tags"
 msgstr "按标签分组"
 
+msgctxt "train_list_filter_unassigned"
+msgid "Only unassigned"
+msgstr "仅未分配"
+
 msgctxt "train_model_edit"
 msgid "Model:"
 msgstr "型号:"
@@ -6924,9 +7000,25 @@ msgctxt "train_name_edit"
 msgid "Name:"
 msgstr "列车名称:"
 
+msgctxt "train_orders_auto_enable_sched"
+msgid "Auto enable trains in shifts"
+msgstr "自动分班次启用列车"
+
 msgctxt "train_orders_auto_run"
 msgid "Auto run line:"
 msgstr "自动运行线路:"
+
+msgctxt "train_orders_disable_sched_shift"
+msgid "Disable shift"
+msgstr "禁用班次"
+
+msgctxt "train_orders_edit_shift_editor"
+msgid "Open in schedule editor"
+msgstr "在时刻表编辑器中打开"
+
+msgctxt "train_orders_enable_sched_shift"
+msgid "Enable shift"
+msgstr "启用班次"
 
 msgctxt "train_orders_keep_group"
 msgid "< Keep current group >"
@@ -7208,6 +7300,10 @@ msgctxt "traineditor_order_start_event_departure"
 msgid "Depart exactly at"
 msgstr "以下时间准确发车"
 
+msgctxt "traineditor_order_start_time_arrange_bop_desc"
+msgid "Set time to the latest possible time which makes this order not have a padding wait on its last run\nIgnores pending day of week and start time edits\nMulti day orders will only consider the first day"
+msgstr "将时间设置为最晚可能的时间，使此指令在最后一次运行时无缓冲等待\n忽略一周中的待定日期和开始时间编辑\n多日指令将只考虑首日"
+
 msgctxt "traineditor_order_start_time_arrange_top_desc2"
 msgid "Set time to the earliest possible time which allows the previous order to not have a padding wait on its last run\nIgnores pending day of week and start time edits\nMulti day orders will only consider the first day"
 msgstr "将时间设置为最早的可行时间，这允许前一个指令在最后一次运行后不增加额外停靠时间。 \n忽略星期几和开始时间编辑 \n多天指令将只考虑第一天"
@@ -7246,7 +7342,7 @@ msgstr "更换为预设列车"
 
 msgctxt "traineditor_restrict_trains_map"
 msgid "Restrict listing to visible trains on map (approximately)"
-msgstr "仅列出地图上可见的列车（近似）"
+msgstr "仅列出地图上可见的列车(近似)"
 
 msgctxt "traineditor_select_all"
 msgid "Select all listed trains"
@@ -7569,7 +7665,7 @@ msgid "This mod data is enabled in the current game, but its installed files req
 msgstr "此模组在当前游戏中已启用，但其安装的文件需要更新的游戏版本。请更新游戏"
 
 # ----------------------------------------------------------
-#删除的（老版本）字符串
+# 删除的（老版本）字符串
 
 msgctxt "accounting_pax_found_train_too_full"
 msgid "Boarding failed: full train"
@@ -8013,15 +8109,15 @@ msgstr "更新游戏规则"
 
 msgctxt "matches_n_0"
 msgid "0 coincidencias"
-msgstr "0 coincidencias"
+msgstr "0组 列车型号"
 
 msgctxt "matches_n_1"
 msgid "1 coincidencia"
-msgstr "1 coincidencia"
+msgstr "1组 列车型号"
 
 msgctxt "matches_n_many"
 msgid "%d coincidencias"
-msgstr "%d coincidencias"
+msgstr "%d组 列车型号"
 
 msgctxt "mode_map_default"
 msgid "Plain map"
@@ -8241,7 +8337,7 @@ msgstr "地面"
 
 msgctxt "track_ground_crossings"
 msgid "Ground (with road crossings)"
-msgstr "地面（有平交道口）"
+msgstr "地面(有平交道口)"
 
 msgctxt "track_ground_underpasses"
 msgid "Ground"
@@ -8665,15 +8761,15 @@ msgstr "用于调度指令的时区"
 
 msgctxt "trains_models_n_0"
 msgid "0 models"
-msgstr "0种 型号"
+msgstr "0组 列车型号"
 
 msgctxt "trains_models_n_1"
 msgid "1 model"
-msgstr "1种 型号"
+msgstr "1组 列车型号"
 
 msgctxt "trains_models_n_many"
 msgid "%d models"
-msgstr "%d种 型号"
+msgstr "%d组 列车型号"
 
 msgctxt "twoex_mode"
 msgid "Double track mode"
