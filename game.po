@@ -11,7 +11,7 @@ msgstr "警报待处理: {0}，已查看: {1}"
 
 msgctxt "control_main_mode"
 msgid "Control"
-msgstr "脚本(高级)"
+msgstr "控制器(高级)"
 
 msgctxt "controlditor_tp_delete"
 msgid "Delete selected script"
@@ -19,7 +19,7 @@ msgstr "删除所选脚本"
 
 msgctxt "kb_mode_control"
 msgid "Mode: control"
-msgstr "模式:脚本"
+msgstr "模式:控制器"
 
 msgctxt "option_ui_color_button"
 msgid "Buttons:"
