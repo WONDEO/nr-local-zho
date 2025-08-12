@@ -47,7 +47,7 @@ msgstr "重新订购列车"
 
 msgctxt "script_editor_basics"
 msgid "Basics"
-msgstr "基础"
+msgstr "基本信息"
 
 msgctxt "script_editor_tags"
 msgid "Tags:"
@@ -5094,7 +5094,7 @@ msgstr "当前列车:"
 
 msgctxt "sched_editor_tab_basics"
 msgid "Basics"
-msgstr "基本"
+msgstr "基本信息"
 
 msgctxt "sched_editor_tab_offsets"
 msgid "Offsets"
@@ -5698,7 +5698,7 @@ msgstr "车站属性"
 
 msgctxt "station_editor_basics"
 msgid "Basics"
-msgstr "基础"
+msgstr "基本信息"
 
 msgctxt "station_editor_stop_select_signals"
 msgid "Stop selection signals"
@@ -6622,7 +6622,7 @@ msgstr "被模组锁定"
 
 msgctxt "train_editor_basics"
 msgid "Basics"
-msgstr "基础"
+msgstr "基本信息"
 
 msgctxt "train_editor_orders"
 msgid "Orders"
