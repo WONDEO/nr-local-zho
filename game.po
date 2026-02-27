@@ -4458,27 +4458,27 @@ msgstr "检测到过时数据，已忽略"
 
 msgctxt "path2_arrive"
 msgid "Arrive at {}"
-msgstr "在 {} 到达"
+msgstr "抵达 {}"
 
 msgctxt "path2_ride"
 msgid "Ride {0} for {1}"
-msgstr "乘坐{0}{1}"
+msgstr "乘坐 {0} · {1}"
 
 msgctxt "path2_take2"
 msgid " Up to {0} [{1}]"
-msgstr "直到 {0} [{1}]"
+msgstr "到达 {0} [{1}]"
 
 msgctxt "path2_wait_at"
 msgid " Wait {0} at {1}"
-msgstr "在 {1} 等待 {0}"
+msgstr "候车 {1} · {0}"
 
 msgctxt "path2_wait_line2"
 msgid " For the departure of {0} [{1}]"
-msgstr "离开 {0} [{1}]"
+msgstr "出发 {0} [{1}]"
 
 msgctxt "path2_walk"
 msgid "Walk for {}"
-msgstr "步行到 {}"
+msgstr "步行 · {}"
 
 msgctxt "pax_new_time"
 msgid "New"
