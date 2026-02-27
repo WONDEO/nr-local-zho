@@ -1,104 +1,336 @@
 # ----------------------------------------------------------
-# 1.17.11 版本 新添加字符串
+# 1.18.30 版本 新添加字符串
 
-msgctxt "alerts_listing_clear_all"
-msgid "Clear all"
-msgstr "全部清空"
+msgctxt "autorun_dispatch_info_brief"
+msgid "Auto run"
+msgstr "自动运行"
 
-msgctxt "alerts_listing_header"
-msgid "{0} pending alerts, {1} seen"
-msgstr "警报待处理: {0}，已查看: {1}"
+msgctxt "controleditor_tab_config"
+msgid "Configure"
+msgstr "配置"
 
-msgctxt "control_main_mode"
-msgid "Control"
-msgstr "控制器(高级)"
+msgctxt "controleditor_tab_devel"
+msgid "Develop"
+msgstr "开发"
 
-msgctxt "controlditor_tp_delete"
+msgctxt "controleditor_tp_delete"
 msgid "Delete selected script"
 msgstr "删除所选脚本"
 
-msgctxt "kb_mode_control"
-msgid "Mode: control"
-msgstr "模式:控制器"
+msgctxt "copy_to_clipboard"
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
 
-msgctxt "option_ui_color_button"
-msgid "Buttons:"
-msgstr "按钮:"
+msgctxt "dispatch_cooldown_attempted_on"
+msgid "Attempted on {} UTC{}"
+msgstr "尝试在 {} UTC{}"
 
-msgctxt "option_ui_color_input"
-msgid "Input area:"
-msgstr "文本框:"
+msgctxt "dispatch_cooldown_reason_CurrentTimeBeforeArrival"
+msgid "Too early for arrival"
+msgstr "提早到达"
 
-msgctxt "option_ui_color_reset"
-msgid "Default colors"
-msgstr "默认颜色"
+msgctxt "dispatch_cooldown_reason_LineInvalid"
+msgid "Line is invalid"
+msgstr "线路无效"
 
-msgctxt "option_ui_color_text"
-msgid "Text:"
-msgstr "文本:"
+msgctxt "dispatch_cooldown_reason_needs_sim"
+msgid "Resume simulation and/or wait until next dispatch attempt"
+msgstr "恢复模拟并等待下一次调度尝试"
 
-msgctxt "option_ui_color_window_bg"
-msgid "Background:"
-msgstr "背景:"
+msgctxt "dispatch_cooldown_reason_SchedServiceLevel"
+msgid "Schedule is closed"
+msgstr "时刻表已关闭"
 
-msgctxt "sched_editor_reorder_trains"
-msgid "Reorder trains"
-msgstr "重新订购列车"
+msgctxt "dispatch_cooldown_reason_ScriptDisallows"
+msgid "Disallowed by script(s)"
+msgstr "被脚本禁止"
 
-msgctxt "script_editor_basics"
-msgid "Basics"
-msgstr "基本信息"
+msgctxt "dispatch_cooldown_reason_ShiftAssigned"
+msgid "Shift is already assigned"
+msgstr "调度指令已分配"
 
-msgctxt "script_editor_tags"
-msgid "Tags:"
-msgstr "标签:"
+msgctxt "dispatch_cooldown_reason_ShiftGoesUnassigned"
+msgid "Shift goes into unassigned"
+msgstr "调度指令未分配"
 
-msgctxt "script_list_filter_alert_only_warning"
-msgid "Only with errors"
-msgstr "仅包含错误"
+msgctxt "dispatch_cooldown_reason_StopAreaBusy"
+msgid "Stop area is occupied or reserved"
+msgstr "停车区域已被占用或预留"
 
-msgctxt "script_list_filter_alert_short"
-msgid "Errors"
-msgstr "错误"
+msgctxt "dispatch_cooldown_reason_StopInvalid"
+msgid "Line stop is invalid"
+msgstr "线路停车无效"
 
-msgctxt "script_list_filter_all"
-msgid "All scripts"
-msgstr "所有脚本"
+msgctxt "dispatch_cooldown_reason_TrainNotOnStopArea"
+msgid "Train not on stop area"
+msgstr "列车不在停车区域"
 
-msgctxt "script_list_filter_all_short"
-msgid "All"
-msgstr "所有"
+msgctxt "dispatch_cooldown_reason_Unknown"
+msgid "Unknown"
+msgstr "未知"
 
-msgctxt "script_name_edit"
-msgid "Name:"
-msgstr "名称:"
+msgctxt "file_export_desc"
+msgid "Data has been exported to {}"
+msgstr "数据已导出到 {}"
 
-msgctxt "scripts_n_0"
-msgid "0 scripts"
-msgstr "0个 脚本"
+msgctxt "file_export_title"
+msgid "Exported to file"
+msgstr "导出到文件"
 
-msgctxt "scripts_n_1"
-msgid "1 script"
-msgstr "1个 脚本"
+msgctxt "input_range_2f"
+msgid "{:.2f}{} to {:.2f}{}"
+msgstr "{:.2f}{} 到 {:.2f}{}"
 
-msgctxt "scripts_n_many"
-msgid "%d scripts"
-msgstr "%d个 脚本"
+msgctxt "lineeditor_pad_wait_here"
+msgid "Timetable pad wait in this stop"
+msgstr "时刻表在此站等待"
 
-msgctxt "signal_name_auto"
-msgid "Auto"
-msgstr "自动"
+msgctxt "option_company_db_export"
+msgid "Export IDs"
+msgstr "导出ID"
 
-msgctxt "stop_picker_adv_length_auto"
-msgid "(auto)"
-msgstr "(自动)"
+msgctxt "option_company_tt_export"
+msgid "Export timetable data"
+msgstr "到处时刻表数据"
 
-msgctxt "stop_picker_adv_length_manual"
-msgid "(manual)"
-msgstr "(手动)"
+msgctxt "order_error_invalid_path"
+msgid "Glue path cannot be found"
+msgstr "找不到Glue路径"
+
+msgctxt "run_dispatch_info_brief"
+msgid "Single run"
+msgstr "单次运行"
+
+msgctxt "saving"
+msgid "Saving..."
+msgstr "保存……"
+
+msgctxt "sched_alert_shift_errors"
+msgid "One or more shifts contain errors"
+msgstr "一个或多个班次包含错误"
+
+msgctxt "sched_info_brief"
+msgid "{0} [{1}]"
+msgstr "{0} [{1}]"
+
+msgctxt "script_delete_stale"
+msgid "Delete code and data"
+msgstr "删除代码和数据"
+
+msgctxt "script_editor_build"
+msgid "Build"
+msgstr "构建"
+
+msgctxt "script_editor_build_errors_header"
+msgid "{} errors, {} compilations"
+msgstr "{} 错误, {} 编译"
+
+msgctxt "script_editor_log"
+msgid "log() Output"
+msgstr "日志输出"
+
+msgctxt "script_editor_log_clear"
+msgid "Clear log"
+msgstr "清空日志"
+
+msgctxt "script_editor_log_enable"
+msgid "Enable logging"
+msgstr "启用日志记录"
+
+msgctxt "script_enabled_but_no_config"
+msgid "Extension has no configuration"
+msgstr "扩展没有配置"
+
+msgctxt "script_extensions"
+msgid "Extensions"
+msgstr "扩展"
+
+msgctxt "script_field_vec_line_n"
+msgid "{} lines"
+msgstr "{} 线路"
+
+msgctxt "script_field_vec_sched_n"
+msgid "{} schedules"
+msgstr "{} 时刻表"
+
+msgctxt "script_field_vec_signal_n"
+msgid "{} signals"
+msgstr "{} 信号"
+
+msgctxt "script_field_vec_train_n"
+msgid "{} trains"
+msgstr "{} 列车"
+
+msgctxt "script_listing_error"
+msgid "Compilation errors"
+msgstr "编译错误"
+
+msgctxt "script_listing_log"
+msgid "Logging is enabled"
+msgstr "日志记录已启用"
+
+msgctxt "script_origin_source"
+msgid "Source:"
+msgstr "来源:"
+
+msgctxt "script_origin_source_builtin"
+msgid "Built-in"
+msgstr "内置"
+
+msgctxt "script_origin_source_builtin_mod"
+msgid "Built-in mod"
+msgstr "内置模组"
+
+msgctxt "script_origin_source_direct"
+msgid "Direct"
+msgstr "方向"
+
+msgctxt "script_origin_source_edit"
+msgid "Edit"
+msgstr "编辑"
+
+msgctxt "script_origin_source_local_mod"
+msgid "Local mod {}, section {}"
+msgstr "本地模组 {}, 部分 {}"
+
+msgctxt "script_origin_source_mod_invalid"
+msgid "Unknown mod, or mod changed script ID. Code and data preserved in the save."
+msgstr "未知的模组或模组更改的脚本ID。保存中保留的代码和数据。"
+
+msgctxt "script_origin_source_reload"
+msgid "Reload"
+msgstr "重新加载"
+
+msgctxt "script_origin_source_workshop"
+msgid "Steam Workshop mod {}, section {}"
+msgstr "Steam 创意工坊模组 {}, 部分 {}"
+
+msgctxt "script_profile_tasks"
+msgid "Deferred tasks:"
+msgstr "延期任务:"
+
+msgctxt "script_requires_signal"
+msgid "Requires {}"
+msgstr "需求 {}"
+
+msgctxt "script_struct_implements"
+msgid "Implements:"
+msgstr "实现:"
+
+msgctxt "signal_appearance"
+msgid "Appearance:"
+msgstr "外观:"
+
+msgctxt "signal_cosmetic"
+msgid "Cosmetic:"
+msgstr "表面:"
+
+msgctxt "signal_editor_save_template"
+msgid "Save as template"
+msgstr "另存为模板"
+
+msgctxt "signal_kind_name_marker"
+msgid "Marker"
+msgstr "标记"
+
+msgctxt "signal_toggle_rotate"
+msgid "Rotate"
+msgstr "旋转"
+
+msgctxt "signal_toggle_side"
+msgid "Side"
+msgstr "面"
+
+msgctxt "signal_toggle_size"
+msgid "Size"
+msgstr "尺寸"
+
+msgctxt "signals_palette_clear_fav"
+msgid "Right click to clear"
+msgstr "右键单击清除"
+
+msgctxt "signals_palette_template_fav"
+msgid "Right click to save as template"
+msgstr "右键单击以另存为模板"
+
+msgctxt "train_config_set"
+msgid "Set {}"
+msgstr "设置 {}"
+
+msgctxt "train_info_configuration"
+msgid "Configuration:"
+msgstr "配置:"
+
+msgctxt "train_info_hitch_driver"
+msgid "Driver:"
+msgstr "驱动:"
+
+msgctxt "train_info_hitch_hitcher"
+msgid "Hitch:"
+msgstr "挂接:"
+
+msgctxt "train_info_no_timing"
+msgid "{0:.1f} km of {1:.1f} km"
+msgstr "{0:.1f} km / {1:.1f} km"
+
+msgctxt "train_info_set_milestone"
+msgid "Set train milestone"
+msgstr "设置列车里程碑"
+
+msgctxt "train_info_warp"
+msgid "Warp train"
+msgstr "重定位列车"
+
+msgctxt "train_motion_flippable"
+msgid "Flippable"
+msgstr "可翻转"
+
+msgctxt "train_motion_pushpull_back"
+msgid "Push-pull backward"
+msgstr "向后推拉"
+
+msgctxt "train_motion_pushpull_fwd"
+msgid "Push-pull forward"
+msgstr "向前推拉"
+
+msgctxt "train_motion_pushpull_report"
+msgid "Push-pull report:"
+msgstr "推拉报告:"
+
+msgctxt "train_motion_pushpull_report_2cars"
+msgid "2+ cars:"
+msgstr "2+ 车厢:"
+
+msgctxt "train_motion_pushpull_report_back_control"
+msgid "Back control:"
+msgstr "后部控制:"
+
+msgctxt "train_motion_pushpull_report_back_loco"
+msgid "Back locomotive:"
+msgstr "候补机车:"
+
+msgctxt "train_motion_pushpull_report_front_control"
+msgid "Front control:"
+msgstr "前部控制:"
+
+msgctxt "train_motion_pushpull_report_front_loco"
+msgid "Front locomotive:"
+msgstr "前部机车:"
+
+msgctxt "train_motion_pushpull_report_train_tag"
+msgid "Train push-pull tag:"
+msgstr "列车推拉标签:"
+
+msgctxt "train_motion_recompo_current"
+msgid "Current"
+msgstr "当前"
+
+msgctxt "train_motion_recompo_default"
+msgid "As purchased"
+msgstr "购买时"
 
 # ----------------------------------------------------------
-# 1.16.16 及以前版本 字符串
+# 1.17.11 及以前版本 字符串
 
 msgctxt "10_minutes"
 msgid "10 minutes"
@@ -123,14 +355,6 @@ msgstr "5 分钟"
 msgctxt "60_minutes"
 msgid "60 minutes"
 msgstr "60 分钟"
-
-msgctxt "acc_export_desc"
-msgid "Accounting data has been exported to {}"
-msgstr "财务数据已导出到 {}"
-
-msgctxt "acc_export_title"
-msgid "Exported accounting data"
-msgstr "财务数据导出成功"
 
 msgctxt "accounting"
 msgid "Accounting"
@@ -432,6 +656,14 @@ msgctxt "alert_on"
 msgid "Alert on:"
 msgstr "警报:"
 
+msgctxt "alerts_listing_clear_all"
+msgid "Clear all"
+msgstr "全部清空"
+
+msgctxt "alerts_listing_header"
+msgid "{0} pending alerts, {1} seen"
+msgstr "警报待处理: {0}，已查看: {1}"
+
 msgctxt "alerts_pause_game"
 msgid "Alerts pause game"
 msgstr "警报时暂停游戏"
@@ -504,10 +736,6 @@ msgctxt "autoexport_config_value"
 msgid "Enabled"
 msgstr "启用"
 
-msgctxt "autoexporting"
-msgid "Autoexporting..."
-msgstr "自动导出中……"
-
 msgctxt "autosave_interval"
 msgid "Autosave interval:"
 msgstr "自动保存时间间隔:"
@@ -515,10 +743,6 @@ msgstr "自动保存时间间隔:"
 msgctxt "autosave_slots"
 msgid "Autosave slots:"
 msgstr "自动保存槽数:"
-
-msgctxt "autosaving"
-msgid "Autosaving..."
-msgstr "自动保存中……"
 
 msgctxt "back"
 msgid "Back"
@@ -1112,6 +1336,10 @@ msgctxt "continue_game"
 msgid "Continue game"
 msgstr "继续游戏"
 
+msgctxt "control_main_mode"
+msgid "Control"
+msgstr "控制器(高级)"
+
 msgctxt "copied_from_coll"
 msgid "Copied! Paste with Ctrl-V"
 msgstr "使用 Ctrl + V 键粘贴"
@@ -1582,7 +1810,7 @@ msgstr "拖动任何选定的控制点来移动选区"
 
 msgctxt "editor_tip_create_drag_alt"
 msgid "Alt and drag any selected control point to rotate the selection"
-msgstr "点击 Alt 键并拖动选定的控制点来旋转对象"
+msgstr "按 Alt 键并拖动选定的控制点来旋转对象"
 
 msgctxt "editor_tip_create_esc"
 msgid "Esc to cancel selection"
@@ -2096,10 +2324,6 @@ msgctxt "game_wiki"
 msgid "NIMBY Rails Wiki"
 msgstr "NIMBY Rails 百科"
 
-msgctxt "geo_export_desc"
-msgid "Tracks and buildings GeoJSON has been exported to {}"
-msgstr "轨道和建筑的 GeoJson 已导出到 {}"
-
 msgctxt "geo_export_title"
 msgid "Exported GeoJSON"
 msgstr "导出 GeoJson"
@@ -2443,6 +2667,10 @@ msgstr "地图:放大"
 msgctxt "kb_map_zoom_out"
 msgid "Map: zoom out"
 msgstr "地图:缩小"
+
+msgctxt "kb_mode_control"
+msgid "Mode: control"
+msgstr "模式:控制器"
 
 msgctxt "kb_mode_info"
 msgid "Mode: info"
@@ -3021,8 +3249,8 @@ msgid "Reference train:"
 msgstr "参照列车:"
 
 msgctxt "lineeditor_reference_train_desc"
-msgid "An internal simulation of this train running on the tracks will be used for calculating the leg times."
-msgstr "用于计算列车行驶耗时。"
+msgid "An internal simulation of this train running on the tracks will be used for calculating the leg times.\nLeg time calculation always uses the purchased configuration of the train."
+msgstr "用于计算列车行驶耗时。\n运行时间的计算始终采用列车的采购配置。"
 
 msgctxt "lineeditor_reference_train_pick"
 msgid "< Select train >"
@@ -4280,6 +4508,26 @@ msgctxt "option_no_couplers"
 msgid "Unrestricted coupling"
 msgstr "车厢相接无车钩限制"
 
+msgctxt "option_ui_color_button"
+msgid "Buttons:"
+msgstr "按钮:"
+
+msgctxt "option_ui_color_input"
+msgid "Input area:"
+msgstr "文本框:"
+
+msgctxt "option_ui_color_reset"
+msgid "Default colors"
+msgstr "默认颜色"
+
+msgctxt "option_ui_color_text"
+msgid "Text:"
+msgstr "文本:"
+
+msgctxt "option_ui_color_window_bg"
+msgid "Background:"
+msgstr "背景:"
+
 msgctxt "options"
 msgid "Options"
 msgstr "选项"
@@ -5072,6 +5320,10 @@ msgctxt "sched_editor_pad"
 msgid "Continue into next order"
 msgstr "继续下个指令"
 
+msgctxt "sched_editor_reorder_trains"
+msgid "Reorder trains"
+msgstr "重新订购列车"
+
 msgctxt "sched_editor_shift_order_edit_enabled"
 msgid "Enable order"
 msgstr "启用指令"
@@ -5304,6 +5556,42 @@ msgctxt "schedules"
 msgid "Schedules"
 msgstr "时刻表"
 
+msgctxt "script_editor_basics"
+msgid "Basics"
+msgstr "基本信息"
+
+msgctxt "script_list_filter_alert_only_warning"
+msgid "Only with errors"
+msgstr "仅包含错误"
+
+msgctxt "script_list_filter_alert_short"
+msgid "Errors"
+msgstr "错误"
+
+msgctxt "script_list_filter_all"
+msgid "All scripts"
+msgstr "所有脚本"
+
+msgctxt "script_list_filter_all_short"
+msgid "All"
+msgstr "所有"
+
+msgctxt "script_name_edit"
+msgid "Name:"
+msgstr "名称:"
+
+msgctxt "scripts_n_0"
+msgid "0 scripts"
+msgstr "0个 脚本"
+
+msgctxt "scripts_n_1"
+msgid "1 script"
+msgstr "1个 脚本"
+
+msgctxt "scripts_n_many"
+msgid "%d scripts"
+msgstr "%d个 脚本"
+
 msgctxt "se_confirm_delete_station"
 msgid "Confirm station deletion"
 msgstr "确认车站删除"
@@ -5504,21 +5792,9 @@ msgctxt "signal_check_hit_res"
 msgid "Reserved by {}"
 msgstr "由 {} 保留"
 
-msgctxt "signal_dir_m1"
-msgid "-1"
-msgstr "-1"
-
-msgctxt "signal_dir_p1"
-msgid "1"
-msgstr "1"
-
 msgctxt "signal_direction"
 msgid "Direction:"
 msgstr "方向:"
-
-msgctxt "signal_edit_invalid_track"
-msgid "This signal is still functional but it is not allowed on this kind of track starting from version 1.4. Some train maneuvers might be disabled in this track. Move it to a different track."
-msgstr "该信号仍有效，但从1.4版本开始，此信号不允许在此类轨道上使用。若你仍要使用，则一些列车功能将被禁用。"
 
 msgctxt "signal_edit_plat_stop_obsolete"
 msgid "This signal is still functional but it has been obsoleted. Some train maneuvers might be disabled in this track."
@@ -5531,10 +5807,6 @@ msgstr "该信号仍有效，但已被进路信号机替代。"
 msgctxt "signal_editor_title_edit"
 msgid "Edit signal"
 msgstr "编辑信号"
-
-msgctxt "signal_editor_title_new"
-msgid "New signal"
-msgstr "新建信号"
 
 msgctxt "signal_filter_applies"
 msgid "Applies to all trains"
@@ -5600,21 +5872,9 @@ msgctxt "signal_limits_block_same"
 msgid "Only for same direction"
 msgstr "仅同方向信号机"
 
-msgctxt "signal_side"
-msgid "Side (cosmetic):"
-msgstr "位置(外观)"
-
-msgctxt "signal_side_0"
-msgid "0"
-msgstr "0"
-
-msgctxt "signal_side_m1"
-msgid "-1"
-msgstr "-1"
-
-msgctxt "signal_side_p1"
-msgid "1"
-msgstr "1"
+msgctxt "signal_name_auto"
+msgid "Auto"
+msgstr "自动"
 
 msgctxt "signal_stop_check_only_signals"
 msgid "Only signals"
@@ -5623,10 +5883,6 @@ msgstr "仅信号机"
 msgctxt "signal_stop_check_signals_stops"
 msgid "Signals and train stop"
 msgstr "信号机及车站"
-
-msgctxt "signal_toggle"
-msgid "Toggle"
-msgstr "切换位置"
 
 msgctxt "signal_type"
 msgid "Type:"
@@ -5923,6 +6179,14 @@ msgstr "高级模式 "
 msgctxt "stop_picker_adv_length"
 msgid "Length: {}m"
 msgstr "长度: {}m"
+
+msgctxt "stop_picker_adv_length_auto"
+msgid "(auto)"
+msgstr "(自动)"
+
+msgctxt "stop_picker_adv_length_manual"
+msgid "(manual)"
+msgstr "(手动)"
 
 msgctxt "stop_picker_basic"
 msgid "Basic mode"
@@ -6538,7 +6802,7 @@ msgstr "添加"
 
 msgctxt "train_car_append_tp"
 msgid "Shift clicking cars in the listing directly appends them"
-msgstr "按住Shift键点击列表中的车厢可以直接添加"
+msgstr "按 Shift 键点击列表中的车厢可以直接添加"
 
 msgctxt "train_car_base_color_edit"
 msgid "Base color:"
@@ -6831,10 +7095,6 @@ msgstr "每公里 ${0:.2} 每乘客公里 ${1:.2}"
 msgctxt "train_info_speed"
 msgid "Speed / max:"
 msgstr "当前速度 / 最大速度:"
-
-msgctxt "train_info_status_broken"
-msgid "Unknown train state"
-msgstr "列车状态未知"
 
 msgctxt "train_info_status_collision"
 msgid "Collision"
@@ -7667,6 +7927,14 @@ msgstr "此模组在当前游戏中已启用，但其安装的文件需要更新
 # ----------------------------------------------------------
 # 删除的（老版本）字符串
 
+msgctxt "acc_export_desc"
+msgid "Accounting data has been exported to {}"
+msgstr "财务数据已导出到 {}"
+
+msgctxt "acc_export_title"
+msgid "Exported accounting data"
+msgstr "财务数据导出成功"
+
 msgctxt "accounting_pax_found_train_too_full"
 msgid "Boarding failed: full train"
 msgstr "  列车满员"
@@ -7679,6 +7947,14 @@ msgctxt "accounting_ticketing_profit"
 msgid "Profit"
 msgstr "  收益"
 
+msgctxt "autoexporting"
+msgid "Autoexporting..."
+msgstr "自动导出中……"
+
+msgctxt "autosaving"
+msgid "Autosaving..."
+msgstr "自动保存中……"
+
 msgctxt "constraint_demote_platforms"
 msgid "Demote into normal track"
 msgstr "降级到正常轨道"
@@ -7686,6 +7962,10 @@ msgstr "降级到正常轨道"
 msgctxt "constraint_platforms"
 msgid "Platforms:"
 msgstr "升降级为:"
+
+msgctxt "controlditor_tp_delete"
+msgid "Delete selected script"
+msgstr "删除所选脚本"
 
 msgctxt "custom_admin_level_poi"
 msgid "POI"
@@ -7850,6 +8130,10 @@ msgstr "名称"
 msgctxt "file_picker_version_old"
 msgid "1.1.35 or earlier (model v{})"
 msgstr "1.1.35 或更早 (model v{})"
+
+msgctxt "geo_export_desc"
+msgid "Tracks and buildings GeoJSON has been exported to {}"
+msgstr "轨道和建筑的 GeoJson 已导出到 {}"
 
 msgctxt "intuitive_times_desc"
 msgid "Showing intuitive leg times: arrival and departure matches the time of train stop and start.\nLeg time matches the running time between train start and stop."
@@ -8141,7 +8425,7 @@ msgstr "如果是相同线路，直接运行"
 
 msgctxt "option_company_pax_train_matching_train_pf"
 msgid "Any, bounded by leg time"
-msgstr "任意,受运行事件限制"
+msgstr "任意,受运行时间限制"
 
 msgctxt "option_company_pax_train_matching_train_run_line_stop"
 msgid "Matching train, run, line and stop"
@@ -8231,6 +8515,10 @@ msgctxt "sax_tooltip"
 msgid "Overall: {0:+.2f} ({1}) | Time: {2:+.2f} | Fare: {3:+.2f}"
 msgstr "整体: {0:+.2f} ({1}) | 时间: {2:+.2f} | 票价: {3:+.2f}"
 
+msgctxt "script_editor_tags"
+msgid "Tags:"
+msgstr "标签:"
+
 msgctxt "search_section_nearby"
 msgid "Nearby"
 msgstr "附近"
@@ -8243,9 +8531,45 @@ msgctxt "share_upload_screenshot"
 msgid "Uploading screenshot {}%"
 msgstr "正在上传屏幕截图 {}%"
 
+msgctxt "signal_dir_m1"
+msgid "-1"
+msgstr "-1"
+
+msgctxt "signal_dir_p1"
+msgid "1"
+msgstr "1"
+
+msgctxt "signal_edit_invalid_track"
+msgid "This signal is still functional but it is not allowed on this kind of track starting from version 1.4. Some train maneuvers might be disabled in this track. Move it to a different track."
+msgstr "该信号仍有效，但从1.4版本开始，此信号不允许在此类轨道上使用。若你仍要使用，则一些列车功能将被禁用。"
+
+msgctxt "signal_editor_title_new"
+msgid "New signal"
+msgstr "新建信号"
+
 msgctxt "signal_long_check"
 msgid "Check path up to:"
 msgstr "检查通路"
+
+msgctxt "signal_side"
+msgid "Side (cosmetic):"
+msgstr "位置(外观)"
+
+msgctxt "signal_side_0"
+msgid "0"
+msgstr "0"
+
+msgctxt "signal_side_m1"
+msgid "-1"
+msgstr "-1"
+
+msgctxt "signal_side_p1"
+msgid "1"
+msgstr "1"
+
+msgctxt "signal_toggle"
+msgid "Toggle"
+msgstr "切换位置"
 
 msgctxt "signal_warn_max_length"
 msgid "The block of track protected by this signal is too long. Introduce more signals in the block, like balises, to make it shorter."
@@ -8466,6 +8790,10 @@ msgstr "每公里${:.4}(人)"
 msgctxt "train_info_status"
 msgid "Status:"
 msgstr "数据:"
+
+msgctxt "train_info_status_broken"
+msgid "Unknown train state"
+msgstr "列车状态未知"
 
 msgctxt "train_info_status_busy_track"
 msgid "Track is occupied or reserved"
@@ -8786,6 +9114,7 @@ msgstr "警告"
 msgctxt "wrong_protocol"
 msgid "Protocol mismatch with server. Make sure both your client and the server are updated to the latest game version."
 msgstr "协议与服务器不匹配。 确保你的客户端和服务器都已更新到最新的游戏版本。"
+
 
 ## ----------------------------------------------------------
 ## 列车翻译
