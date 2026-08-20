@@ -1,336 +1,344 @@
 # ----------------------------------------------------------
-# 1.18.30 版本 新添加字符串
+# 1.19.10 版本 新添加字符串
 
-msgctxt "autorun_dispatch_info_brief"
-msgid "Auto run"
-msgstr "自动运行"
+msgctxt "display_mode_fullscreen"
+msgid "Fullscreen"
+msgstr "全屏"
 
-msgctxt "controleditor_tab_config"
-msgid "Configure"
-msgstr "配置"
+msgctxt "map_container_directory"
+msgid "Directory"
+msgstr "目录"
 
-msgctxt "controleditor_tab_devel"
-msgid "Develop"
-msgstr "开发"
+msgctxt "map_container_pmtiles"
+msgid "PMTiles"
+msgstr "PMTiles"
 
-msgctxt "controleditor_tp_delete"
-msgid "Delete selected script"
-msgstr "删除所选脚本"
-
-msgctxt "copy_to_clipboard"
-msgid "Copy to clipboard"
-msgstr "复制到剪贴板"
-
-msgctxt "dispatch_cooldown_attempted_on"
-msgid "Attempted on {} UTC{}"
-msgstr "尝试在 {} UTC{}"
-
-msgctxt "dispatch_cooldown_reason_CurrentTimeBeforeArrival"
-msgid "Too early for arrival"
-msgstr "提早到达"
-
-msgctxt "dispatch_cooldown_reason_LineInvalid"
-msgid "Line is invalid"
-msgstr "线路无效"
-
-msgctxt "dispatch_cooldown_reason_needs_sim"
-msgid "Resume simulation and/or wait until next dispatch attempt"
-msgstr "恢复模拟并等待下一次调度尝试"
-
-msgctxt "dispatch_cooldown_reason_SchedServiceLevel"
-msgid "Schedule is closed"
-msgstr "时刻表已关闭"
-
-msgctxt "dispatch_cooldown_reason_ScriptDisallows"
-msgid "Disallowed by script(s)"
-msgstr "被脚本禁止"
-
-msgctxt "dispatch_cooldown_reason_ShiftAssigned"
-msgid "Shift is already assigned"
-msgstr "班次已分配"
-
-msgctxt "dispatch_cooldown_reason_ShiftGoesUnassigned"
-msgid "Shift goes into unassigned"
-msgstr "班次未分配"
-
-msgctxt "dispatch_cooldown_reason_StopAreaBusy"
-msgid "Stop area is occupied or reserved"
-msgstr "停车区域已被占用或预留"
-
-msgctxt "dispatch_cooldown_reason_StopInvalid"
-msgid "Line stop is invalid"
-msgstr "线路停车无效"
-
-msgctxt "dispatch_cooldown_reason_TrainNotOnStopArea"
-msgid "Train not on stop area"
-msgstr "列车不在停车区域"
-
-msgctxt "dispatch_cooldown_reason_Unknown"
+msgctxt "map_container_unknown"
 msgid "Unknown"
 msgstr "未知"
 
-msgctxt "file_export_desc"
-msgid "Data has been exported to {}"
-msgstr "数据已导出到 {}"
+msgctxt "map_format_avif"
+msgid "AVIF"
+msgstr "AVIF"
 
-msgctxt "file_export_title"
-msgid "Exported to file"
-msgstr "导出到文件"
+msgctxt "map_format_jpg"
+msgid "JPG"
+msgstr "JPG"
 
-msgctxt "input_range_2f"
-msgid "{:.2f}{} to {:.2f}{}"
-msgstr "{:.2f}{} 到 {:.2f}{}"
+msgctxt "map_format_mlt"
+msgid "MapLibre Vector Tile"
+msgstr "MapLibre 矢量瓦片"
 
-msgctxt "lineeditor_pad_wait_here"
-msgid "Timetable pad wait in this stop"
-msgstr "时刻表在本站等待"
+msgctxt "map_format_mvt"
+msgid "Mapbox Vector Tile"
+msgstr "Mapbox 矢量瓦片"
 
-msgctxt "option_company_db_export"
-msgid "Export IDs"
-msgstr "导出ID"
+msgctxt "map_format_nimby_lerc"
+msgid "Custom NIMBY_LERC"
+msgstr "自定义 NIMBY_LERC"
 
-msgctxt "option_company_tt_export"
-msgid "Export timetable data"
-msgstr "到处时刻表数据"
+msgctxt "map_format_png"
+msgid "PNG"
+msgstr "PNG"
 
-msgctxt "order_error_invalid_path"
-msgid "Glue path cannot be found"
-msgstr "找不到Glue路径"
+msgctxt "map_format_raw"
+msgid "Custom"
+msgstr "自定义"
 
-msgctxt "run_dispatch_info_brief"
-msgid "Single run"
-msgstr "单次运行"
+msgctxt "map_format_unknown"
+msgid "Auto"
+msgstr "自动"
 
-msgctxt "saving"
-msgid "Saving..."
-msgstr "保存……"
+msgctxt "map_format_webp"
+msgid "WEBP"
+msgstr "WEBP"
 
-msgctxt "sched_alert_shift_errors"
-msgid "One or more shifts contain errors"
-msgstr "一个或多个班次包含错误"
+msgctxt "map_op_result_formaterror"
+msgid "Format Error"
+msgstr "格式错误"
 
-msgctxt "sched_info_brief"
-msgid "{0} [{1}]"
-msgstr "{0} [{1}]"
+msgctxt "map_op_result_invalidstate"
+msgid "Invalid State"
+msgstr "无效状态"
 
-msgctxt "script_delete_stale"
-msgid "Delete code and data"
-msgstr "删除代码和数据"
+msgctxt "map_op_result_methoderror"
+msgid "Method Error"
+msgstr "方法错误"
 
-msgctxt "script_editor_build"
-msgid "Build"
-msgstr "构建"
+msgctxt "map_op_result_notfound"
+msgid "Not Found"
+msgstr "未找到"
 
-msgctxt "script_editor_build_errors_header"
-msgid "{} errors, {} compilations"
-msgstr "{} 错误，{} 编译"
+msgctxt "map_op_result_ok"
+msgid "Ok"
+msgstr "正常"
 
-msgctxt "script_editor_log"
-msgid "log() Output"
-msgstr "日志输出"
+msgctxt "map_op_result_servererror"
+msgid "Server Error"
+msgstr "服务器错误"
 
-msgctxt "script_editor_log_clear"
-msgid "Clear log"
-msgstr "清除日志"
+msgctxt "map_op_result_timeout"
+msgid "Timeout"
+msgstr "超时"
 
-msgctxt "script_editor_log_enable"
-msgid "Enable logging"
-msgstr "启用日志记录"
+msgctxt "map_op_result_transporterror"
+msgid "Transport Error"
+msgstr "传输错误"
 
-msgctxt "script_enabled_but_no_config"
-msgid "Extension has no configuration"
-msgstr "扩展没有配置"
+msgctxt "map_option_font_disabled"
+msgid "Disabled"
+msgstr "禁用"
 
-msgctxt "script_extensions"
-msgid "Extensions"
-msgstr "扩展"
+msgctxt "map_role_buildup"
+msgid "Buildup"
+msgstr "建筑"
 
-msgctxt "script_field_vec_line_n"
-msgid "{} lines"
-msgstr "{} 线路"
+msgctxt "map_role_dem"
+msgid "Hillshading"
+msgstr "山体阴影"
 
-msgctxt "script_field_vec_sched_n"
-msgid "{} schedules"
-msgstr "{} 时刻表"
+msgctxt "map_role_land"
+msgid "Land"
+msgstr "陆地"
 
-msgctxt "script_field_vec_signal_n"
-msgid "{} signals"
-msgstr "{} 信号"
+msgctxt "map_role_popbuildup"
+msgid "PopBuildup"
+msgstr "人口建筑"
 
-msgctxt "script_field_vec_train_n"
-msgid "{} trains"
-msgstr "{} 列车"
+msgctxt "map_role_population"
+msgid "Population"
+msgstr "人口"
 
-msgctxt "script_listing_error"
-msgid "Compilation errors"
-msgstr "编译错误"
+msgctxt "map_role_unknown"
+msgid "Unknown"
+msgstr "未知"
 
-msgctxt "script_listing_log"
-msgid "Logging is enabled"
-msgstr "日志记录已启用"
+msgctxt "map_role_vectors"
+msgid "Vectors"
+msgstr "矢量"
 
-msgctxt "script_origin_source"
-msgid "Source:"
+msgctxt "mode_map_options"
+msgid "Options"
+msgstr "选项"
+
+msgctxt "mode_map_options_desc"
+msgid "Built-in map options"
+msgstr "内置地图选项"
+
+msgctxt "mode_map_sources_mode"
+msgid "Sources"
+msgstr "数据源"
+
+msgctxt "mode_map_sources_mode_desc"
+msgid "Edit map sources"
+msgstr "编辑地图数据源"
+
+msgctxt "option_company_train_braking_factor"
+msgid "Train braking factor:"
+msgstr "列车制动系数："
+
+msgctxt "option_rotation_bind"
+msgid "Map rotation:"
+msgstr "地图旋转："
+
+msgctxt "option_rotation_bind_h"
+msgid "Horizontal mouse wheel"
+msgstr "鼠标水平滚轮"
+
+msgctxt "option_rotation_bind_v_a"
+msgid "Alt + vertical mouse wheel"
+msgstr "Alt + 鼠标垂直滚轮"
+
+msgctxt "option_rotation_bind_v_s"
+msgid "Shift + vertical mouse wheel"
+msgstr "Shift + 鼠标垂直滚轮"
+
+msgctxt "renderer_curr_device"
+msgid "Current GPU:"
+msgstr "当前 GPU："
+
+msgctxt "renderer_curr_server"
+msgid "Current display server:"
+msgstr "当前显示服务器："
+
+msgctxt "renderer_device"
+msgid "Change GPU:"
+msgstr "切换 GPU："
+
+msgctxt "renderer_device_default"
+msgid "System default"
+msgstr "系统默认"
+
+msgctxt "renderer_force_wayland"
+msgid "Prefer Wayland even without fifo-v1"
+msgstr "即使没有 fifo-v1 也优先使用 Wayland"
+
+msgctxt "right_bar_reset_map_rotation"
+msgid "Reset map rotation"
+msgstr "重置地图旋转"
+
+msgctxt "right_bar_window_maximize"
+msgid "Maximize window"
+msgstr "最大化窗口"
+
+msgctxt "right_bar_window_minimize"
+msgid "Minimize window"
+msgstr "最小化窗口"
+
+msgctxt "right_bar_window_move"
+msgid "Drag to move window"
+msgstr "拖动移动窗口"
+
+msgctxt "right_bar_window_restore"
+msgid "Restore window"
+msgstr "还原窗口"
+
+msgctxt "schedule_group_shift_skip_loops"
+msgid "Skip loops:"
+msgstr "跳过循环："
+
+msgctxt "share_upload_save2"
+msgid "Uploading saved game"
+msgstr "正在上传存档"
+
+msgctxt "signal_name_edit"
+msgid "Name:"
+msgstr "名称："
+
+msgctxt "station_platforkPIck"
+msgid "Platform of:"
+msgstr "站台所属："
+
+msgctxt "station_platforkPIck_existing_station"
+msgid "< Select existing station >"
+msgstr "< 选择现有车站 >"
+
+msgctxt "station_platforkPIck_new_station"
+msgid "< Create new station >"
+msgstr "< 创建新车站 >"
+
+msgctxt "user_map_filter_color"
+msgid "Color"
+msgstr "颜色"
+
+msgctxt "user_map_filter_hue"
+msgid "Hue:"
+msgstr "色相："
+
+msgctxt "user_map_filter_invert"
+msgid "Invert:"
+msgstr "反色："
+
+msgctxt "user_map_filter_lightness"
+msgid "Lightness:"
+msgstr "亮度："
+
+msgctxt "user_map_filter_opacity"
+msgid "Opacity"
+msgstr "不透明度"
+
+msgctxt "user_map_filter_reset"
+msgid "Reset"
+msgstr "重置"
+
+msgctxt "user_map_filter_saturation"
+msgid "Saturation:"
+msgstr "饱和度："
+
+msgctxt "user_map_filter_style"
+msgid "Style"
+msgstr "样式"
+
+msgctxt "user_map_source_container"
+msgid "Container:"
+msgstr "容器："
+
+msgctxt "user_map_source_create"
+msgid "Create"
+msgstr "创建"
+
+msgctxt "user_map_source_error"
+msgid "Error:"
+msgstr "错误："
+
+msgctxt "user_map_source_format"
+msgid "Format:"
+msgstr "格式："
+
+msgctxt "user_map_source_format_hint"
+msgid "Data format:"
+msgstr "数据格式："
+
+msgctxt "user_map_source_format_hint_generic_raster"
+msgid "Generic raster"
+msgstr "通用栅格"
+
+msgctxt "user_map_source_format_hint_mapbox_dem"
+msgid "Mapbox RGB elevation"
+msgstr "Mapbox RGB 高程"
+
+msgctxt "user_map_source_format_hint_mvt"
+msgid "Mapbox Vector Tile"
+msgstr "Mapbox 矢量瓦片"
+
+msgctxt "user_map_source_format_hint_terrarium"
+msgid "Terrarium RGB elevation"
+msgstr "Terrarium RGB 高程"
+
+msgctxt "user_map_source_name"
+msgid "Name:"
+msgstr "名称："
+
+msgctxt "user_map_source_new_source"
+msgid "New source"
+msgstr "新建数据源"
+
+msgctxt "user_map_source_not_ready"
+msgid "Preparing..."
+msgstr "准备中..."
+
+msgctxt "user_map_source_origin"
+msgid "Origin:"
 msgstr "来源："
 
-msgctxt "script_origin_source_builtin"
-msgid "Built-in"
-msgstr "内置"
+msgctxt "user_map_source_origin_default"
+msgid "Default"
+msgstr "默认"
 
-msgctxt "script_origin_source_builtin_mod"
-msgid "Built-in mod"
-msgstr "内置模组"
+msgctxt "user_map_source_origin_http"
+msgid "HTTP"
+msgstr "HTTP"
 
-msgctxt "script_origin_source_direct"
-msgid "Direct"
-msgstr "方向"
+msgctxt "user_map_source_origin_local"
+msgid "Local"
+msgstr "本地"
 
-msgctxt "script_origin_source_edit"
-msgid "Edit"
-msgstr "编辑"
+msgctxt "user_map_source_path"
+msgid "Path:"
+msgstr "路径："
 
-msgctxt "script_origin_source_local_mod"
-msgid "Local mod {}, section {}"
-msgstr "本地模组 {}，部分 {}"
+msgctxt "user_map_source_pick_file"
+msgid "Pick PMTiles file"
+msgstr "选择 PMTiles 文件"
 
-msgctxt "script_origin_source_mod_invalid"
-msgid "Unknown mod, or mod changed script ID. Code and data preserved in the save."
-msgstr "未知的模组或模组更改的脚本ID。保存中保留的代码和数据。"
+msgctxt "user_map_source_rect"
+msgid "Area:"
+msgstr "区域："
 
-msgctxt "script_origin_source_reload"
-msgid "Reload"
-msgstr "重新加载"
+msgctxt "user_map_source_role"
+msgid "Role:"
+msgstr "角色："
 
-msgctxt "script_origin_source_workshop"
-msgid "Steam Workshop mod {}, section {}"
-msgstr "Steam 创意工坊模组 {}，部分 {}"
+msgctxt "user_map_source_url"
+msgid "URL:"
+msgstr "URL："
 
-msgctxt "script_profile_tasks"
-msgid "Deferred tasks:"
-msgstr "延期任务："
-
-msgctxt "script_requires_signal"
-msgid "Requires {}"
-msgstr "需求 {}"
-
-msgctxt "script_struct_implements"
-msgid "Implements:"
-msgstr "实现："
-
-msgctxt "signal_appearance"
-msgid "Appearance:"
-msgstr "外观："
-
-msgctxt "signal_cosmetic"
-msgid "Cosmetic:"
-msgstr "表面："
-
-msgctxt "signal_editor_save_template"
-msgid "Save as template"
-msgstr "另存为模板"
-
-msgctxt "signal_kind_name_marker"
-msgid "Marker"
-msgstr "标记"
-
-msgctxt "signal_toggle_rotate"
-msgid "Rotate"
-msgstr "旋转"
-
-msgctxt "signal_toggle_side"
-msgid "Side"
-msgstr "侧面"
-
-msgctxt "signal_toggle_size"
-msgid "Size"
-msgstr "尺寸"
-
-msgctxt "signals_palette_clear_fav"
-msgid "Right click to clear"
-msgstr "右键单击清除"
-
-msgctxt "signals_palette_template_fav"
-msgid "Right click to save as template"
-msgstr "右键单击以另存为模板"
-
-msgctxt "train_config_set"
-msgid "Set {}"
-msgstr "设置 {}"
-
-msgctxt "train_info_configuration"
-msgid "Configuration:"
-msgstr "配置："
-
-msgctxt "train_info_hitch_driver"
-msgid "Driver:"
-msgstr "驱动："
-
-msgctxt "train_info_hitch_hitcher"
-msgid "Hitch:"
-msgstr "挂钩："
-
-msgctxt "train_info_no_timing"
-msgid "{0:.1f} km of {1:.1f} km"
-msgstr "{0:.1f} km / {1:.1f} km"
-
-msgctxt "train_info_set_milestone"
-msgid "Set train milestone"
-msgstr "设置列车里程碑"
-
-msgctxt "train_info_warp"
-msgid "Warp train"
-msgstr "重定位列车"
-
-msgctxt "train_motion_flippable"
-msgid "Flippable"
-msgstr "可换向"
-
-msgctxt "train_motion_pushpull_back"
-msgid "Push-pull backward"
-msgstr "向后推挽"
-
-msgctxt "train_motion_pushpull_fwd"
-msgid "Push-pull forward"
-msgstr "向前推挽"
-
-msgctxt "train_motion_pushpull_report"
-msgid "Push-pull report:"
-msgstr "推挽报告："
-
-msgctxt "train_motion_pushpull_report_2cars"
-msgid "2+ cars:"
-msgstr "2+ 车厢："
-
-msgctxt "train_motion_pushpull_report_back_control"
-msgid "Back control:"
-msgstr "后部控制："
-
-msgctxt "train_motion_pushpull_report_back_loco"
-msgid "Back locomotive:"
-msgstr "候补机车："
-
-msgctxt "train_motion_pushpull_report_front_control"
-msgid "Front control:"
-msgstr "前部控制："
-
-msgctxt "train_motion_pushpull_report_front_loco"
-msgid "Front locomotive:"
-msgstr "前部机车："
-
-msgctxt "train_motion_pushpull_report_train_tag"
-msgid "Train push-pull tag:"
-msgstr "列车推挽标签："
-
-msgctxt "train_motion_recompo_current"
-msgid "Current"
-msgstr "当前"
-
-msgctxt "train_motion_recompo_default"
-msgid "As purchased"
-msgstr "购买时"
+msgctxt "user_map_source_zoom_range"
+msgid "Zoom range:"
+msgstr "缩放范围："
 
 # ----------------------------------------------------------
-# 1.17.11 及以前版本 字符串
+# 旧版本字符串
 
 msgctxt "10_minutes"
 msgid "10 minutes"
@@ -736,6 +744,10 @@ msgctxt "autoexport_config_value"
 msgid "Enabled"
 msgstr "启用"
 
+msgctxt "autorun_dispatch_info_brief"
+msgid "Auto run"
+msgstr "自动运行"
+
 msgctxt "autosave_interval"
 msgid "Autosave interval:"
 msgstr "自动保存时间间隔："
@@ -917,7 +929,7 @@ msgid "Height:"
 msgstr "高度："
 
 msgctxt "building_info_price_f"
-msgid "${} per m\xC2\xB2"
+msgid "${} per m²"
 msgstr "每平米 ${}"
 
 msgctxt "building_label"
@@ -1340,6 +1352,18 @@ msgctxt "control_main_mode"
 msgid "Control"
 msgstr "控制器(高级)"
 
+msgctxt "controleditor_tab_config"
+msgid "Configure"
+msgstr "配置"
+
+msgctxt "controleditor_tab_devel"
+msgid "Develop"
+msgstr "开发"
+
+msgctxt "controleditor_tp_delete"
+msgid "Delete selected script"
+msgstr "删除所选脚本"
+
 msgctxt "copied_from_coll"
 msgid "Copied! Paste with Ctrl-V"
 msgstr "使用 Ctrl + V 键粘贴"
@@ -1347,6 +1371,10 @@ msgstr "使用 Ctrl + V 键粘贴"
 msgctxt "copy"
 msgid "Copy"
 msgstr "复制"
+
+msgctxt "copy_to_clipboard"
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
 
 msgctxt "credits"
 msgid "Credits"
@@ -1596,6 +1624,54 @@ msgctxt "disabled"
 msgid "Disabled"
 msgstr "禁用"
 
+msgctxt "dispatch_cooldown_attempted_on"
+msgid "Attempted on {} UTC{}"
+msgstr "尝试在 {} UTC{}"
+
+msgctxt "dispatch_cooldown_reason_CurrentTimeBeforeArrival"
+msgid "Too early for arrival"
+msgstr "提早到达"
+
+msgctxt "dispatch_cooldown_reason_LineInvalid"
+msgid "Line is invalid"
+msgstr "线路无效"
+
+msgctxt "dispatch_cooldown_reason_SchedServiceLevel"
+msgid "Schedule is closed"
+msgstr "时刻表已关闭"
+
+msgctxt "dispatch_cooldown_reason_ScriptDisallows"
+msgid "Disallowed by script(s)"
+msgstr "被脚本禁止"
+
+msgctxt "dispatch_cooldown_reason_ShiftAssigned"
+msgid "Shift is already assigned"
+msgstr "班次已分配"
+
+msgctxt "dispatch_cooldown_reason_ShiftGoesUnassigned"
+msgid "Shift goes into unassigned"
+msgstr "班次未分配"
+
+msgctxt "dispatch_cooldown_reason_StopAreaBusy"
+msgid "Stop area is occupied or reserved"
+msgstr "停车区域已被占用或预留"
+
+msgctxt "dispatch_cooldown_reason_StopInvalid"
+msgid "Line stop is invalid"
+msgstr "线路停车无效"
+
+msgctxt "dispatch_cooldown_reason_TrainNotOnStopArea"
+msgid "Train not on stop area"
+msgstr "列车不在停车区域"
+
+msgctxt "dispatch_cooldown_reason_Unknown"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "dispatch_cooldown_reason_needs_sim"
+msgid "Resume simulation and/or wait until next dispatch attempt"
+msgstr "恢复模拟并等待下一次调度尝试"
+
 msgctxt "display_mode"
 msgid "Mode:"
 msgstr "显示："
@@ -1607,10 +1683,6 @@ msgstr "全屏"
 msgctxt "display_mode_windowed"
 msgid "Windowed"
 msgstr "窗口"
-
-msgctxt "display_mode_windowed_fullscreen"
-msgid "Windowed fullscreen"
-msgstr "无边框窗口"
 
 msgctxt "display_screen"
 msgid "Display:"
@@ -2113,8 +2185,8 @@ msgid "Internal error while saving game"
 msgstr "保存游戏时出现内部错误"
 
 msgctxt "error_too_new_save_v"
-msgid "The game version ({}.{}.{}.{}) that created this save file is newer than your game version ({}.{}.{}.{}). Update the game to load this file."
-msgstr "创建此存档的游戏版本({}.{}.{}.{})比当前的游戏版本({}.{}.{}.{})新，更新游戏以加载该存档"
+msgid "The game version ({}.{}.{}.{:x}) that created this save file is newer than your game version ({}.{}.{}.{:x}). Update the game to load this file."
+msgstr "创建此存档的游戏版本({}.{}.{}.{:x})比当前的游戏版本({}.{}.{}.{:x})新，更新游戏以加载该存档"
 
 msgctxt "error_too_old_save"
 msgid "The game version that created this save file is too old and it cannot be loaded. Try the v1.6 or newer legacy branches in Steam."
@@ -2135,6 +2207,14 @@ msgstr "{} 退款"
 msgctxt "ev_too_short_warn"
 msgid "Too short stop time and/or train full"
 msgstr "停靠时间太短或列车满员"
+
+msgctxt "file_export_desc"
+msgid "Data has been exported to {}"
+msgstr "数据已导出到 {}"
+
+msgctxt "file_export_title"
+msgid "Exported to file"
+msgstr "导出到文件"
 
 msgctxt "file_picker_company"
 msgid "Company:"
@@ -2596,6 +2676,10 @@ msgctxt "input_range"
 msgid "{}{} to {}{}"
 msgstr "{}{} 到 {}{}"
 
+msgctxt "input_range_2f"
+msgid "{:.2f}{} to {:.2f}{}"
+msgstr "{:.2f}{} 到 {:.2f}{}"
+
 msgctxt "intervene_all_stale_trains"
 msgid "Intervene all stale"
 msgstr "干预失效列车"
@@ -2796,6 +2880,10 @@ msgctxt "kb_tracks_unbp"
 msgid "Tracks: reblueprint"
 msgstr "轨道：转为蓝图"
 
+msgctxt "key_info2"
+msgid "[Key: {}]"
+msgstr "[按键：{}]"
+
 msgctxt "key_info_hold"
 msgid "[Hold: {}]"
 msgstr "[保留：{} ]"
@@ -2803,10 +2891,6 @@ msgstr "[保留：{} ]"
 msgctxt "key_info_hold_missing"
 msgid "[Missing key bind]"
 msgstr "[缺少键绑定]"
-
-msgctxt "key_info2"
-msgid "[Key: {}]"
-msgstr "[按键：{}]"
 
 msgctxt "label_short_not_available"
 msgid "N/A"
@@ -3030,7 +3114,7 @@ msgstr "自定义线路运行时长："
 
 msgctxt "lineeditor_custom_duration_desc"
 msgid "Format: hh:mm:ss\nIf the line duration is shorter than this amount, stops flagged as custom duration wait stops will have extra stop time, until the line duration matches the custom duration.\nThe extra time is distributed evenly between the stops. If no stops are selected as custom wait, the last line stop is used."
-msgstr "格式：hh:mm:ss \n若线路循环运行耗时小于此值，则被标记为"自定义停站"的站点将增加停站时间，直至线路耗时与自定义值匹配。\n增加的时间将在各站点间平均分配。若未选择任何站点，则默认将额外时间加在最后一个站点（终点站）。"
+msgstr "格式：hh:mm:ss \n若线路循环运行耗时小于此值，则被标记为「自定义停站」的站点将增加停站时间，直至线路耗时与自定义值匹配。\n增加的时间将在各站点间平均分配。若未选择任何站点，则默认将额外时间加在最后一个站点（终点站）。"
 
 msgctxt "lineeditor_custom_period"
 msgid "Custom period:"
@@ -3166,7 +3250,7 @@ msgstr "自定义耗时："
 
 msgctxt "lineeditor_leg_eta_custom_time_desc"
 msgid "Format: (hh:)mm:ss\nThis custom time will be approximated by finding a cruise speed.\nIt will be ignored if the resulting speed is too slow or too fast.\nTrains might speed up if they are late."
-msgstr "格式：(hh:)mm:ss \n系统将尝试寻找匹配的巡航速度来近似此自定义耗时。若推算出的速度过快或过慢，此设置将被忽略。列车晚点时可提速运行。"
+msgstr "格式：(hh:)mm:ss\n系统将尝试寻找匹配的巡航速度来近似此自定义耗时。\n若推算出的速度过快或过慢，此设置将被忽略。\n列车晚点时可提速运行。"
 
 msgctxt "lineeditor_leg_eta_mode"
 msgid "Leg timing:"
@@ -3193,7 +3277,7 @@ msgid "Manual interval:"
 msgstr "手动间隔："
 
 msgctxt "lineeditor_max_accel"
-msgid "Max. acceleration (ms\xE2\x81\xBB\xC2\xB2):"
+msgid "Max. acceleration (ms⁻²):"
 msgstr "最大加速度 (m/s²)："
 
 msgctxt "lineeditor_max_accel_desc"
@@ -3201,7 +3285,7 @@ msgid "Upper bound for train acceleration. Actual acceleration may be lower depe
 msgstr "列车加速度上限。实际加速度可能较低，具体取决于列车牵引力。"
 
 msgctxt "lineeditor_max_brake"
-msgid "Max. braking (ms\xE2\x81\xBB\xC2\xB2):"
+msgid "Max. braking (ms⁻²):"
 msgstr "最大制动减速度 (m/s²)："
 
 msgctxt "lineeditor_max_brake_desc"
@@ -3214,7 +3298,7 @@ msgstr "乘客最低乘搭时间："
 
 msgctxt "lineeditor_min_pax_departure_leg_time_desc"
 msgid "Format: (hh:)mm:ss\nPax will only board the train if they plan to ride it for at least this amount of time,\nnot including the initial wait time."
-msgstr "格式：(hh:)mm:ss \n乘客计划乘车时间不少于该值时才会登车（不含候车时间）。"
+msgstr "格式：(hh:)mm:ss\n乘客计划乘车时间不少于该值时才会登车，\n不含候车时间。"
 
 msgctxt "lineeditor_min_stop_time"
 msgid "Stop time:"
@@ -3222,7 +3306,7 @@ msgstr "停靠时间："
 
 msgctxt "lineeditor_min_stop_time_desc"
 msgid "Format: (hh:)mm:ss\nStops will be scheduled with this wait time.\nTrains might wait longer if pax are still leaving or boarding."
-msgstr "格式：(hh:)mm:ss\n列车将按此时间安排停站。若有乘客仍在上下车，停站时间可能延长。"
+msgstr "格式：(hh:)mm:ss\n列车将按此时间安排停站。\n若有乘客仍在上下车，停站时间可能延长。"
 
 msgctxt "lineeditor_move_camera"
 msgid "Pan and zoom view when selecting a line or station"
@@ -3235,6 +3319,10 @@ msgstr "线路名称："
 msgctxt "lineeditor_new_alt_stop_basic"
 msgid "Click on station platform arrows to create a new secondary platform stop"
 msgstr "点击站台箭头新增备用站台"
+
+msgctxt "lineeditor_pad_wait_here"
+msgid "Timetable pad wait in this stop"
+msgstr "时刻表在本站等待"
 
 msgctxt "lineeditor_price_base"
 msgid "Base ticket price:"
@@ -3648,26 +3736,6 @@ msgctxt "main_options"
 msgid "Options"
 msgstr "选项"
 
-msgctxt "map_hillshade_pos"
-msgid "Hillshading:"
-msgstr "阴影："
-
-msgctxt "map_hillshade_pos_0"
-msgid "Under ground"
-msgstr "地下"
-
-msgctxt "map_hillshade_pos_1"
-msgid "Over ground"
-msgstr "地上"
-
-msgctxt "map_land_alpha"
-msgid "Land background mix:"
-msgstr "土地背景混合："
-
-msgctxt "map_land_hsv_sat"
-msgid "Land HSV saturation:"
-msgstr "土地HSV饱和度："
-
 msgctxt "map_names_eng"
 msgid "English"
 msgstr "英语"
@@ -3699,18 +3767,6 @@ msgstr "大"
 msgctxt "map_option_font_3"
 msgid "Huge"
 msgstr "巨大"
-
-msgctxt "map_show_land_tex_max_zoom"
-msgid "Show land texture at max zoom"
-msgstr "在最大缩放时显示土地纹理"
-
-msgctxt "map_style_mods"
-msgid "Map style mods"
-msgstr "地图样式模组"
-
-msgctxt "map_style_show_in_panel"
-msgid "Show in map options panel"
-msgstr "在地图选项中显示"
 
 msgctxt "mass_del_lines_but"
 msgid "Delete all lines"
@@ -3847,14 +3903,6 @@ msgstr "资产"
 msgctxt "mod_kind_blueprints"
 msgid "Blueprints"
 msgstr "蓝图"
-
-msgctxt "mod_less_prio"
-msgid "Less priority"
-msgstr "低优先"
-
-msgctxt "mod_more_prio"
-msgid "More priority"
-msgstr "高优先"
 
 msgctxt "mod_name"
 msgid "Name:"
@@ -4412,6 +4460,10 @@ msgctxt "option_company_acc_utc0_offset_s_desc"
 msgid "Format: (-)hh:mm:ss\nAccounting new day will be considered to start at this shifted time relative to UTC0"
 msgstr "格式：(-)hh:mm:ss \n新财务日将从已偏移的时间(相对于UTC+0)开始"
 
+msgctxt "option_company_db_export"
+msgid "Export IDs"
+msgstr "导出ID"
+
 msgctxt "option_company_demand"
 msgid "Global demand factor:"
 msgstr "全球需求系数："
@@ -4500,6 +4552,10 @@ msgctxt "option_company_track_overlap_distance"
 msgid "New track overlap dist.:"
 msgstr "新轨道重叠距离："
 
+msgctxt "option_company_tt_export"
+msgid "Export timetable data"
+msgstr "到处时刻表数据"
+
 msgctxt "option_no_cash"
 msgid "Unlimited money"
 msgstr "无限资金"
@@ -4552,10 +4608,6 @@ msgctxt "options_keybinds"
 msgid "Keybinds"
 msgstr "热键绑定"
 
-msgctxt "options_map"
-msgid "Map"
-msgstr "地图"
-
 msgctxt "options_mods_upload"
 msgid "Uploader"
 msgstr "上传器"
@@ -4572,6 +4624,10 @@ msgctxt "order_error_invalid_line"
 msgid "Invalid line"
 msgstr "无效线路"
 
+msgctxt "order_error_invalid_path"
+msgid "Glue path cannot be found"
+msgstr "找不到Glue路径"
+
 msgctxt "order_error_line_invalid_ref_train"
 msgid "Line has empty or invalid reference train\nAssign a train to a shift running this order, or as autorun, to generate line timings"
 msgstr "线路有空的或无效的参考列车 \n将列车分配给运行此指令的班次，或作为自动运行，以生成线路计时"
@@ -4582,7 +4638,7 @@ msgstr "两个指令之间时间不足，无法运行"
 
 msgctxt "order_error_two_arrival_by"
 msgid "Arrive No Later orders cannot appear one after the other"
-msgstr "不晚于类指令不能连续出现"
+msgstr "「不晚于」类指令不能连续出现"
 
 msgctxt "order_error_unpowered_train"
 msgid "Underpowered train"
@@ -4692,18 +4748,6 @@ msgctxt "paste"
 msgid "Paste"
 msgstr "粘贴"
 
-msgctxt "path_not_found_trip"
-msgid "Path not found between {0} and {1}"
-msgstr "在{0}和{1}之间找不到路径"
-
-msgctxt "path_pax_train_warn"
-msgid "Path starts at pax next stop"
-msgstr "路径将于下一站开始"
-
-msgctxt "path_stale_warn"
-msgid "Stale data detected, ignoring step"
-msgstr "检测到失效数据，已忽略"
-
 msgctxt "path2_arrive"
 msgid "Arrive at {}"
 msgstr "抵达 {}"
@@ -4727,6 +4771,18 @@ msgstr "出发 {0} [{1}]"
 msgctxt "path2_walk"
 msgid "Walk for {}"
 msgstr "步行 · {}"
+
+msgctxt "path_not_found_trip"
+msgid "Path not found between {0} and {1}"
+msgstr "在{0}和{1}之间找不到路径"
+
+msgctxt "path_pax_train_warn"
+msgid "Path starts at pax next stop"
+msgstr "路径将于下一站开始"
+
+msgctxt "path_stale_warn"
+msgid "Stale data detected, ignoring step"
+msgstr "检测到失效数据，已忽略"
 
 msgctxt "pax_new_time"
 msgid "New"
@@ -5192,6 +5248,10 @@ msgctxt "rtstat_speed"
 msgid "Speed"
 msgstr "速度"
 
+msgctxt "run_dispatch_info_brief"
+msgid "Single run"
+msgstr "单次运行"
+
 msgctxt "run_panel_sched2"
 msgid "{0} / {1} / Run {2}"
 msgstr "{0} / {1} / 运行 {2}"
@@ -5227,6 +5287,10 @@ msgstr "保存存档名称"
 msgctxt "save_game"
 msgid "Save game"
 msgstr "保存游戏"
+
+msgctxt "saving"
+msgid "Saving..."
+msgstr "保存……"
 
 msgctxt "sax_0"
 msgid "Neutral"
@@ -5264,13 +5328,13 @@ msgctxt "sax_score"
 msgid "Satisfaction: {:.2f}"
 msgstr "满意度：{:.2f}"
 
-msgctxt "sax_tooltip_new"
-msgid "Expects {0}, ${1:.2f}"
-msgstr "预期 {0}分钟，票价 ${1:.2f}"
-
 msgctxt "sax_tooltip2"
 msgid "{0}\nNeutral at {1}, ${2:.2f}"
 msgstr "{0} \n (平淡于 {1}，${2:.2f})"
+
+msgctxt "sax_tooltip_new"
+msgid "Expects {0}, ${1:.2f}"
+msgstr "预期 {0}分钟，票价 ${1:.2f}"
 
 msgctxt "scaling_mode"
 msgid "Scaling:"
@@ -5279,6 +5343,10 @@ msgstr "缩放："
 msgctxt "scaling_mode_auto"
 msgid "Auto"
 msgstr "自动"
+
+msgctxt "sched_alert_shift_errors"
+msgid "One or more shifts contain errors"
+msgstr "一个或多个班次包含错误"
 
 msgctxt "sched_cell_sub"
 msgid "{} shifts, {} trains"
@@ -5367,6 +5435,10 @@ msgstr "列车"
 msgctxt "sched_group_interval_n_shifts"
 msgid "{0}, {1} shifts"
 msgstr "{0}，{1} 个班次"
+
+msgctxt "sched_info_brief"
+msgid "{0} [{1}]"
+msgstr "{0} [{1}]"
 
 msgctxt "sched_list_auto_scheds"
 msgid "Show auto line schedules"
@@ -5556,9 +5628,57 @@ msgctxt "schedules"
 msgid "Schedules"
 msgstr "时刻表"
 
+msgctxt "script_delete_stale"
+msgid "Delete code and data"
+msgstr "删除代码和数据"
+
 msgctxt "script_editor_basics"
 msgid "Basics"
 msgstr "基本信息"
+
+msgctxt "script_editor_build"
+msgid "Build"
+msgstr "构建"
+
+msgctxt "script_editor_build_errors_header"
+msgid "{} errors, {} compilations"
+msgstr "{} 错误，{} 编译"
+
+msgctxt "script_editor_log"
+msgid "log() Output"
+msgstr "日志输出"
+
+msgctxt "script_editor_log_clear"
+msgid "Clear log"
+msgstr "清除日志"
+
+msgctxt "script_editor_log_enable"
+msgid "Enable logging"
+msgstr "启用日志记录"
+
+msgctxt "script_enabled_but_no_config"
+msgid "Extension has no configuration"
+msgstr "扩展没有配置"
+
+msgctxt "script_extensions"
+msgid "Extensions"
+msgstr "扩展"
+
+msgctxt "script_field_vec_line_n"
+msgid "{} lines"
+msgstr "{} 线路"
+
+msgctxt "script_field_vec_sched_n"
+msgid "{} schedules"
+msgstr "{} 时刻表"
+
+msgctxt "script_field_vec_signal_n"
+msgid "{} signals"
+msgstr "{} 信号"
+
+msgctxt "script_field_vec_train_n"
+msgid "{} trains"
+msgstr "{} 列车"
 
 msgctxt "script_list_filter_alert_only_warning"
 msgid "Only with errors"
@@ -5576,9 +5696,65 @@ msgctxt "script_list_filter_all_short"
 msgid "All"
 msgstr "所有"
 
+msgctxt "script_listing_error"
+msgid "Compilation errors"
+msgstr "编译错误"
+
+msgctxt "script_listing_log"
+msgid "Logging is enabled"
+msgstr "日志记录已启用"
+
 msgctxt "script_name_edit"
 msgid "Name:"
 msgstr "名称："
+
+msgctxt "script_origin_source"
+msgid "Source:"
+msgstr "来源："
+
+msgctxt "script_origin_source_builtin"
+msgid "Built-in"
+msgstr "内置"
+
+msgctxt "script_origin_source_builtin_mod"
+msgid "Built-in mod"
+msgstr "内置模组"
+
+msgctxt "script_origin_source_direct"
+msgid "Direct"
+msgstr "方向"
+
+msgctxt "script_origin_source_edit"
+msgid "Edit"
+msgstr "编辑"
+
+msgctxt "script_origin_source_local_mod"
+msgid "Local mod {}, section {}"
+msgstr "本地模组 {}，部分 {}"
+
+msgctxt "script_origin_source_mod_invalid"
+msgid "Unknown mod, or mod changed script ID. Code and data preserved in the save."
+msgstr "未知的模组或模组更改的脚本ID。保存中保留的代码和数据。"
+
+msgctxt "script_origin_source_reload"
+msgid "Reload"
+msgstr "重新加载"
+
+msgctxt "script_origin_source_workshop"
+msgid "Steam Workshop mod {}, section {}"
+msgstr "Steam 创意工坊模组 {}，部分 {}"
+
+msgctxt "script_profile_tasks"
+msgid "Deferred tasks:"
+msgstr "延期任务："
+
+msgctxt "script_requires_signal"
+msgid "Requires {}"
+msgstr "需求 {}"
+
+msgctxt "script_struct_implements"
+msgid "Implements:"
+msgstr "实现："
 
 msgctxt "scripts_n_0"
 msgid "0 scripts"
@@ -5780,6 +5956,10 @@ msgctxt "signal_alert_opts"
 msgid "Alert on:"
 msgstr "警报："
 
+msgctxt "signal_appearance"
+msgid "Appearance:"
+msgstr "外观："
+
 msgctxt "signal_check_beyond_stops"
 msgid "Check beyond stops"
 msgstr "检查停车后情况"
@@ -5792,6 +5972,10 @@ msgctxt "signal_check_hit_res"
 msgid "Reserved by {}"
 msgstr "由 {} 保留"
 
+msgctxt "signal_cosmetic"
+msgid "Cosmetic:"
+msgstr "表面："
+
 msgctxt "signal_direction"
 msgid "Direction:"
 msgstr "方向："
@@ -5803,6 +5987,10 @@ msgstr "该信号仍有效，但已被淘汰。若你仍要使用，则一些列
 msgctxt "signal_edit_simple_block_obsolete"
 msgid "This signal is still functional but it has been obsoleted by path signals. Replace your simple block signaling with path signals."
 msgstr "该信号仍有效，但已被进路信号机替代。"
+
+msgctxt "signal_editor_save_template"
+msgid "Save as template"
+msgstr "另存为模板"
 
 msgctxt "signal_editor_title_edit"
 msgid "Edit signal"
@@ -5839,6 +6027,10 @@ msgstr "切换方向"
 msgctxt "signal_kind_block_balise"
 msgid "Block balise"
 msgstr "应答器"
+
+msgctxt "signal_kind_name_marker"
+msgid "Marker"
+msgstr "标记"
 
 msgctxt "signal_kind_name_noway"
 msgid "No way"
@@ -5884,6 +6076,18 @@ msgctxt "signal_stop_check_signals_stops"
 msgid "Signals and train stop"
 msgstr "信号机及车站"
 
+msgctxt "signal_toggle_rotate"
+msgid "Rotate"
+msgstr "旋转"
+
+msgctxt "signal_toggle_side"
+msgid "Side"
+msgstr "侧面"
+
+msgctxt "signal_toggle_size"
+msgid "Size"
+msgstr "尺寸"
+
 msgctxt "signal_type"
 msgid "Type:"
 msgstr "类型："
@@ -5907,6 +6111,14 @@ msgstr "距离太短"
 msgctxt "signal_warn_too_close_desc"
 msgid "The signal position in the track is too close to another track. Move it away from overlapping tracks."
 msgstr "轨道中的信号位置离另一个轨道太近。将其从重叠的轨道中移开。"
+
+msgctxt "signals_palette_clear_fav"
+msgid "Right click to clear"
+msgstr "右键单击清除"
+
+msgctxt "signals_palette_template_fav"
+msgid "Right click to save as template"
+msgstr "右键单击以另存为模板"
 
 msgctxt "single_player"
 msgid "Single player"
@@ -6035,18 +6247,6 @@ msgstr "自动生成站台名称"
 msgctxt "station_platform_demote"
 msgid "Demote platform into normal track"
 msgstr "将站台降级为轨道"
-
-msgctxt "station_platform_pick"
-msgid "Platform of:"
-msgstr "站台："
-
-msgctxt "station_platform_pick_existing_station"
-msgid "< Select existing station >"
-msgstr "< 选择现有车站 >"
-
-msgctxt "station_platform_pick_new_station"
-msgid "< Create new station >"
-msgstr "< 创建新车站 >"
 
 msgctxt "station_platform_promote"
 msgid "Promote track into new station"
@@ -6201,7 +6401,7 @@ msgid "Stop {} departure"
 msgstr "车站 {} 出发"
 
 msgctxt "stop_times_tp_leg"
-msgid "Stop {0} \xE2\x96\xB6 {1} leg time"
+msgid "Stop {0} ▶ {1} leg time"
 msgstr "车站 {0} ▶ {1} 运行时间"
 
 msgctxt "stop_times_tp_wait"
@@ -6848,6 +7048,10 @@ msgctxt "train_code_edit"
 msgid "Serial:"
 msgstr "列车车号："
 
+msgctxt "train_config_set"
+msgid "Set {}"
+msgstr "设置 {}"
+
 msgctxt "train_create_order_from_run"
 msgid "Create new order from this run"
 msgstr "对此运行创建新的指令"
@@ -6952,6 +7156,10 @@ msgctxt "train_info_car_name"
 msgid "Car:"
 msgstr "车厢："
 
+msgctxt "train_info_configuration"
+msgid "Configuration:"
+msgstr "配置："
+
 msgctxt "train_info_coupler_back"
 msgid "Back coupling:"
 msgstr "后方连接："
@@ -7008,6 +7216,14 @@ msgctxt "train_info_future_pin"
 msgid "Scroll map to train spawn position"
 msgstr "移动地图到列车生成位置"
 
+msgctxt "train_info_hitch_driver"
+msgid "Driver:"
+msgstr "驱动："
+
+msgctxt "train_info_hitch_hitcher"
+msgid "Hitch:"
+msgstr "挂钩："
+
 msgctxt "train_info_intervention"
 msgid "Train intervention"
 msgstr "列车干预"
@@ -7019,10 +7235,6 @@ msgstr "已晚点 {0}，{1:.1f} km / {2:.1f} km"
 msgctxt "train_info_late_predicted2"
 msgid "Est. late by {0}, {1:.1f} km of {2:.1f} km"
 msgstr "预计晚点 {0}；{1:.1f}/{2:.1f} km"
-
-msgctxt "train_info_location"
-msgid "Location:"
-msgstr "位置："
 
 msgctxt "train_info_maintenance_cost"
 msgid "Maintenance cost:"
@@ -7041,7 +7253,7 @@ msgid "Max acceleration:"
 msgstr "最大加速度："
 
 msgctxt "train_info_max_accel_v"
-msgid "{0:.2f} ms\xE2\x81\xBB\xC2\xB2, brake {1:.2f} ms\xE2\x81\xBB\xC2\xB2 to {2:.2f} ms\xE2\x81\xBB\xC2\xB2"
+msgid "{0:.2f} ms⁻², brake {1:.2f} ms⁻² to {2:.2f} ms⁻²"
 msgstr "{0:.2f} m/s²，制动 {1:.2f} m/s² - {2:.2f} m/s²"
 
 msgctxt "train_info_max_pax"
@@ -7051,6 +7263,10 @@ msgstr "最大乘客数："
 msgctxt "train_info_max_speed"
 msgid "Max speed:"
 msgstr "最快速度："
+
+msgctxt "train_info_no_timing"
+msgid "{0:.1f} km of {1:.1f} km"
+msgstr "{0:.1f} km / {1:.1f} km"
 
 msgctxt "train_info_open_editor_sched"
 msgid "Open shift in schedule editor"
@@ -7092,6 +7308,10 @@ msgctxt "train_info_running_cost_f2"
 msgid "${0:.2} per km, ${1:.2} per km per pax"
 msgstr "每公里 ${0:.2} 每乘客公里 ${1:.2}"
 
+msgctxt "train_info_set_milestone"
+msgid "Set train milestone"
+msgstr "设置列车里程碑"
+
 msgctxt "train_info_speed"
 msgid "Speed / max:"
 msgstr "当前速度 / 最大速度："
@@ -7131,6 +7351,10 @@ msgstr "装机功率："
 msgctxt "train_info_total_power_v"
 msgid "{0} kW, {1} kN max tr. eff."
 msgstr "{0} kW，{1} kN max tr. eff."
+
+msgctxt "train_info_warp"
+msgid "Warp train"
+msgstr "重定位列车"
 
 msgctxt "train_intervention_dialog_desc"
 msgid "This intervention will reset the train run to follow its current orders, respawn it on its next destination, and relocate its pax to their next stops. The price is ${}."
@@ -7251,6 +7475,54 @@ msgstr "型号："
 msgctxt "train_model_edit_custom"
 msgid "Custom"
 msgstr "定制"
+
+msgctxt "train_motion_flippable"
+msgid "Flippable"
+msgstr "可换向"
+
+msgctxt "train_motion_pushpull_back"
+msgid "Push-pull backward"
+msgstr "向后推挽"
+
+msgctxt "train_motion_pushpull_fwd"
+msgid "Push-pull forward"
+msgstr "向前推挽"
+
+msgctxt "train_motion_pushpull_report"
+msgid "Push-pull report:"
+msgstr "推挽报告："
+
+msgctxt "train_motion_pushpull_report_2cars"
+msgid "2+ cars:"
+msgstr "2+ 车厢："
+
+msgctxt "train_motion_pushpull_report_back_control"
+msgid "Back control:"
+msgstr "后部控制："
+
+msgctxt "train_motion_pushpull_report_back_loco"
+msgid "Back locomotive:"
+msgstr "候补机车："
+
+msgctxt "train_motion_pushpull_report_front_control"
+msgid "Front control:"
+msgstr "前部控制："
+
+msgctxt "train_motion_pushpull_report_front_loco"
+msgid "Front locomotive:"
+msgstr "前部机车："
+
+msgctxt "train_motion_pushpull_report_train_tag"
+msgid "Train push-pull tag:"
+msgstr "列车推挽标签："
+
+msgctxt "train_motion_recompo_current"
+msgid "Current"
+msgstr "当前"
+
+msgctxt "train_motion_recompo_default"
+msgid "As purchased"
+msgstr "购买时"
 
 msgctxt "train_n_copies"
 msgid "Trains:"
@@ -7792,10 +8064,6 @@ msgctxt "waiting_expired"
 msgid "Expired"
 msgstr "失效"
 
-msgctxt "warn_alpha_renderer1"
-msgid "Experimental renderer! Only use if DirectX 11 crashes often."
-msgstr "实验中！仅在DirectX 11经常崩溃时使用。"
-
 msgctxt "warn_mod_in_use"
 msgid "Mod is in use"
 msgstr "使用中的模组"
@@ -7925,7 +8193,7 @@ msgid "This mod data is enabled in the current game, but its installed files req
 msgstr "此模组在当前游戏中已启用，但其安装的文件需要更新的游戏版本。请更新游戏"
 
 # ----------------------------------------------------------
-# 删除的（老版本）字符串
+# 已删除字符串
 
 msgctxt "acc_export_desc"
 msgid "Accounting data has been exported to {}"
@@ -7998,6 +8266,10 @@ msgstr "1 车辆段"
 msgctxt "depots_n_many"
 msgid "%d depots"
 msgstr "%d 车辆段"
+
+msgctxt "display_mode_windowed_fullscreen"
+msgid "Windowed fullscreen"
+msgstr "无边框窗口"
 
 msgctxt "editor_branch"
 msgid "Create new track branches"
@@ -8175,13 +8447,13 @@ msgctxt "line_list_sort_alpha"
 msgid "Sort by: Alphabetical"
 msgstr "按字母顺序排序"
 
-msgctxt "line_list_sort_pax_board"
-msgid "Sort by: Boarded"
-msgstr "按输送人数排序"
-
 msgctxt "line_list_sort_pax_Compensation"
 msgid "Sort by: Compensations"
 msgstr "按乘客赔偿排序"
+
+msgctxt "line_list_sort_pax_board"
+msgid "Sort by: Boarded"
+msgstr "按输送人数排序"
 
 msgctxt "line_list_sort_pax_fares"
 msgid "Sort by: Fares"
@@ -8391,6 +8663,38 @@ msgctxt "loader_updating_rules"
 msgid "Updating game rules"
 msgstr "更新游戏规则"
 
+msgctxt "map_hillshade_pos"
+msgid "Hillshading:"
+msgstr "阴影："
+
+msgctxt "map_hillshade_pos_0"
+msgid "Under ground"
+msgstr "地下"
+
+msgctxt "map_hillshade_pos_1"
+msgid "Over ground"
+msgstr "地上"
+
+msgctxt "map_land_alpha"
+msgid "Land background mix:"
+msgstr "土地背景混合："
+
+msgctxt "map_land_hsv_sat"
+msgid "Land HSV saturation:"
+msgstr "土地HSV饱和度："
+
+msgctxt "map_show_land_tex_max_zoom"
+msgid "Show land texture at max zoom"
+msgstr "在最大缩放时显示土地纹理"
+
+msgctxt "map_style_mods"
+msgid "Map style mods"
+msgstr "地图样式模组"
+
+msgctxt "map_style_show_in_panel"
+msgid "Show in map options panel"
+msgstr "在地图选项中显示"
+
 msgctxt "matches_n_0"
 msgid "0 coincidencias"
 msgstr "0组 列车型号"
@@ -8402,6 +8706,14 @@ msgstr "1组 列车型号"
 msgctxt "matches_n_many"
 msgid "%d coincidencias"
 msgstr "%d组 列车型号"
+
+msgctxt "mod_less_prio"
+msgid "Less priority"
+msgstr "低优先"
+
+msgctxt "mod_more_prio"
+msgid "More priority"
+msgstr "高优先"
 
 msgctxt "mode_map_default"
 msgid "Plain map"
@@ -8446,6 +8758,10 @@ msgstr "考虑任何列车"
 msgctxt "options_general"
 msgid "General"
 msgstr "通用"
+
+msgctxt "options_map"
+msgid "Map"
+msgstr "地图"
 
 msgctxt "other"
 msgid "Other"
@@ -8582,6 +8898,18 @@ msgstr "减慢时间流逝"
 msgctxt "speed_up"
 msgid "Speed up"
 msgstr "加快时间流逝"
+
+msgctxt "station_platform_pick"
+msgid "Platform of:"
+msgstr "站台："
+
+msgctxt "station_platform_pick_existing_station"
+msgid "< Select existing station >"
+msgstr "< 选择现有车站 >"
+
+msgctxt "station_platform_pick_new_station"
+msgid "< Create new station >"
+msgstr "< 创建新车站 >"
 
 msgctxt "station_platform_user_footprint"
 msgid "Platform footprint:"
@@ -8782,6 +9110,10 @@ msgstr "预计晚点 {} "
 msgctxt "train_info_line"
 msgid "Line:"
 msgstr "线路："
+
+msgctxt "train_info_location"
+msgid "Location:"
+msgstr "位置："
 
 msgctxt "train_info_running_cost_f"
 msgid "${:.4} per km per pax"
@@ -9107,6 +9439,10 @@ msgctxt "unit_price"
 msgid "Unit price"
 msgstr "列车单价"
 
+msgctxt "warn_alpha_renderer1"
+msgid "Experimental renderer! Only use if DirectX 11 crashes often."
+msgstr "实验中！仅在DirectX 11经常崩溃时使用。"
+
 msgctxt "warning"
 msgid "Warning"
 msgstr "警告"
@@ -9115,12 +9451,8 @@ msgctxt "wrong_protocol"
 msgid "Protocol mismatch with server. Make sure both your client and the server are updated to the latest game version."
 msgstr "协议与服务器不匹配。确保你的客户端和服务器都已更新到最新的游戏版本。"
 
-
-## ----------------------------------------------------------
-## 列车翻译
-
-# ----- 
-# Built-in trains 
+# -----
+# Built-in trains
 
 msgctxt "AlstomCitadis_comp"
 msgid "CityTram"
@@ -9138,6 +9470,10 @@ msgctxt "AlstomCitadis_name_i"
 msgid "CityTram inner"
 msgstr "城市有轨电车 车厢"
 
+msgctxt "YamanoteE231500_name"
+msgid "Kayou 231"
+msgstr "E231系-500番台"
+
 msgctxt "waw_shuttle1_name"
 msgid "Koala"
 msgstr "山万1000形"
@@ -9150,11 +9486,7 @@ msgctxt "waw_tour1_name"
 msgid "Kokana Excursion"
 msgstr "TWILIGHT EXPRESS 瑞風"
 
-msgctxt "YamanoteE231500_name"
-msgid "Kayou 231"
-msgstr "E231系-500番台"
-
-# ----- 
+# -----
 # E5 Shinkansen
 # ID:2375748016
 
@@ -9162,7 +9494,7 @@ msgctxt "E5Shinkansen_name"
 msgid "E5 Shinkansen"
 msgstr "新幹線E5系"
 
-# ----- 
+# -----
 # Alfa-X Shinkansen
 # ID:2375894587
 
@@ -9170,7 +9502,7 @@ msgctxt "AlfaXShinkansen_name"
 msgid "Alfa-X Shinkansen"
 msgstr "新幹線ALFA-X"
 
-# ----- 
+# -----
 # E6 Shinkansen
 # ID:2375902724
 
@@ -9178,7 +9510,7 @@ msgctxt "E6Shinkansen_name"
 msgid "E6 Shinkansen"
 msgstr "新幹線E6系"
 
-# ----- 
+# -----
 # H5 Shinkansen
 # ID:2375997619
 
@@ -9186,7 +9518,7 @@ msgctxt "H5Shinkansen_name"
 msgid "H5 Shinkansen"
 msgstr "新幹線H5系"
 
-# ----- 
+# -----
 # N700 Shinkansen
 # ID:2376988399
 
@@ -9194,7 +9526,7 @@ msgctxt "N700Shinkansen_name"
 msgid "N700 Shinkansen"
 msgstr "新幹線N700系"
 
-# ----- 
+# -----
 # N700A Shinkansen
 # ID:2376991194
 
@@ -9202,7 +9534,7 @@ msgctxt "N700AShinkansen_name"
 msgid "N700A Shinkansen"
 msgstr "新幹線N700A系"
 
-# ----- 
+# -----
 # N700S Shinkansen
 # ID:2376991453
 
@@ -9210,7 +9542,7 @@ msgctxt "N700SShinkansen_name"
 msgid "N700S Shinkansen"
 msgstr "新幹線N700S系"
 
-# ----- 
+# -----
 # Series 700 Shinkansen
 # ID:2377000185
 
@@ -9218,7 +9550,7 @@ msgctxt "S700Shinkansen_name"
 msgid "S700 Shinkansen"
 msgstr "新幹線700系"
 
-# ----- 
+# -----
 # Series 500 Shinkansen
 # ID:2377016466
 
@@ -9226,7 +9558,7 @@ msgctxt "S500Shinkansen_name"
 msgid "S500 Shinkansen"
 msgstr "新幹線500系"
 
-# ----- 
+# -----
 # Series 800 Shinkansen
 # ID:2379196319
 
@@ -9234,7 +9566,7 @@ msgctxt "S800Shinkansen_name"
 msgid "S800 Shinkansen"
 msgstr "新幹線800系"
 
-# ----- 
+# -----
 # Series 400 Shinkansen
 # ID:2379219646
 
@@ -9242,7 +9574,7 @@ msgctxt "S400Shinkansen_name"
 msgid "S400 Shinkansen"
 msgstr "新幹線400系"
 
-# ----- 
+# -----
 # E7 Shinkansen
 # ID:2379315789
 
@@ -9250,7 +9582,7 @@ msgctxt "E7Shinkansen_name"
 msgid "E7 Shinkansen"
 msgstr "新幹線E7系"
 
-# ----- 
+# -----
 # W7 Shinkansen
 # ID:2379316072
 
@@ -9258,7 +9590,7 @@ msgctxt "W7Shinkansen_name"
 msgid "W7 Shinkansen"
 msgstr "新幹線W7系"
 
-# ----- 
+# -----
 # Series 700 Shinkansen "Dr yellow"
 # ID:2379325185
 
@@ -9266,7 +9598,7 @@ msgctxt "S700DrYellowShinkansen_name"
 msgid "S700 Dr Yellow Shinkansen"
 msgstr "新幹線700系 - Dr Yellow"
 
-# ----- 
+# -----
 # E1 Shinkansen
 # ID:2379349283
 
@@ -9274,7 +9606,7 @@ msgctxt "E1Shinkansen_name"
 msgid "E1 Shinkansen"
 msgstr "新幹線E1系"
 
-# ----- 
+# -----
 # E4 Shinkansen
 # ID:2379357140
 
@@ -9282,7 +9614,7 @@ msgctxt "E4Shinkansen_name"
 msgid "E4 Shinkansen"
 msgstr "新幹線E4系"
 
-# ----- 
+# -----
 # E2 Shinkansen
 # ID:2380612605
 
@@ -9290,7 +9622,7 @@ msgctxt "E2Shinkansen_name"
 msgid "E2 Shinkansen"
 msgstr "新幹線E2系"
 
-# ----- 
+# -----
 # E3 Shinkansen
 # ID:2380613008
 
@@ -9298,7 +9630,7 @@ msgctxt "E3Shinkansen_name"
 msgid "E3 Shinkansen"
 msgstr "新幹線E3系"
 
-# ----- 
+# -----
 # E8 Shinkansen
 # ID:2380626159
 
@@ -9306,7 +9638,7 @@ msgctxt "E8Shinkansen_name"
 msgid "E8 Shinkansen"
 msgstr "新幹線E8系"
 
-# ----- 
+# -----
 # Series 300 Shinkansen
 # ID:2380636758
 
@@ -9314,7 +9646,7 @@ msgctxt "S300Shinkansen_name"
 msgid "S300 Shinkansen"
 msgstr "新幹線300系"
 
-# ----- 
+# -----
 # Series 700 Shinkansen "Rail Star"
 # ID:2380688332
 
@@ -9322,7 +9654,7 @@ msgctxt "S700RSShinkansen_name"
 msgid "S700 Rail Star"
 msgstr "新幹線700系(Rail Star)"
 
-# ----- 
+# -----
 # 300X Shinkansen
 # ID:2381505716
 
@@ -9330,7 +9662,7 @@ msgctxt "300XShinkansen_name"
 msgid "300X Shinkansen"
 msgstr "新幹線300X形"
 
-# ----- 
+# -----
 # Series 100 Shinkansen
 # ID:2383524494
 
@@ -9338,7 +9670,7 @@ msgctxt "S100Shinkansen_name"
 msgid "S100 Shinkansen"
 msgstr "新幹線100系"
 
-# ----- 
+# -----
 # Series 200 Shinkansen
 # ID:2383529542
 
@@ -9346,7 +9678,7 @@ msgctxt "S200Shinkansen_name"
 msgid "S200 Shinkansen"
 msgstr "新幹線200系"
 
-# ----- 
+# -----
 # Series 0 Shinkansen
 # ID:2383534134
 
@@ -9354,7 +9686,7 @@ msgctxt "S0Shinkansen_name"
 msgid "S0 Shinkansen"
 msgstr "新幹線0系"
 
-# ----- 
+# -----
 # Class 1000 Shinkansen
 # ID:2383538881
 
@@ -9362,7 +9694,7 @@ msgctxt "C1000Shinkansen_name"
 msgid "C1000 Shinkansen"
 msgstr "新幹線1000形"
 
-# ----- 
+# -----
 # Class 951 Shinkansen
 # ID:2383544833
 
@@ -9370,7 +9702,7 @@ msgctxt "C951Shinkansen_name"
 msgid "Class 951 Shinkansen"
 msgstr "新幹線951形"
 
-# ----- 
+# -----
 # Class 961 Shinkansen
 # ID:2383549999
 
@@ -9378,7 +9710,7 @@ msgctxt "C961Shinkansen_name"
 msgid "C961 Shinkansen"
 msgstr "新幹線961形"
 
-# ----- 
+# -----
 # L0 Shinkansen
 # ID:2383573007
 
@@ -9386,7 +9718,7 @@ msgctxt "L0Shinkansen_name"
 msgid "L0 Shinkansen"
 msgstr "新幹線L0系"
 
-# ----- 
+# -----
 # 中国春城KDZ1A电力动车组
 # ID:2387107973
 
@@ -9394,7 +9726,7 @@ msgctxt "CHUNCHENG_name"
 msgid "CHUNCHENG"
 msgstr "春城号"
 
-# ----- 
+# -----
 # Series 700T Shinkansen
 # ID:2390121251
 
@@ -9402,35 +9734,23 @@ msgctxt "S700TShinkansen_name"
 msgid "S700T"
 msgstr "台湾高铁700T"
 
-# ----- 
-# 日本国鉄(JNR, JR) KiHa 40
-# ID:（非公开，因为这个mod已经过时，mod作者要避免有人错误订阅旧的版本。）
-
-msgctxt "KiHa40_name"
-msgid "JNR KiHa 40 (Discontinued)"
-msgstr "国鉄KiHa40 (已停止支持)"
-
-msgctxt "KiHa40_100_name"
-msgid "JNR KiHa 40 (Subclass-100) (Discontinued)"
-msgstr "国鉄KiHa40-100番台 (已停止支持)"
-
-# ----- 
+# -----
 # SIMTrains (Walk, Cycle, Fake Commuter)
 # ID:2415858419
 
-msgctxt "SIM_TWDA_name"
-msgid "SIM_TWDA"
-msgstr "SIM有致命加速度的列车"
-
 msgctxt "SIM_Cycle_name"
 msgid "SIM_Cycle"
-msgstr "SIM骑单车"
+msgstr "模拟周期"
+
+msgctxt "SIM_TWDA_name"
+msgid "SIM_TWDA"
+msgstr "模拟TWDA"
 
 msgctxt "SIM_Walk_name"
 msgid "SIM_Walk"
-msgstr "SIM步行"
+msgstr "模拟步行"
 
-# ----- 
+# -----
 # Taiwan Railway EMU700 Local Train
 # ID:2416180190
 
@@ -9438,7 +9758,7 @@ msgctxt "EMU700_name"
 msgid "EMU700"
 msgstr "台铁EMU700型"
 
-# ----- 
+# -----
 # Taiwan Railway EMU800 Local Train
 # ID:2417561593
 
@@ -9446,7 +9766,7 @@ msgctxt "EMU800_name"
 msgid "EMU800"
 msgstr "台铁EMU800型"
 
-# ----- 
+# -----
 # Taiwan Railway TEMU1000型 Taroko (Tze-Chiang) Ltd. Express
 # ID:2420252135
 
@@ -9454,7 +9774,7 @@ msgctxt "TEMU1000_name"
 msgid "TEMU1000"
 msgstr "台铁TEMU1000型"
 
-# ----- 
+# -----
 # Taiwan Railway TEMU2000 Puyuma (Tze-Chiang) Ltd. Express
 # ID:2421967853
 
@@ -9462,7 +9782,7 @@ msgctxt "TEMU2000_name"
 msgid "TEMU2000"
 msgstr "台铁TEMU2000型"
 
-# ----- 
+# -----
 # Taiwan Railway E200 Electric locomotive Chu-kuang or Fu-hsing Passenger Cars
 # ID:2425534135
 
@@ -9470,7 +9790,7 @@ msgctxt "E200Chukuang_name"
 msgid "E200Chukuang"
 msgstr "台铁E200型（莒光号）"
 
-# ----- 
+# -----
 # Shinkansen N700_Tokai
 # ID:2430402896
 
@@ -9478,7 +9798,7 @@ msgctxt "Shinkansen_N700_Tokai_name"
 msgid "Shinkansen_N700_Tokai"
 msgstr "新幹線N700系東海"
 
-# ----- 
+# -----
 # Shinkansen N700_Kyushu
 # ID:2431040191
 
@@ -9486,7 +9806,7 @@ msgctxt "Shinkansen_N700_Kyushu_name"
 msgid "Shinkansen_N700_Kyushu"
 msgstr "新幹線N700系九州"
 
-# ----- 
+# -----
 # 台灣鐵路 DR1000 支線主力區間車
 # ID:2432299554
 
@@ -9494,7 +9814,7 @@ msgctxt "DR1000_name"
 msgid "DR1000"
 msgstr "台铁DR1000型"
 
-# ----- 
+# -----
 # Shinkansen N700A_Tokai
 # ID:2432325568
 
@@ -9502,7 +9822,7 @@ msgctxt "Shinkansen_N700A_Tokai_name"
 msgid "Shinkansen_N700A_Tokai"
 msgstr "新幹線N700A系東海"
 
-# ----- 
+# -----
 # Shinkansen 700_Hikari_Railstar
 # ID:2433320663
 
@@ -9510,7 +9830,7 @@ msgctxt "Shinkansen_700_Hikari_Railstar_name"
 msgid "Shinkansen_700_Hikari_Railstar"
 msgstr "新幹線700系 - Rail Star"
 
-# ----- 
+# -----
 # Shinkansen 700_Tokai
 # ID:2434197493
 
@@ -9518,7 +9838,7 @@ msgctxt "Shinkansen_700_Tokai_name"
 msgid "Shinkansen_700_Tokai"
 msgstr "新幹線700系東海"
 
-# ----- 
+# -----
 # Shinkansen 700_LastRun
 # ID:2434211706
 
@@ -9526,15 +9846,15 @@ msgctxt "Shinkansen_700_LastRun_name"
 msgid "Shinkansen_700_LastRun"
 msgstr "新幹線700系 LastRun"
 
-# ----- 
+# -----
 # 中国新曙光号内燃动车组
 # ID:2436051309
 
 msgctxt "NJZ1_name"
 msgid "NJZ1"
-msgstr "NZJ1-新曙光"
+msgstr "NJZ1-新曙光"
 
-# ----- 
+# -----
 # Shinkansen 923_Dr_Yellow
 # ID:2436176634
 
@@ -9542,7 +9862,7 @@ msgctxt "Shinkansen_923_Dr_Yellow_name"
 msgid "Shinkansen_923_Dr_Yellow"
 msgstr "新幹線923系 - Dr Yellow"
 
-# ----- 
+# -----
 # DJJ2 "China Star" High Speed EMU/中华之星DJJ2高速电力集中动力动车组
 # ID:2439360868
 
@@ -9550,23 +9870,23 @@ msgctxt "DJJ2_name"
 msgid "DJJ2"
 msgstr "DJJ2-中华之星"
 
-# ----- 
+# -----
 # NDJ3&DF11G
 # ID:2441394761
 
 msgctxt "DF11G-25-D_name"
 msgid "DF11G-25-D"
-msgstr "东风11G(拆猪)+YZ25G/T"
+msgstr "东风11G(拆解)+YZ25G/T"
 
 msgctxt "DF11G_KUAYUE-25-D_name"
 msgid "DF11G_KUAYUE-25-D"
-msgstr "东风11G(跨越拆猪)+YZ25G/T"
+msgstr "东风11G(跨越)+YZ25G/T"
 
 msgctxt "NDJ3_name"
 msgid "NDJ3"
 msgstr "NDJ3-长城号"
 
-# ----- 
+# -----
 # Taiwan Railway EMU900 Local Train
 # ID:2447136290
 
@@ -9574,7 +9894,23 @@ msgctxt "EMU900_name"
 msgid "EMU900"
 msgstr "台铁EMU900型"
 
-# ----- 
+# -----
+# JRWest221
+# ID:2447543361
+
+msgctxt "JRWest221"
+msgid "JRWest221"
+msgstr "JR西日本221系"
+
+# -----
+# JRCentral313
+# ID:2448602141
+
+msgctxt "JRCent313"
+msgid "JRCent313"
+msgstr "JR東海313系"
+
+# -----
 # 中国DJJ1电力动车组
 # ID:2453573235
 
@@ -9582,7 +9918,15 @@ msgctxt "DJJ1_name"
 msgid "DJJ1"
 msgstr "DJJ1-蓝箭"
 
-# ----- 
+# -----
+# JRWest287
+# ID:2459763666
+
+msgctxt "JRWest287"
+msgid "JRWest287"
+msgstr "JR西日本287系"
+
+# -----
 # 港铁近畿川崎列车（SP1900）
 # ID:2462181638
 
@@ -9594,7 +9938,7 @@ msgctxt "MTR_SP1900_FIC"
 msgid "MTR SP1900 Fictional"
 msgstr "港铁 SP1900（虚构编组）"
 
-# ----- 
+# -----
 # 港铁东铁线现代列车（R-Train）
 # ID:2462182222
 
@@ -9602,7 +9946,7 @@ msgctxt "MTR_R-train"
 msgid "MTR R-train"
 msgstr "港铁 R-train"
 
-# ----- 
+# -----
 # 港铁南港岛线中国制列车（S-Train）
 # ID:2462182665
 
@@ -9610,7 +9954,7 @@ msgctxt "MTR_S-train"
 msgid "MTR S-train"
 msgstr "港铁 S-train"
 
-# ----- 
+# -----
 # 港铁市区线愿景列车（Q-Train）
 # ID:2462183386
 
@@ -9618,7 +9962,15 @@ msgctxt "MTR_Q-train"
 msgid "MTR Q-train"
 msgstr "港铁 Q-train"
 
-# ----- 
+# -----
+# JNR113
+# ID:2464987764
+
+msgctxt "JNR113"
+msgid "JNR113"
+msgstr "国鉄113系"
+
+# -----
 # Alexander Dennis Enviro 500 MMC
 # ID:2480931531
 
@@ -9626,7 +9978,7 @@ msgctxt "AD_E500_MMC_name"
 msgid "Enviro500 MMC (Alexander Dennis)"
 msgstr "Enviro 500 MMC（亚历山大丹尼士）"
 
-# ----- 
+# -----
 # Hong Kong Tramways 香港電車 - 6th Generation Tram (2.5D)
 # ID:2506266348
 
@@ -9634,13 +9986,9 @@ msgctxt "HK_6G_MU"
 msgid "Hong Kong 6th Generation"
 msgstr "香港第六代电车"
 
-# ----- 
+# -----
 # 港铁轻铁第二期列车
 # ID:2552361670
-
-msgctxt "MTR_Phase_II_LRV_name"
-msgid "MTR Phase II LRV"
-msgstr "港铁轻铁第二期列车"
 
 msgctxt "MTR_Phase_II_LRV_car_name"
 msgid "MTR Phase II LRV (Without Cab)"
@@ -9650,29 +9998,21 @@ msgctxt "MTR_Phase_II_LRV_con_name"
 msgid "MTR Phase II LRV Coupler"
 msgstr "港铁轻铁第二期列车车钩"
 
-# ----- 
+msgctxt "MTR_Phase_II_LRV_name"
+msgid "MTR Phase II LRV"
+msgstr "港铁轻铁第二期列车"
+
+# -----
 # China Railway High-speed 2 Series (CRH2) EMUs | 中国铁路高速动车组CRH2系
 # ID:2558035965
-
-msgctxt "CRH2G(GT)_name"
-msgid "CRH2G(GT)"
-msgstr "CRH2G(技术提升)"
-
-msgctxt "CRH2C_Stage I_name"
-msgid "CRH2C_Stage I"
-msgstr "CRH2C 一阶段"
-
-msgctxt "CRH2C_Stage II_name"
-msgid "CRH2C_Stage II"
-msgstr "CRH2C 二阶段"
-
-msgctxt "CRH2A (Renovated)_name"
-msgid "CRH2A (Renovated)"
-msgstr "CRH2A(统型)"
 
 msgctxt "CRH2A (Previous)_name"
 msgid "CRH2A (Previous)"
 msgstr "CRH2A(非统型)"
+
+msgctxt "CRH2A (Renovated)_name"
+msgid "CRH2A (Renovated)"
+msgstr "CRH2A(统型)"
 
 msgctxt "CRH2B(2A head)_name"
 msgid "CRH2B(2A head)"
@@ -9682,11 +10022,23 @@ msgctxt "CRH2B(2C head)_name"
 msgid "CRH2B(2C head)"
 msgstr "CRH2B(2C头型)"
 
+msgctxt "CRH2C_Stage II_name"
+msgid "CRH2C_Stage II"
+msgstr "CRH2C 二阶段"
+
+msgctxt "CRH2C_Stage I_name"
+msgid "CRH2C_Stage I"
+msgstr "CRH2C 一阶段"
+
 msgctxt "CRH2E(Double Deck)_name"
 msgid "CRH2E(Double Deck)"
-msgstr "CRH2E(纵卧)"
+msgstr "CRH2E(双层)"
 
-# ----- 
+msgctxt "CRH2G(GT)_name"
+msgid "CRH2G(GT)"
+msgstr "CRH2G(高寒型)"
+
+# -----
 # General Articulated buses
 # ID:2568258522
 
@@ -9694,109 +10046,33 @@ msgctxt "articulated_buses_name"
 msgid "Articulated buses"
 msgstr "铰接公交车"
 
-# ----- 
+# -----
 # 和谐号CRH380AL型电力动车组 | CRH380AL Hexie
 # ID:2577947890
-
-msgctxt "CRH380AL_StageI_name"
-msgid "CRH380AL_StageI"
-msgstr "CRH380AL 一阶段"
 
 msgctxt "CRH380AL_StageII_name"
 msgid "CRH380AL_StageII"
 msgstr "CRH380AL 二阶段"
 
-# ----- 
+msgctxt "CRH380AL_StageI_name"
+msgid "CRH380AL_StageI"
+msgstr "CRH380AL 一阶段"
+
+# -----
 # CRH380AL 特别版 | CRH380AL Special Edition
 # ID:2578252010
 
 msgctxt "CRH380AL SP_StageI_name"
 msgid "CRH380AL SP_StageI"
-msgstr "CRH380AL 冲高特别版"
+msgstr "CRH380AL 冲高试验版"
 
 msgctxt "CRH380AL SP_loc"
 msgid "CRH380AL"
-msgstr "CRH380AL 冲高版"
+msgstr "CRH380AL 冲高试验版"
 
-# ----- 
+# -----
 # 标准化日本通勤列车
 # ID:2602582421
-
-msgctxt "jp_generic_toei_5500_head_name"
-msgid "Generic Metro head(18m)"
-msgstr "通用型地下鉄 有动力头车(18m)"
-
-msgctxt "jp_generic_toei_5500_mcar_name"
-msgid "Generic Metro car with motor(18m)"
-msgstr "通用型地下鉄 动力车(18m)"
-
-msgctxt "jp_generic_toei_5500_car_name"
-msgid "Generic Metro car(18m)"
-msgstr "通用型地下鉄 无动力车(18m)"
-
-msgctxt "jp_generic_toei_5500_mu_name"
-msgid "Jp. Generic Metro (18m)"
-msgstr "日本通用型地下鉄(18m)"
-
-msgctxt "jp_generic_metro_18_c_1"
-msgid "Generic Metro 18m (2-12 Cars)"
-msgstr "通用型地下鉄18m (2-12节)"
-
-msgctxt "jp_generic_tokyu_2020_head_name"
-msgid "Generic Metro head(20m)"
-msgstr "通用型地下鉄 头车(20m)"
-
-msgctxt "jp_generic_tokyu_2020_mhead_name"
-msgid "Generic Metro head with motor(20m)"
-msgstr "通用型地下鉄 有动力头车(20m)"
-
-msgctxt "jp_generic_tokyu_2020_mcar_name"
-msgid "Generic Metro car with motor(20m)"
-msgstr "通用型地下鉄 动力车(20m)"
-
-msgctxt "jp_generic_tokyu_2020_car_name"
-msgid "Generic Metro car(20m)"
-msgstr "通用型地下鉄 无动力车(20m)"
-
-msgctxt "jp_generic_tokyu_2020_mu_name"
-msgid "Jp. Generic Metro (20m)"
-msgstr "日本通用型地下鉄(20m)"
-
-msgctxt "jp_generic_metro_20_c_1"
-msgid "Generic Metro 20m (3-12 Cars)"
-msgstr "通用型地下鉄20m (3-12节)"
-
-msgctxt "jp_generic_metro_20_c_2"
-msgid "Generic Metro 20m (2-12 Cars)"
-msgstr "通用型地下鉄20m (2-12节)"
-
-msgctxt "jp_generic_jr_e531_head_name"
-msgid "Generic Commuter head"
-msgstr "通用型通勤電車 头车"
-
-msgctxt "jp_generic_jr_e531_mhead_name"
-msgid "Generic Commuter head with motor"
-msgstr "通用型通勤電車 有动力头车"
-
-msgctxt "jp_generic_jr_e531_filphead_name"
-msgid "Generic Commuter filp head"
-msgstr "通用型通勤電車 头车(flip)"
-
-msgctxt "jp_generic_jr_e531_mcar_name"
-msgid "Generic Commuter car with motor"
-msgstr "通用型通勤電車 动力车"
-
-msgctxt "jp_generic_jr_e531_car_name"
-msgid "Generic Commuter car"
-msgstr "通用型通勤電車 无动力车"
-
-msgctxt "jp_generic_jr_e531_green_car_name"
-msgid "Generic Commuter car (first class)"
-msgstr "通用型通勤電車 一等座车厢"
-
-msgctxt "jp_generic_jr_e531_mu"
-msgid "Jp. Generic Commuter"
-msgstr "日本通用型通勤電車"
 
 msgctxt "jp_generic_jr_e531_c_1"
 msgid "Generic Commuter Train (3-11 Cars)"
@@ -9818,7 +10094,83 @@ msgctxt "jp_generic_jr_e531_c_5"
 msgid "Generic Commuter Train with Green Car(4-11 + 4/5 Cars)"
 msgstr "通用型通勤電車 附绿色车厢 (4-11 + 4/5节)"
 
-# ----- 
+msgctxt "jp_generic_jr_e531_car_name"
+msgid "Generic Commuter car"
+msgstr "通用型通勤電車 无动力车"
+
+msgctxt "jp_generic_jr_e531_filphead_name"
+msgid "Generic Commuter filp head"
+msgstr "通用型通勤電車 翻转头车"
+
+msgctxt "jp_generic_jr_e531_green_car_name"
+msgid "Generic Commuter car (first class)"
+msgstr "通用型通勤電車 一等座车厢"
+
+msgctxt "jp_generic_jr_e531_head_name"
+msgid "Generic Commuter head"
+msgstr "通用型通勤電車 头车"
+
+msgctxt "jp_generic_jr_e531_mcar_name"
+msgid "Generic Commuter car with motor"
+msgstr "通用型通勤電車 动力车"
+
+msgctxt "jp_generic_jr_e531_mhead_name"
+msgid "Generic Commuter head with motor"
+msgstr "通用型通勤電車 有动力头车"
+
+msgctxt "jp_generic_jr_e531_mu"
+msgid "Jp. Generic Commuter"
+msgstr "日本通用型通勤電車"
+
+msgctxt "jp_generic_metro_18_c_1"
+msgid "Generic Metro 18m (2-12 Cars)"
+msgstr "通用型地下鉄18m (2-12节)"
+
+msgctxt "jp_generic_metro_20_c_1"
+msgid "Generic Metro 20m (3-12 Cars)"
+msgstr "通用型地下鉄20m (3-12节)"
+
+msgctxt "jp_generic_metro_20_c_2"
+msgid "Generic Metro 20m (2-12 Cars)"
+msgstr "通用型地下鉄20m (2-12节)"
+
+msgctxt "jp_generic_toei_5500_car_name"
+msgid "Generic Metro car(18m)"
+msgstr "通用型地下鉄 无动力车(18m)"
+
+msgctxt "jp_generic_toei_5500_head_name"
+msgid "Generic Metro head(18m)"
+msgstr "通用型地下鉄 有动力头车(18m)"
+
+msgctxt "jp_generic_toei_5500_mcar_name"
+msgid "Generic Metro car with motor(18m)"
+msgstr "通用型地下鉄 动力车(18m)"
+
+msgctxt "jp_generic_toei_5500_mu_name"
+msgid "Jp. Generic Metro (18m)"
+msgstr "日本通用型地下鉄(18m)"
+
+msgctxt "jp_generic_tokyu_2020_car_name"
+msgid "Generic Metro car(20m)"
+msgstr "通用型地下鉄 无动力车(20m)"
+
+msgctxt "jp_generic_tokyu_2020_head_name"
+msgid "Generic Metro head(20m)"
+msgstr "通用型地下鉄 头车(20m)"
+
+msgctxt "jp_generic_tokyu_2020_mcar_name"
+msgid "Generic Metro car with motor(20m)"
+msgstr "通用型地下鉄 动力车(20m)"
+
+msgctxt "jp_generic_tokyu_2020_mhead_name"
+msgid "Generic Metro head with motor(20m)"
+msgstr "通用型地下鉄 有动力头车(20m)"
+
+msgctxt "jp_generic_tokyu_2020_mu_name"
+msgid "Jp. Generic Metro (20m)"
+msgstr "日本通用型地下鉄(20m)"
+
+# -----
 # 中国成都160KM/H市域列车-三星堆号
 # ID:2610933716
 
@@ -9826,53 +10178,9 @@ msgctxt "ChengDuSanXing_name"
 msgid "ChengDuSanXing"
 msgstr "成都三星堆号"
 
-# ----- 
-# 中国城市轨道交通（地铁）列车 
+# -----
+# 中国城市轨道交通（地铁）列车
 # ID:2626731896
-
-msgctxt "nla_china_metro_auxiliary_power_name"
-msgid "Auxiliary Power (Only for 3 cars formations)"
-msgstr "辅助动力（仅用于3节编组，旧版）"
-
-msgctxt "nla_china_metro_a_head_name"
-msgid "Metro Type A head"
-msgstr "地铁A型 头车(旧版)"
-
-msgctxt "nla_china_metro_a_mhead_name"
-msgid "Metro Type A head with motor"
-msgstr "地铁A型 有动力头车(旧版)"
-
-msgctxt "nla_china_metro_a_filphead_name"
-msgid "Metro Type A filp head"
-msgstr "地铁A型 头车(flip)"
-
-msgctxt "nla_china_metro_a_mcar_name"
-msgid "Metro Type A car with motor"
-msgstr "地铁A型 动力车(旧版)"
-
-msgctxt "nla_china_metro_a_car_name"
-msgid "Metro Type A car"
-msgstr "地铁A型 无动力车(旧版)"
-
-msgctxt "nla_china_metro_s_a_head_name"
-msgid "Metro Type Suburb A head"
-msgstr "市域地铁A型 头车(旧版)"
-
-msgctxt "nla_china_metro_s_a_filphead_name"
-msgid "Metro Type Suburb A filp head"
-msgstr "市域地铁A型 头车(flip)"
-
-msgctxt "nla_china_metro_s_a_mcar_name"
-msgid "Metro Type Suburb A car with motor"
-msgstr "市域地铁A型 动力车(旧版)"
-
-msgctxt "nla_china_metro_s_a_car_name"
-msgid "Metro Type Suburb A car"
-msgstr "市域地铁A型 无动力车(旧版)"
-
-msgctxt "nla_china_metro_a_mu_name"
-msgid "China Metro Type A"
-msgstr "中国A型地铁列车(旧版)"
 
 msgctxt "nla_china_metro_a_c_1"
 msgid "Metro Type A (3-8 Cars)"
@@ -9894,45 +10202,89 @@ msgctxt "nla_china_metro_a_c_5"
 msgid "Metro Type Suburb A (3/4 + 3/4 Cars)"
 msgstr "市域A型地铁列车 (3/4 + 3/4节)"
 
-msgctxt "nla_china_metro_b_head_name"
-msgid "Metro Type B head"
-msgstr "地铁B型 头车(旧版)"
+msgctxt "nla_china_metro_a_car_name"
+msgid "Metro Type A car"
+msgstr "地铁A型 无动力车"
 
-msgctxt "nla_china_metro_b_mhead_name"
-msgid "Metro Type B head with motor"
-msgstr "地铁B型 有动力头车(旧版)"
+msgctxt "nla_china_metro_a_filphead_name"
+msgid "Metro Type A filp head"
+msgstr "地铁A型 翻转头车"
 
-msgctxt "nla_china_metro_b_filphead_name"
-msgid "Metro Type B filp head"
-msgstr "地铁B型 头车(flip)"
+msgctxt "nla_china_metro_a_head_name"
+msgid "Metro Type A head"
+msgstr "地铁A型 头车"
 
-msgctxt "nla_china_metro_b_mcar_name"
-msgid "Metro Type B car with motor"
-msgstr "地铁B型 动力车(旧版)"
+msgctxt "nla_china_metro_a_mcar_name"
+msgid "Metro Type A car with motor"
+msgstr "地铁A型 动力车"
 
-msgctxt "nla_china_metro_b_car_name"
-msgid "Metro Type B car"
-msgstr "地铁B型 无动力车(旧版)"
+msgctxt "nla_china_metro_a_mhead_name"
+msgid "Metro Type A head with motor"
+msgstr "地铁A型 有动力头车"
 
-msgctxt "nla_china_metro_s_b_head_name"
-msgid "Metro Type Suburb B head"
-msgstr "市域地铁B型 头车(旧版)"
+msgctxt "nla_china_metro_a_mu_name"
+msgid "China Metro Type A"
+msgstr "中国A型地铁列车"
 
-msgctxt "nla_china_metro_s_b_filphead_name"
-msgid "Metro Type Suburb B filp head"
-msgstr "市域地铁B型 头车(flip)"
+msgctxt "nla_china_metro_ah_c_1"
+msgid "Metro Type AH (3-8 Cars)"
+msgstr "AH型地铁列车 (3-8节)"
 
-msgctxt "nla_china_metro_s_b_mcar_name"
-msgid "Metro Type Suburb B car with motor"
-msgstr "市域地铁B型 动力车(旧版)"
+msgctxt "nla_china_metro_ah_c_2"
+msgid "Metro Type AH (3/4 + 3/4 Cars)"
+msgstr "AH型地铁列车 (3/4 + 3/4节)"
 
-msgctxt "nla_china_metro_s_b_car_name"
-msgid "Metro Type Suburb B car"
-msgstr "市域地铁B型 无动力车(旧版)"
+msgctxt "nla_china_metro_ah_car_name"
+msgid "Metro Type AH car"
+msgstr "地铁AH型 无动力车"
 
-msgctxt "nla_china_metro_b_mu_name"
-msgid "China Metro Type B"
-msgstr "中国B型地铁列车(旧版)"
+msgctxt "nla_china_metro_ah_filphead_name"
+msgid "Metro Type AH filp head"
+msgstr "地铁AH型 翻转头车"
+
+msgctxt "nla_china_metro_ah_head_name"
+msgid "Metro Type AH head"
+msgstr "地铁AH型 头车"
+
+msgctxt "nla_china_metro_ah_mcar_name"
+msgid "Metro Type AH car with motor"
+msgstr "地铁AH型 动力车"
+
+msgctxt "nla_china_metro_ah_mu_name"
+msgid "China Metro Type AH"
+msgstr "中国AH型地铁列车"
+
+msgctxt "nla_china_metro_as_c_1"
+msgid "Metro Type AS (3-8 Cars)"
+msgstr "AS型地铁列车 (3-8节)"
+
+msgctxt "nla_china_metro_as_c_2"
+msgid "Metro Type AS (3/4 + 3/4 Cars)"
+msgstr "AS型地铁列车 (3/4 + 3/4节)"
+
+msgctxt "nla_china_metro_as_car_name"
+msgid "Metro Type AS car"
+msgstr "地铁AS型 无动力车"
+
+msgctxt "nla_china_metro_as_filphead_name"
+msgid "Metro Type AS filp head"
+msgstr "地铁AS型 翻转头车"
+
+msgctxt "nla_china_metro_as_head_name"
+msgid "Metro Type AS head"
+msgstr "地铁AS型 头车"
+
+msgctxt "nla_china_metro_as_mcar_name"
+msgid "Metro Type AS car with motor"
+msgstr "地铁AS型 动力车"
+
+msgctxt "nla_china_metro_as_mu_name"
+msgid "China Metro Type As"
+msgstr "中国AS型地铁列车"
+
+msgctxt "nla_china_metro_auxiliary_power_name"
+msgid "Auxiliary Power (Only for 3 cars formations)"
+msgstr "辅助动力（仅用于3节编组）"
 
 msgctxt "nla_china_metro_b_c_1"
 msgid "Metro Type B (3-8 Cars)"
@@ -9954,81 +10306,29 @@ msgctxt "nla_china_metro_b_c_5"
 msgid "Metro Type Suburb B (3/4 + 3/4 Cars)"
 msgstr "市域B型地铁列车 (3/4 + 3/4节)"
 
-msgctxt "nla_china_metro_as_head_name"
-msgid "Metro Type AS head"
-msgstr "地铁AS型 头车(旧版)"
+msgctxt "nla_china_metro_b_car_name"
+msgid "Metro Type B car"
+msgstr "地铁B型 无动力车"
 
-msgctxt "nla_china_metro_as_filphead_name"
-msgid "Metro Type AS filp head"
-msgstr "地铁AS型 头车(flip)"
+msgctxt "nla_china_metro_b_filphead_name"
+msgid "Metro Type B filp head"
+msgstr "地铁B型 翻转头车"
 
-msgctxt "nla_china_metro_as_mcar_name"
-msgid "Metro Type AS car with motor"
-msgstr "地铁AS型 动力车(旧版)"
+msgctxt "nla_china_metro_b_head_name"
+msgid "Metro Type B head"
+msgstr "地铁B型 头车"
 
-msgctxt "nla_china_metro_as_car_name"
-msgid "Metro Type AS car"
-msgstr "地铁AS型 无动力车(旧版)"
+msgctxt "nla_china_metro_b_mcar_name"
+msgid "Metro Type B car with motor"
+msgstr "地铁B型 动力车"
 
-msgctxt "nla_china_metro_as_mu_name"
-msgid "China Metro Type As"
-msgstr "中国AS型地铁列车(旧版)"
+msgctxt "nla_china_metro_b_mhead_name"
+msgid "Metro Type B head with motor"
+msgstr "地铁B型 有动力头车"
 
-msgctxt "nla_china_metro_as_c_1"
-msgid "Metro Type AS (3-8 Cars)"
-msgstr "AS型地铁列车 (3-8节)"
-
-msgctxt "nla_china_metro_as_c_2"
-msgid "Metro Type AS (3/4 + 3/4 Cars)"
-msgstr "AS型地铁列车 (3/4 + 3/4节)"
-
-msgctxt "nla_china_metro_ah_head_name"
-msgid "Metro Type AH head"
-msgstr "地铁AH型 头车(旧版)"
-
-msgctxt "nla_china_metro_ah_filphead_name"
-msgid "Metro Type AH filp head"
-msgstr "地铁AH型 头车(flip)"
-
-msgctxt "nla_china_metro_ah_mcar_name"
-msgid "Metro Type AH car with motor"
-msgstr "地铁AH型 动力车(旧版)"
-
-msgctxt "nla_china_metro_ah_car_name"
-msgid "Metro Type AH car"
-msgstr "地铁AH型 无动力车(旧版)"
-
-msgctxt "nla_china_metro_ah_mu_name"
-msgid "China Metro Type AH"
-msgstr "中国AH型地铁列车(旧版)"
-
-msgctxt "nla_china_metro_ah_c_1"
-msgid "Metro Type AH (3-8 Cars)"
-msgstr "AH型地铁列车 (3-8节)"
-
-msgctxt "nla_china_metro_ah_c_2"
-msgid "Metro Type AH (3/4 + 3/4 Cars)"
-msgstr "AH型地铁列车 (3/4 + 3/4节)"
-
-msgctxt "nla_china_metro_ci_head_name"
-msgid "Metro Type C-I head"
-msgstr "地铁C-I型 头车(旧版)"
-
-msgctxt "nla_china_metro_ci_filphead_name"
-msgid "Metro Type C-I filp head"
-msgstr "地铁C-I型 头车(flip)"
-
-msgctxt "nla_china_metro_ci_mcar_name"
-msgid "Metro Type C-I car with motor"
-msgstr "地铁C-I型 动力车(旧版)"
-
-msgctxt "nla_china_metro_ci_car_name"
-msgid "Metro Type C-I car"
-msgstr "地铁C-I型 无动力车(旧版)"
-
-msgctxt "nla_china_metro_ci_mu_name"
-msgid "China Metro Type C-I"
-msgstr "中国C-I型地铁列车(旧版)"
+msgctxt "nla_china_metro_b_mu_name"
+msgid "China Metro Type B"
+msgstr "中国B型地铁列车"
 
 msgctxt "nla_china_metro_ci_c_1"
 msgid "Metro Type C-I (3-8 Cars)"
@@ -10038,33 +10338,25 @@ msgctxt "nla_china_metro_ci_c_2"
 msgid "Metro Type C-I (3/4 + 3/4 Cars)"
 msgstr "C-I型地铁列车 (3/4 + 3/4节)"
 
-msgctxt "nla_china_metro_d_head_name"
-msgid "Metro Type D head"
-msgstr "地铁D型 头车(旧版)"
+msgctxt "nla_china_metro_ci_car_name"
+msgid "Metro Type C-I car"
+msgstr "地铁C-I型 无动力车"
 
-msgctxt "nla_china_metro_d_filphead_name"
-msgid "Metro Type D filp head"
-msgstr "地铁D型 头车(flip)"
+msgctxt "nla_china_metro_ci_filphead_name"
+msgid "Metro Type C-I filp head"
+msgstr "地铁C-I型 翻转头车"
 
-msgctxt "nla_china_metro_d_head_coupler_name"
-msgid "Metro Type D head with coupler"
-msgstr "地铁D型 头车(旧版) 附车钩"
+msgctxt "nla_china_metro_ci_head_name"
+msgid "Metro Type C-I head"
+msgstr "地铁C-I型 头车"
 
-msgctxt "nla_china_metro_d_filphead_coupler_name"
-msgid "Metro Type D filp head with coupler"
-msgstr "地铁D型 头车(flip) 附车钩"
+msgctxt "nla_china_metro_ci_mcar_name"
+msgid "Metro Type C-I car with motor"
+msgstr "地铁C-I型 动力车"
 
-msgctxt "nla_china_metro_d_mcar_name"
-msgid "Metro Type D car with motor"
-msgstr "地铁D型 动力车(旧版)"
-
-msgctxt "nla_china_metro_d_car_name"
-msgid "Metro Type D car"
-msgstr "地铁D型 无动力车(旧版)"
-
-msgctxt "nla_china_metro_d_mu_name"
-msgid "China Metro Type D"
-msgstr "中国D型地铁列车(旧版)"
+msgctxt "nla_china_metro_ci_mu_name"
+msgid "China Metro Type C-I"
+msgstr "中国C-I型地铁列车"
 
 msgctxt "nla_china_metro_d_c_1"
 msgid "Metro Type D (3-8 Cars)"
@@ -10074,7 +10366,67 @@ msgctxt "nla_china_metro_d_c_2"
 msgid "Metro Type D (3/4 + 3/4 Cars)"
 msgstr "D型地铁列车 (3/4 + 3/4节)"
 
-# ----- 
+msgctxt "nla_china_metro_d_car_name"
+msgid "Metro Type D car"
+msgstr "地铁D型 无动力车"
+
+msgctxt "nla_china_metro_d_filphead_coupler_name"
+msgid "Metro Type D filp head with coupler"
+msgstr "地铁D型 翻转头车 附车钩"
+
+msgctxt "nla_china_metro_d_filphead_name"
+msgid "Metro Type D filp head"
+msgstr "地铁D型 翻转头车"
+
+msgctxt "nla_china_metro_d_head_coupler_name"
+msgid "Metro Type D head with coupler"
+msgstr "地铁D型 头车 附车钩"
+
+msgctxt "nla_china_metro_d_head_name"
+msgid "Metro Type D head"
+msgstr "地铁D型 头车"
+
+msgctxt "nla_china_metro_d_mcar_name"
+msgid "Metro Type D car with motor"
+msgstr "地铁D型 动力车"
+
+msgctxt "nla_china_metro_d_mu_name"
+msgid "China Metro Type D"
+msgstr "中国D型地铁列车"
+
+msgctxt "nla_china_metro_s_a_car_name"
+msgid "Metro Type Suburb A car"
+msgstr "市域地铁A型 无动力车"
+
+msgctxt "nla_china_metro_s_a_filphead_name"
+msgid "Metro Type Suburb A filp head"
+msgstr "市域地铁A型 翻转头车"
+
+msgctxt "nla_china_metro_s_a_head_name"
+msgid "Metro Type Suburb A head"
+msgstr "市域地铁A型 头车"
+
+msgctxt "nla_china_metro_s_a_mcar_name"
+msgid "Metro Type Suburb A car with motor"
+msgstr "市域地铁A型 动力车"
+
+msgctxt "nla_china_metro_s_b_car_name"
+msgid "Metro Type Suburb B car"
+msgstr "市域地铁B型 无动力车"
+
+msgctxt "nla_china_metro_s_b_filphead_name"
+msgid "Metro Type Suburb B filp head"
+msgstr "市域地铁B型 翻转头车"
+
+msgctxt "nla_china_metro_s_b_head_name"
+msgid "Metro Type Suburb B head"
+msgstr "市域地铁B型 头车"
+
+msgctxt "nla_china_metro_s_b_mcar_name"
+msgid "Metro Type Suburb B car with motor"
+msgstr "市域地铁B型 动力车"
+
+# -----
 # Free train formations
 # ID:2626747713
 
@@ -10082,37 +10434,57 @@ msgctxt "nla_free_train_formations_mu_name"
 msgid "zFree train formations"
 msgstr "z自由编组列车"
 
-# ----- 
+# -----
 # 日本国铁(JNR, JR) KiHa 40 系列
 # ID:2645604628
 
-msgctxt "KiHa40_700_name"
-msgid "JR KiHa 40-700"
-msgstr "JRKiHa40-700番台"
-
-msgctxt "KiHa40_1700_name"
-msgid "JR KiHa 40-1700"
-msgstr "JRKiHa40-1700番台"
-
 msgctxt "JNR_KiHa40_mu_name"
 msgid "JNR KiHa 40 series"
-msgstr "国鉄KiHa40系"
-
-msgctxt "KiHa40_700_c_1"
-msgid "JR KiHa40-700 (1-10 Cars)"
-msgstr "JRKiHa40-700番台(1-10节)"
+msgstr "国铁KiHa40系"
 
 msgctxt "KiHa40_1700_c_1"
 msgid "JR KiHa40-1700 (1-10 Cars)"
-msgstr "JRKiHa40-1700番台(1-10节)"
+msgstr "JR KiHa40-1700番台 (1-10节)"
 
-# ----- 
+msgctxt "KiHa40_1700_name"
+msgid "JR KiHa 40-1700"
+msgstr "JR KiHa40-1700番台"
+
+msgctxt "KiHa40_700_c_1"
+msgid "JR KiHa40-700 (1-10 Cars)"
+msgstr "JR KiHa40-700番台 (1-10节)"
+
+msgctxt "KiHa40_700_name"
+msgid "JR KiHa 40-700"
+msgstr "JR KiHa40-700番台"
+
+# -----
 # 中国城市轨道交通（地铁）列车（补充包）
 # ID:2670962059
 
-msgctxt "nla_china_metro_l_mu_name"
-msgid "China Metro Type L"
-msgstr "中国L型地铁列车"
+msgctxt "nla_china_metro_apm_c_1"
+msgid "Metro Type APM"
+msgstr "APM型地铁列车"
+
+msgctxt "nla_china_metro_apm_c_2"
+msgid "Metro Type Ocean Cruiser"
+msgstr "滨海巡航型地铁列车"
+
+msgctxt "nla_china_metro_apm_mu_name"
+msgid "China Metro Type APM"
+msgstr "中国APM型地铁列车"
+
+msgctxt "nla_china_metro_ccqg_c_1"
+msgid "Metro Type CCQG 2000"
+msgstr "CCQG 2000型地铁列车"
+
+msgctxt "nla_china_metro_ccqg_c_2"
+msgid "Metro Type CCQG 3000"
+msgstr "CCQG 3000型地铁列车"
+
+msgctxt "nla_china_metro_ccqg_mu_name"
+msgid "China Metro Type CCQG"
+msgstr "中国CCQG型地铁列车"
 
 msgctxt "nla_china_metro_l_c_1"
 msgid "Metro Type L(Beijing Subway Capital APMirport Express)"
@@ -10122,93 +10494,33 @@ msgctxt "nla_china_metro_l_c_2"
 msgid "Metro Type L (Guangzhou Metro)"
 msgstr "L型地铁列车 (广州地铁)"
 
-msgctxt "nla_china_metro_ccqg_mu_name"
-msgid "China Metro Type CCQG"
-msgstr "中国长春轻轨C型地铁列车"
-
-msgctxt "nla_china_metro_ccqg_c_1"
-msgid "Metro Type CCQG 2000"
-msgstr "地铁列车 CCQG 2000系"
-
-msgctxt "nla_china_metro_ccqg_c_2"
-msgid "Metro Type CCQG 3000"
-msgstr "地铁列车 CCQG 3000系"
-
-msgctxt "nla_china_metro_apm_mu_name"
-msgid "China Metro Type APM"
-msgstr "中国APM列车"
-
-msgctxt "nla_china_metro_apm_c_1"
-msgid "Metro Type APM"
-msgstr "APM列车"
-
-msgctxt "nla_china_metro_apm_c_2"
-msgid "Metro Type Ocean Cruiser"
-msgstr "滨海巡航列车"
-
-msgctxt "nla_china_metro_monorail_mu_name"
-msgid "China Metro Type Monorail"
-msgstr "中国单轨列车"
-
-msgctxt "nla_china_metro_monorail_c_1"
-msgid "Metro Type Monorail"
-msgstr "单轨列车"
-
-msgctxt "nla_china_metro_mlt_mu_name"
-msgid "China Metro Type MLT"
-msgstr "中国中低速磁悬浮列车"
+msgctxt "nla_china_metro_l_mu_name"
+msgid "China Metro Type L"
+msgstr "中国L型地铁列车"
 
 msgctxt "nla_china_metro_mlt_c_1"
 msgid "Metro Type MLT(Beijing)"
-msgstr "中低速磁悬浮列车 (北京)"
+msgstr "MLT型地铁列车 (北京)"
 
 msgctxt "nla_china_metro_mlt_c_2"
 msgid "Metro Type MLT(Changsha)"
-msgstr "中低速磁悬浮列车 (长沙)"
+msgstr "MLT型地铁列车 (长沙)"
 
-# ----- 
+msgctxt "nla_china_metro_mlt_mu_name"
+msgid "China Metro Type MLT"
+msgstr "中国MLT型地铁列车"
+
+msgctxt "nla_china_metro_monorail_c_1"
+msgid "Metro Type Monorail"
+msgstr "单轨型地铁列车"
+
+msgctxt "nla_china_metro_monorail_mu_name"
+msgid "China Metro Type Monorail"
+msgstr "中国单轨型地铁列车"
+
+# -----
 # 中国国铁-地铁 直通列车
 # ID:2706387111
-
-msgctxt "nla_china_metro_auxiliary_power_h_name"
-msgid "Auxiliary Power (High Power)"
-msgstr "辅助动力（高功率）"
-
-msgctxt "nla_china_metro_s_a_3100_head_name"
-msgid "Metro Type Suburb A 3100mm head"
-msgstr "市域地铁A型3100mm 头车"
-
-msgctxt "nla_china_metro_s_a_3100_filphead_name"
-msgid "Metro Type Suburb A 3100mm filp head"
-msgstr "市域地铁A型3100mm 头车(flip)"
-
-msgctxt "nla_china_metro_s_a_3100_mcar_name"
-msgid "Metro Type Suburb A 3100mm car with motor"
-msgstr "市域地铁A型3100mm 动力车"
-
-msgctxt "nla_china_metro_s_a_3100_car_name"
-msgid "Metro Type Suburb A 3100mm car"
-msgstr "市域地铁A型3100mm 无动力车"
-
-msgctxt "nla_china_metro_s_a_3300_head_name"
-msgid "Metro Type Suburb A 3300mm head"
-msgstr "市域地铁A型3300mm 头车"
-
-msgctxt "nla_china_metro_s_a_3300_filphead_name"
-msgid "Metro Type Suburb A 3300mm filp head"
-msgstr "市域地铁A型3300mm 头车(flip)"
-
-msgctxt "nla_china_metro_s_a_3300_mcar_name"
-msgid "Metro Type Suburb A 3300mm car with motor"
-msgstr "市域地铁A型3300mm 动力车"
-
-msgctxt "nla_china_metro_s_a_3300_car_name"
-msgid "Metro Type Suburb A 3300mm car"
-msgstr "市域地铁A型3300mm 无动力车"
-
-msgctxt "nla_fic_china_metro_a_mu_name"
-msgid "Fictional China Metro Type A"
-msgstr "虚构中国A型地铁列车"
 
 msgctxt "nla_china_metro_a_fic_c_1"
 msgid "Metro Type Suburb A 3100mm (3-8 Cars)"
@@ -10234,41 +10546,9 @@ msgctxt "nla_china_metro_a_fic_c_6"
 msgid "Metro Type Suburb A 3300mm (2 Cars)"
 msgstr "市域A型地铁列车3300mm (2节)"
 
-msgctxt "nla_china_metro_s_b_3100_head_name"
-msgid "Metro Type Suburb B 3100mm head"
-msgstr "市域地铁B型3100mm 头车"
-
-msgctxt "nla_china_metro_s_b_3100_filphead_name"
-msgid "Metro Type Suburb B 3100mm filp head"
-msgstr "市域地铁B型3100mm 头车(flip)"
-
-msgctxt "nla_china_metro_s_b_3100_mcar_name"
-msgid "Metro Type Suburb B 3100mm car with motor"
-msgstr "市域地铁B型3100mm 动力车"
-
-msgctxt "nla_china_metro_s_b_3100_car_name"
-msgid "Metro Type Suburb B 3100mm car"
-msgstr "市域地铁B型3100mm 无动力车"
-
-msgctxt "nla_china_metro_s_b_3300_head_name"
-msgid "Metro Type Suburb B 3300mm head"
-msgstr "市域地铁B型3300mm 头车"
-
-msgctxt "nla_china_metro_s_b_3300_filphead_name"
-msgid "Metro Type Suburb B 3300mm filp head"
-msgstr "市域地铁B型3300mm 头车(flip)"
-
-msgctxt "nla_china_metro_s_b_3300_mcar_name"
-msgid "Metro Type Suburb B 3300mm car with motor"
-msgstr "市域地铁B型3300mm 动力车"
-
-msgctxt "nla_china_metro_s_b_3300_car_name"
-msgid "Metro Type Suburb B 3300mm car"
-msgstr "市域地铁B型3300mm 无动力车"
-
-msgctxt "nla_fic_china_metro_b_mu_name"
-msgid "Fictional China Metro Type B"
-msgstr "虚构中国B型地铁列车"
+msgctxt "nla_china_metro_auxiliary_power_h_name"
+msgid "Auxiliary Power (High Power)"
+msgstr "辅助动力（高功率）"
 
 msgctxt "nla_china_metro_b_fic_c_1"
 msgid "Metro Type Suburb B 3100mm (3-8 Cars)"
@@ -10294,25 +10574,89 @@ msgctxt "nla_china_metro_b_fic_c_6"
 msgid "Metro Type Suburb B 3300mm (2 Cars)"
 msgstr "市域B型地铁列车3300mm (2节)"
 
-msgctxt "nla_china_metro_s_ah_head_name"
-msgid "Metro Type Suburb AH head"
-msgstr "市域地铁AH型 头车"
+msgctxt "nla_china_metro_s_a_3100_car_name"
+msgid "Metro Type Suburb A 3100mm car"
+msgstr "市域地铁A型3100mm 无动力车"
 
-msgctxt "nla_china_metro_s_ah_filphead_name"
-msgid "Metro Type Suburb AH filp head"
-msgstr "市域地铁AH型 头车(flip)"
+msgctxt "nla_china_metro_s_a_3100_filphead_name"
+msgid "Metro Type Suburb A 3100mm filp head"
+msgstr "市域地铁A型3100mm 翻转头车"
 
-msgctxt "nla_china_metro_s_ah_mcar_name"
-msgid "Metro Type Suburb AH car with motor"
-msgstr "市域地铁AH型 动力车"
+msgctxt "nla_china_metro_s_a_3100_head_name"
+msgid "Metro Type Suburb A 3100mm head"
+msgstr "市域地铁A型3100mm 头车"
+
+msgctxt "nla_china_metro_s_a_3100_mcar_name"
+msgid "Metro Type Suburb A 3100mm car with motor"
+msgstr "市域地铁A型3100mm 动力车"
+
+msgctxt "nla_china_metro_s_a_3300_car_name"
+msgid "Metro Type Suburb A 3300mm car"
+msgstr "市域地铁A型3300mm 无动力车"
+
+msgctxt "nla_china_metro_s_a_3300_filphead_name"
+msgid "Metro Type Suburb A 3300mm filp head"
+msgstr "市域地铁A型3300mm 翻转头车"
+
+msgctxt "nla_china_metro_s_a_3300_head_name"
+msgid "Metro Type Suburb A 3300mm head"
+msgstr "市域地铁A型3300mm 头车"
+
+msgctxt "nla_china_metro_s_a_3300_mcar_name"
+msgid "Metro Type Suburb A 3300mm car with motor"
+msgstr "市域地铁A型3300mm 动力车"
 
 msgctxt "nla_china_metro_s_ah_car_name"
 msgid "Metro Type Suburb AH car"
 msgstr "市域地铁AH型 无动力车"
 
-msgctxt "nla_fic_china_metro_s_ah_mu_name"
-msgid "Fictional China Metro Type AH"
-msgstr "虚构中国AH型地铁列车"
+msgctxt "nla_china_metro_s_ah_filphead_name"
+msgid "Metro Type Suburb AH filp head"
+msgstr "市域地铁AH型 翻转头车"
+
+msgctxt "nla_china_metro_s_ah_head_name"
+msgid "Metro Type Suburb AH head"
+msgstr "市域地铁AH型 头车"
+
+msgctxt "nla_china_metro_s_ah_mcar_name"
+msgid "Metro Type Suburb AH car with motor"
+msgstr "市域地铁AH型 动力车"
+
+msgctxt "nla_china_metro_s_b_3100_car_name"
+msgid "Metro Type Suburb B 3100mm car"
+msgstr "市域地铁B型3100mm 无动力车"
+
+msgctxt "nla_china_metro_s_b_3100_filphead_name"
+msgid "Metro Type Suburb B 3100mm filp head"
+msgstr "市域地铁B型3100mm 翻转头车"
+
+msgctxt "nla_china_metro_s_b_3100_head_name"
+msgid "Metro Type Suburb B 3100mm head"
+msgstr "市域地铁B型3100mm 头车"
+
+msgctxt "nla_china_metro_s_b_3100_mcar_name"
+msgid "Metro Type Suburb B 3100mm car with motor"
+msgstr "市域地铁B型3100mm 动力车"
+
+msgctxt "nla_china_metro_s_b_3300_car_name"
+msgid "Metro Type Suburb B 3300mm car"
+msgstr "市域地铁B型3300mm 无动力车"
+
+msgctxt "nla_china_metro_s_b_3300_filphead_name"
+msgid "Metro Type Suburb B 3300mm filp head"
+msgstr "市域地铁B型3300mm 翻转头车"
+
+msgctxt "nla_china_metro_s_b_3300_head_name"
+msgid "Metro Type Suburb B 3300mm head"
+msgstr "市域地铁B型3300mm 头车"
+
+msgctxt "nla_china_metro_s_b_3300_mcar_name"
+msgid "Metro Type Suburb B 3300mm car with motor"
+msgstr "市域地铁B型3300mm 动力车"
+
+msgctxt "nla_fic_china_metro_a_mu_name"
+msgid "Fictional China Metro Type A"
+msgstr "虚构中国A型地铁列车"
 
 msgctxt "nla_fic_china_metro_ah_c_1"
 msgid "Metro Type Suburb AH (3-8 Cars)"
@@ -10326,7 +10670,15 @@ msgctxt "nla_fic_china_metro_ah_c_3"
 msgid "Metro Type Suburb AH (2 Cars)"
 msgstr "市域AH型地铁列车 (2节)"
 
-# ----- 
+msgctxt "nla_fic_china_metro_b_mu_name"
+msgid "Fictional China Metro Type B"
+msgstr "虚构中国B型地铁列车"
+
+msgctxt "nla_fic_china_metro_s_ah_mu_name"
+msgid "Fictional China Metro Type AH"
+msgstr "虚构中国AH型地铁列车"
+
+# -----
 # 广佛地铁广佛线列车 | Trains of Guangfo Line
 # ID:2740354737
 
@@ -10338,7 +10690,7 @@ msgctxt "GF2_name"
 msgid "Guangfo_Line_Stage_2_Train"
 msgstr "广佛地铁二期列车"
 
-# ----- 
+# -----
 # 广州地铁现役A、B型列车 | All type-A and B trains in active service of Guangzhou Metro
 # ID:2742039706
 
@@ -10386,9 +10738,13 @@ msgctxt "GZ_B8_name"
 msgid "Guangzhou Metro type-B8 train"
 msgstr "广州地铁B8型列车"
 
-# ----- 
+# -----
 # 广州地铁列车追加 | Add-on trains of Guangzhou Metro Pack
 # ID:2746181357
+
+msgctxt "GZ_APM_name"
+msgid "Guangzhou Metro APM train"
+msgstr "广州地铁APM列车"
 
 msgctxt "GZ_L1_name"
 msgid "Guangzhou Metro type-L1 train"
@@ -10402,61 +10758,9 @@ msgctxt "GZ_L3_name"
 msgid "Guangzhou Metro type-L3 train"
 msgstr "广州地铁L3型列车"
 
-msgctxt "GZ_APM_name"
-msgid "Guangzhou Metro APM train"
-msgstr "广州地铁APM列车"
-
-# ----- 
+# -----
 # 日本国铁(JNR, JR) KiHa 66 系列
 # ID:2746259544
-
-msgctxt "KiHa66_head_name"
-msgid "JR KiHa 66"
-msgstr "JRKiHa66"
-
-msgctxt "KiHa67_head_name"
-msgid "JR KiHa 67"
-msgstr "JRKiHa67"
-
-msgctxt "KiHa67_head_coupler_name"
-msgid "JR KiHa 67 with coupler"
-msgstr "JRKiHa67 附车钩"
-
-msgctxt "KiHa66_filphead_name"
-msgid "JR KiHa 66 filp head"
-msgstr "JRKiHa66 (flip)"
-
-msgctxt "KiHa67_filphead_name"
-msgid "JR KiHa 67 filp head"
-msgstr "JRKiHa67 (flip)"
-
-msgctxt "KiHa67_filphead_coupler_name"
-msgid "JR KiHa 67 filp head with coupler"
-msgstr "JRKiHa67 附车钩(flip)"
-
-msgctxt "KiHa66_o_head_name"
-msgid "JNR KiHa 66"
-msgstr "国鉄KiHa66"
-
-msgctxt "KiHa67_o_head_name"
-msgid "JNR KiHa 67"
-msgstr "国鉄KiHa67"
-
-msgctxt "KiHa67_o_head_coupler_name"
-msgid "JNR KiHa 67 with coupler"
-msgstr "国鉄KiHa67 附车钩"
-
-msgctxt "KiHa66_o_filphead_name"
-msgid "JNR KiHa 66 filp head"
-msgstr "国鉄KiHa66 (flip)"
-
-msgctxt "KiHa67_o_filphead_name"
-msgid "JNR KiHa 67 filp head"
-msgstr "国鉄KiHa67 (flip)"
-
-msgctxt "KiHa67_o_filphead_coupler_name"
-msgid "JNR KiHa 67 filp head with coupler"
-msgstr "国鉄KiHa67 附车钩(flip)"
 
 msgctxt "JNR_KiHa66_mu_name"
 msgid "JNR KiHa 66 series"
@@ -10478,53 +10782,89 @@ msgctxt "KiHa66_c_4"
 msgid "JNR KiHa66 Flip (2-10 Cars) (At the time of manufacture)"
 msgstr "国鉄KiHa66系 Flip (2-10节) (出厂配置)"
 
-# ----- 
+msgctxt "KiHa66_filphead_name"
+msgid "JR KiHa 66 filp head"
+msgstr "JRKiHa66 (flip)"
+
+msgctxt "KiHa66_head_name"
+msgid "JR KiHa 66"
+msgstr "JRKiHa66"
+
+msgctxt "KiHa66_o_filphead_name"
+msgid "JNR KiHa 66 filp head"
+msgstr "国鉄KiHa66 (flip)"
+
+msgctxt "KiHa66_o_head_name"
+msgid "JNR KiHa 66"
+msgstr "国鉄KiHa66"
+
+msgctxt "KiHa67_filphead_coupler_name"
+msgid "JR KiHa 67 filp head with coupler"
+msgstr "JRKiHa67 附车钩(flip)"
+
+msgctxt "KiHa67_filphead_name"
+msgid "JR KiHa 67 filp head"
+msgstr "JRKiHa67 (flip)"
+
+msgctxt "KiHa67_head_coupler_name"
+msgid "JR KiHa 67 with coupler"
+msgstr "JRKiHa67 附车钩"
+
+msgctxt "KiHa67_head_name"
+msgid "JR KiHa 67"
+msgstr "JRKiHa67"
+
+msgctxt "KiHa67_o_filphead_coupler_name"
+msgid "JNR KiHa 67 filp head with coupler"
+msgstr "国鉄KiHa67 附车钩(flip)"
+
+msgctxt "KiHa67_o_filphead_name"
+msgid "JNR KiHa 67 filp head"
+msgstr "国鉄KiHa67 (flip)"
+
+msgctxt "KiHa67_o_head_coupler_name"
+msgid "JNR KiHa 67 with coupler"
+msgstr "国鉄KiHa67 附车钩"
+
+msgctxt "KiHa67_o_head_name"
+msgid "JNR KiHa 67"
+msgstr "国鉄KiHa67"
+
+# -----
 # 上汽通用五菱-五菱宏光S-NimbyRails特制版
 # ID:2753324186
-
-msgctxt "WuLing_name"
-msgid "WuLing"
-msgstr "五菱宏光"
 
 msgctxt "WuLing-S"
 msgid "WuLing-S"
 msgstr "五菱宏光-S"
 
-# ----- 
+msgctxt "WuLing_name"
+msgid "WuLing"
+msgstr "五菱宏光"
+
+# -----
 # 标准化日本近郊列车
 # ID:2755171129
 
-msgctxt "kumoha_817_name"
-msgid "KuMoHa 817"
-msgstr "KuMoHa817"
+msgctxt "jp_generic_jr_817_3000_c_1"
+msgid "Generic Suburban Train (3 Cars)"
+msgstr "通勤向 通用型近郊電車 (3节)"
 
-msgctxt "kumoha_817_coupler_name"
-msgid "KuMoHa 817 with coupler"
-msgstr "KuMoHa817 附车钩"
+msgctxt "jp_generic_jr_817_3000_c_2"
+msgid "Generic Suburban Train (6 Cars)"
+msgstr "通勤向 通用型近郊電車 (6节)"
 
-msgctxt "kuha_816_name"
-msgid "KuHa 816"
-msgstr "KuHa816"
+msgctxt "jp_generic_jr_817_3000_c_3"
+msgid "Generic Suburban Train (9 Cars)"
+msgstr "通勤向 通用型近郊電車 (9节)"
 
-msgctxt "kuha_817_3000_name"
-msgid "KuHa 817-3000"
-msgstr "KuHa817 3000番台"
+msgctxt "jp_generic_jr_817_3000_c_4"
+msgid "Generic Suburban Train (12 Cars)"
+msgstr "通勤向 通用型近郊電車 (12节)"
 
-msgctxt "kuha_817_3000_coupler_name"
-msgid "KuHa 817-3000 with coupler"
-msgstr "KuHa817 3000番台 附车钩"
-
-msgctxt "kuha_816_3000_name"
-msgid "KuHa 816-3000"
-msgstr "KuHa816 3000番台"
-
-msgctxt "moha_817_3000_name"
-msgid "MoHa 817-3000"
-msgstr "MoHa817 3000番台"
-
-msgctxt "jp_generic_jr_817_mu_name"
-msgid "Jp. Generic S. (Seat oriented)"
-msgstr "日本通用型近郊電車 (近郊向)"
+msgctxt "jp_generic_jr_817_3000_mu_name"
+msgid "Jp. Generic S. (Capacity oriented)"
+msgstr "日本通用型近郊電車 (通勤向)"
 
 msgctxt "jp_generic_jr_817_c_1"
 msgid "Generic Suburban Train (2 Cars)"
@@ -10546,53 +10886,9 @@ msgctxt "jp_generic_jr_817_c_5"
 msgid "Generic Suburban Train (10 Cars)"
 msgstr "近郊向 通用型近郊電車 (10节)"
 
-msgctxt "jp_generic_jr_817_3000_mu_name"
-msgid "Jp. Generic S. (Capacity oriented)"
-msgstr "日本通用型近郊電車 (通勤向)"
-
-msgctxt "jp_generic_jr_817_3000_c_1"
-msgid "Generic Suburban Train (3 Cars)"
-msgstr "通勤向 通用型近郊電車 (3节)"
-
-msgctxt "jp_generic_jr_817_3000_c_2"
-msgid "Generic Suburban Train (6 Cars)"
-msgstr "通勤向 通用型近郊電車 (6节)"
-
-msgctxt "jp_generic_jr_817_3000_c_3"
-msgid "Generic Suburban Train (9 Cars)"
-msgstr "通勤向 通用型近郊電車 (9节)"
-
-msgctxt "jp_generic_jr_817_3000_c_4"
-msgid "Generic Suburban Train (12 Cars)"
-msgstr "通勤向 通用型近郊電車 (12节)"
-
-msgctxt "kumoha_e129_name"
-msgid "KuMoHa E129"
-msgstr "KuMoHaE129"
-
-msgctxt "kumoha_e129_coupler_name"
-msgid "KuMoHa E129 with coupler"
-msgstr "KuMoHaE129 附车钩"
-
-msgctxt "kumoha_e128_name"
-msgid "KuMoHa E128-0"
-msgstr "KuMoHaE128-0"
-
-msgctxt "kumoha_e128_100_name"
-msgid "KuMoHa E128-100"
-msgstr "KuMoHaE128-100"
-
-msgctxt "moha_e128_name"
-msgid "MoHa E128"
-msgstr "MoHaE128"
-
-msgctxt "moha_e129_name"
-msgid "MoHa E129"
-msgstr "MoHaE129"
-
-msgctxt "jp_generic_jr_e129_mu_name"
-msgid "Jp. Generic S. (Mixed orientation)"
-msgstr "日本通用型近郊電車"
+msgctxt "jp_generic_jr_817_mu_name"
+msgid "Jp. Generic S. (Seat oriented)"
+msgstr "日本通用型近郊電車 (近郊向)"
 
 msgctxt "jp_generic_jr_e129_c_0"
 msgid "Generic Suburban Train (2 Cars)"
@@ -10634,13 +10930,81 @@ msgctxt "jp_generic_jr_e129_c_9"
 msgid "Generic Suburban Train (4+4+4 Cars)"
 msgstr "通用型近郊電車 (4+4+4节)"
 
-# ----- 
+msgctxt "jp_generic_jr_e129_mu_name"
+msgid "Jp. Generic S. (Mixed orientation)"
+msgstr "日本通用型近郊電車"
+
+msgctxt "kuha_816_3000_name"
+msgid "KuHa 816-3000"
+msgstr "KuHa816 3000番台"
+
+msgctxt "kuha_816_name"
+msgid "KuHa 816"
+msgstr "KuHa816"
+
+msgctxt "kuha_817_3000_coupler_name"
+msgid "KuHa 817-3000 with coupler"
+msgstr "KuHa817 3000番台 附车钩"
+
+msgctxt "kuha_817_3000_name"
+msgid "KuHa 817-3000"
+msgstr "KuHa817 3000番台"
+
+msgctxt "kumoha_817_coupler_name"
+msgid "KuMoHa 817 with coupler"
+msgstr "KuMoHa817 附车钩"
+
+msgctxt "kumoha_817_name"
+msgid "KuMoHa 817"
+msgstr "KuMoHa817"
+
+msgctxt "kumoha_e128_100_name"
+msgid "KuMoHa E128-100"
+msgstr "KuMoHaE128-100"
+
+msgctxt "kumoha_e128_name"
+msgid "KuMoHa E128-0"
+msgstr "KuMoHaE128-0"
+
+msgctxt "kumoha_e129_coupler_name"
+msgid "KuMoHa E129 with coupler"
+msgstr "KuMoHaE129 附车钩"
+
+msgctxt "kumoha_e129_name"
+msgid "KuMoHa E129"
+msgstr "KuMoHaE129"
+
+msgctxt "moha_817_3000_name"
+msgid "MoHa 817-3000"
+msgstr "MoHa817 3000番台"
+
+msgctxt "moha_e128_name"
+msgid "MoHa E128"
+msgstr "MoHaE128"
+
+msgctxt "moha_e129_name"
+msgid "MoHa E129"
+msgstr "MoHaE129"
+
+# -----
+# 标准化日本近郊列车（130km/h版）
+# ID:2755171129
+
+msgctxt "jp_generic_jr_817_130_mu_name"
+msgid "Jp. Generic S. (Seat oriented, 130KPH)"
+msgstr "日本通用型近郊電車 (近郊向，130KPH)"
+
+msgctxt "jp_generic_jr_817_3000_130_mu_name"
+msgid "Jp. Generic S. (Capacity oriented, 130KPH)"
+msgstr "日本通用型近郊電車 (通勤向，130KPH)"
+
+msgctxt "jp_generic_jr_e129_130_mu_name"
+msgid "Jp. Generic S. (Mixed orientation, 130KPH)"
+msgstr "日本通用型近郊電車 (130KPH)"
+
+# -----
 # JR东日本E129系
 # ID:2755979250
-
-msgctxt "jr_e129_mu_name"
-msgid "JR East E129 series"
-msgstr "JR東日本E129系"
 
 msgctxt "jr_e129_c_0"
 msgid "JR East E129 (2 Cars)"
@@ -10682,13 +11046,33 @@ msgctxt "jr_e129_c_9"
 msgid "JR East E129 (4+4+4 Cars)"
 msgstr "JR東日本E129 (4+4+4节)"
 
-# ----- 
+msgctxt "jr_e129_mu_name"
+msgid "JR East E129 series"
+msgstr "JR東日本E129系"
+
+# -----
 # JR九州817系
 # ID:2756068561
 
-msgctxt "jr_817_mu_name"
-msgid "JR Kyushu 817 series"
-msgstr "JR九州817系"
+msgctxt "jr_817_3000_c_1"
+msgid "JR Kyushu 817-3000 (3 Cars)"
+msgstr "JR九州817系3000番台 (3节)"
+
+msgctxt "jr_817_3000_c_2"
+msgid "JR Kyushu 817-3000 (6 Cars)"
+msgstr "JR九州817系3000番台 (6节)"
+
+msgctxt "jr_817_3000_c_3"
+msgid "JR Kyushu 817-3000 (9 Cars)"
+msgstr "JR九州817系3000番台 (9节)"
+
+msgctxt "jr_817_3000_c_4"
+msgid "JR Kyushu 817-3000 (12 Cars)"
+msgstr "JR九州817系3000番台 (12节)"
+
+msgctxt "jr_817_3000_mu_name"
+msgid "JR Kyushu 817-3000 series"
+msgstr "JR九州817系3000番台"
 
 msgctxt "jr_817_c_1"
 msgid "JR Kyushu 817 (2 Cars)"
@@ -10710,27 +11094,11 @@ msgctxt "jr_817_c_5"
 msgid "JR Kyushu 817 (10 Cars)"
 msgstr "JR九州817系 (10节)"
 
-msgctxt "jr_817_3000_mu_name"
-msgid "JR Kyushu 817-3000 series"
-msgstr "JR九州817系3000番台"
+msgctxt "jr_817_mu_name"
+msgid "JR Kyushu 817 series"
+msgstr "JR九州817系"
 
-msgctxt "jr_817_3000_c_1"
-msgid "JR Kyushu 817-3000 (3 Cars)"
-msgstr "JR九州817系3000番台 (3节)"
-
-msgctxt "jr_817_3000_c_2"
-msgid "JR Kyushu 817-3000 (6 Cars)"
-msgstr "JR九州817系3000番台 (6节)"
-
-msgctxt "jr_817_3000_c_3"
-msgid "JR Kyushu 817-3000 (9 Cars)"
-msgstr "JR九州817系3000番台 (9节)"
-
-msgctxt "jr_817_3000_c_4"
-msgid "JR Kyushu 817-3000 (12 Cars)"
-msgstr "JR九州817系3000番台 (12节)"
-
-# ----- 
+# -----
 # 九广铁路KCR(MTR)都城嘉慕电气化列车
 # ID:2775013429
 
@@ -10742,7 +11110,7 @@ msgctxt "MLR_Yellow_name"
 msgid "MLR Yellow train"
 msgstr "MLR (翻新前)"
 
-# ----- 
+# -----
 # 五车齐发|中国重庆轨道交通2号线
 # ID:2791552408
 
@@ -10750,7 +11118,7 @@ msgctxt "ChongQing2_name"
 msgid "ChongQing2"
 msgstr "重庆轨道交通2号线列车"
 
-# ----- 
+# -----
 # 五车齐发|中国厦门地铁二号线
 # ID:2791552725
 
@@ -10758,7 +11126,7 @@ msgctxt "XiaMen2_name"
 msgid "XiaMen2"
 msgstr "厦门地铁二号线列车"
 
-# ----- 
+# -----
 # 五车齐发|中国洛阳地铁
 # ID:2791553010
 
@@ -10770,7 +11138,7 @@ msgctxt "LuoYang2_name"
 msgid "LuoYang2"
 msgstr "洛阳地铁2号线列车"
 
-# ----- 
+# -----
 # 五车齐发|中国神24电力机车
 # ID:2791553399
 
@@ -10778,7 +11146,7 @@ msgctxt "Shen24_name"
 msgid "Shen24"
 msgstr "神24电力机车"
 
-# ----- 
+# -----
 # MTR K-Train
 # ID:2804801643
 
@@ -10786,7 +11154,7 @@ msgctxt "MTR_K-Train"
 msgid "MTR_K-Train"
 msgstr "港铁 K-Train"
 
-# ----- 
+# -----
 # MTR TCL K-Train
 # ID:2804840630
 
@@ -10794,7 +11162,7 @@ msgctxt "MTR_TCL_K-Train"
 msgid "MTR_TCL_K-Train"
 msgstr "港铁 K-Train (东涌线)"
 
-# ----- 
+# -----
 # MTR M-Train
 # ID:2805920642
 
@@ -10802,25 +11170,21 @@ msgctxt "MTR_M-Train"
 msgid "MTR_M-Train"
 msgstr "港铁 M-Train"
 
-# ----- 
+# -----
 # JR九州YC1系
 # ID:2805979299
-
-msgctxt "JR_kyushu_yc1_1100_name"
-msgid "YC1-1100"
-msgstr "YC1-1100番台"
-
-msgctxt "JR_kyushu_yc1_1100_coupler_name"
-msgid "YC1-1100 with coupler"
-msgstr "YC1-1100番台 附车钩"
 
 msgctxt "JR_kyushu_yc1_100_name"
 msgid "YC1-100"
 msgstr "YC1-100番台"
 
-msgctxt "jr_yc1_mu_name"
-msgid "JR Kyushu YC1 series"
-msgstr "JR九州YC1系"
+msgctxt "JR_kyushu_yc1_1100_coupler_name"
+msgid "YC1-1100 with coupler"
+msgstr "YC1-1100番台 附车钩"
+
+msgctxt "JR_kyushu_yc1_1100_name"
+msgid "YC1-1100"
+msgstr "YC1-1100番台"
 
 msgctxt "jr_yc1_c_1"
 msgid "JR Kyushu YC1 (2 Cars)"
@@ -10846,7 +11210,11 @@ msgctxt "jr_yc1_c_6"
 msgid "JR Kyushu YC1 (10 Cars)"
 msgstr "JR九州YC1系 (10节)"
 
-# ----- 
+msgctxt "jr_yc1_mu_name"
+msgid "JR Kyushu YC1 series"
+msgstr "JR九州YC1系"
+
+# -----
 # MTR C-Train
 # ID:2810334852
 
@@ -10854,39 +11222,23 @@ msgctxt "MTR_C-Train"
 msgid "MTR_C-Train"
 msgstr "港铁 C-Train"
 
-# ----- 
-# 标准化日本近郊列车（130km/h版）
-# ID:2755171129
-
-msgctxt "jp_generic_jr_817_130_mu_name"
-msgid "Jp. Generic S. (Seat oriented, 130KPH)"
-msgstr "日本通用型近郊電車 (近郊向，130KPH)"
-
-msgctxt "jp_generic_jr_817_3000_130_mu_name"
-msgid "Jp. Generic S. (Capacity oriented, 130KPH)"
-msgstr "日本通用型近郊電車 (通勤向，130KPH)"
-
-msgctxt "jp_generic_jr_e129_130_mu_name"
-msgid "Jp. Generic S. (Mixed orientation, 130KPH)"
-msgstr "日本通用型近郊電車 (130KPH)"
-
-# ----- 
+# -----
 # JR北海道H100形
 # ID:2812992533
-
-msgctxt "jr_hokkaido_h100_name"
-msgid "JR Hokkaido H100"
-msgstr "JR北海道H100形"
-
-msgctxt "jr_hokkaido_h100_mu_name"
-msgid "JR Hokkaido H100 series"
-msgstr "JR北海道H100形"
 
 msgctxt "jr_hokkaido_h100_c_1"
 msgid "JR Hokkaido H100 (1-10 Cars)"
 msgstr "JR北海道H100形 (1-10节)"
 
-# ----- 
+msgctxt "jr_hokkaido_h100_mu_name"
+msgid "JR Hokkaido H100 series"
+msgstr "JR北海道H100形"
+
+msgctxt "jr_hokkaido_h100_name"
+msgid "JR Hokkaido H100"
+msgstr "JR北海道H100形"
+
+# -----
 # Taiwan High Speed Rail 700T
 # ID:2813012199
 
@@ -10894,7 +11246,7 @@ msgctxt "THSR700T_name"
 msgid "THSR 700T"
 msgstr "台湾高速铁路700T"
 
-# ----- 
+# -----
 # MTR DRL M-Train
 # ID:2814214113
 
@@ -10902,7 +11254,7 @@ msgctxt "MTR_DRL_M-Train"
 msgid "MTR_DRL_M-Train"
 msgstr "港铁 M-Train (迪士尼线)"
 
-# ----- 
+# -----
 # Airbus A380
 # ID:2862644032
 
@@ -10918,7 +11270,7 @@ msgctxt "comp3_airbus"
 msgid "Airbus A380 OP Capacity"
 msgstr "Airbus A380 (非现实载客量)"
 
-# ----- 
+# -----
 # JNR 183 Series
 # ID:2884180130
 
@@ -10926,7 +11278,7 @@ msgctxt "KM_JR183"
 msgid "JR 183 Series"
 msgstr "国鉄183系"
 
-# ----- 
+# -----
 # JNR 151/181 Series
 # ID:2884432880
 
@@ -10938,7 +11290,7 @@ msgctxt "KM_JNR181"
 msgid "JNR 181 Series"
 msgstr "国鉄181系"
 
-# ----- 
+# -----
 # JNR 581 Series
 # ID:2884674771
 
@@ -10950,7 +11302,7 @@ msgctxt "KM_JNR581s"
 msgid "JNR 581 Series Sleeper"
 msgstr "国鉄581系(寝台)"
 
-# ----- 
+# -----
 # JNR 0 Series Shinkansen
 # ID:2884847657
 
@@ -10958,7 +11310,7 @@ msgctxt "KM_0SKS"
 msgid "JNR 0 Series Shinkansen"
 msgstr "新幹線0系電車"
 
-# ----- 
+# -----
 # JNR 485 Series
 # ID:2885233678
 
@@ -10966,7 +11318,7 @@ msgctxt "KM_JNR485l"
 msgid "JNR 485 Series Latter Model"
 msgstr "国鉄485系"
 
-# ----- 
+# -----
 # JRW 485-2000 Series
 # ID:2885256035
 
@@ -10974,7 +11326,7 @@ msgctxt "KM_JNR485_2000"
 msgid "JRW 485-2000 Series"
 msgstr "JR西日本485系2000番台"
 
-# ----- 
+# -----
 # JNR 381 Series
 # ID:2885672774
 
@@ -10982,7 +11334,7 @@ msgctxt "KM_JNR381"
 msgid "JNR 381 Series"
 msgstr "国鉄381系"
 
-# ----- 
+# -----
 # Tianjin Rail Transit Line 9 Train
 # ID:2893488267
 
@@ -10990,7 +11342,7 @@ msgctxt "Tianjin Rail Transit Line 9 Train_name"
 msgid "Tianjin Rail Transit Line 9 Train"
 msgstr "天津轨道交通9号线列车"
 
-# ----- 
+# -----
 # Tianjin Rail Transit Line 2 Train
 # ID:2893489014
 
@@ -10998,7 +11350,31 @@ msgctxt "Tianjin_Rail_Transit_Line_2_Train_name"
 msgid "Tianjin Rail Transit Line 2 Train"
 msgstr "天津轨道交通2号线列车"
 
-# ----- 
+# -----
+# JR Shikoku 5000 Series
+# ID:2895723311
+
+msgctxt "KM_JRS5000"
+msgid "JR Shikoku 5000 Series"
+msgstr "JR四国5000系「ﾏﾘﾝﾗｲﾅｰ」"
+
+# -----
+# JR West 223 Series
+# ID:2895723733
+
+msgctxt "KM_JRW223"
+msgid "JR West 223 Series"
+msgstr "JR西日本223系"
+
+# -----
+# JR 285 Series
+# ID:2896094484
+
+msgctxt "KM_JR285"
+msgid "JR 285 Series"
+msgstr "JR西日本285系"
+
+# -----
 # Tianjin Development Zone Tram Line 1
 # ID:2896178785
 
@@ -11006,7 +11382,55 @@ msgctxt "Tianjin_Development_Zone_Tram_Line_1_Tram"
 msgid "Tianjin Development Zone Tram Line 1 Tram"
 msgstr "天津开发区导轨电车1号线电车"
 
-# ----- 
+# -----
+# Taiwan Railways Administration EMU3000 series
+# ID:2896647097
+
+msgctxt "EMU3000_ED1_2_name"
+msgid "TRA EMU3000 ED1 ED2"
+msgstr "台铁EMU3000型 ED1 ED2"
+
+msgctxt "EMU3000_EM1_6_name"
+msgid "TRA EMU3000 EM1 EM6"
+msgstr "台铁EMU3000型 EM1 EM6"
+
+msgctxt "EMU3000_EM2_name"
+msgid "TRA EMU3000 EM2"
+msgstr "台铁EMU3000型 EM2"
+
+msgctxt "EMU3000_EM3_name"
+msgid "TRA EMU3000 EM3"
+msgstr "台铁EMU3000型 EM3"
+
+msgctxt "EMU3000_EM4_name"
+msgid "TRA EMU3000 EM4"
+msgstr "台铁EMU3000型 EM4"
+
+msgctxt "EMU3000_EM5_name"
+msgid "TRA EMU3000 EM5"
+msgstr "台铁EMU3000型 EM5"
+
+msgctxt "EMU3000_EP1_name"
+msgid "TRA EMU3000 EP1"
+msgstr "台铁EMU3000型 EP1"
+
+msgctxt "EMU3000_EP2_name"
+msgid "TRA EMU3000 EP2"
+msgstr "台铁EMU3000型 EP2"
+
+msgctxt "EMU3000_EP3_name"
+msgid "TRA EMU3000 EP3"
+msgstr "台铁EMU3000型 EP3"
+
+msgctxt "EMU3000_ET_name"
+msgid "TRA EMU3000 ET"
+msgstr "台铁EMU3000型 ET"
+
+msgctxt "EMU3000_SET_name"
+msgid "TRA EMU3000"
+msgstr "台铁EMU3000型"
+
+# -----
 # Tianjin Rail Transit Line 3 Train
 # ID:2897265768
 
@@ -11014,7 +11438,7 @@ msgctxt "Tianjin_Rail_Transit_Line_3_Train_name"
 msgid "Tianjin Rail Transit Line 3 Train"
 msgstr "天津轨道交通3号线列车"
 
-# ----- 
+# -----
 # Tianjin Rail Transit Line 1 Train
 # ID:2904643472
 
@@ -11022,7 +11446,7 @@ msgctxt "Tianjin_Rail_Transit_Line_1_Train_name"
 msgid "Tianjin Rail Transit Line 1 Train"
 msgstr "天津轨道交通1号线列车"
 
-# ----- 
+# -----
 # Tianjin Rail Transit Line 6 Train
 # ID:2907068381
 
@@ -11030,7 +11454,15 @@ msgctxt "Tianjin_Rail_Transit_Line_6_Train_name"
 msgid "Tianjin Rail Transit Line 6 Train"
 msgstr "天津轨道交通6号线列车"
 
-# ----- 
+# -----
+# JNR 185 Series
+# ID:2909107642
+
+msgctxt "KM_JNR185"
+msgid "JNR 185 Series"
+msgstr "国鉄185系"
+
+# -----
 # Tianjin Rail Transit Line 5 Train
 # ID:2910013596
 
@@ -11038,7 +11470,7 @@ msgctxt "Tianjin_Rail_Transit_Line_5_Train"
 msgid "Tianjin Rail Transit Line 5 Train"
 msgstr "天津轨道交通5号线列车"
 
-# ----- 
+# -----
 # Tianjin Rail Transit Line 4 Train
 # ID:2912353837
 
@@ -11046,7 +11478,155 @@ msgctxt "Tianjin_Rail_Transit_Line_4_Train"
 msgid "Tianjin Rail Transit Line 4 Train"
 msgstr "天津轨道交通4号线列车"
 
-# ----- 
+# -----
+# JR East 215 Series
+# ID:2918065368
+
+msgctxt "KM_JRE215"
+msgid "JR East 215 Series"
+msgstr "JR東日本215系"
+
+# -----
+# JNR 201 Series
+# ID:2919957187
+
+msgctxt "KM_JNR201"
+msgid "JNR 201 Series"
+msgstr "国鉄201系"
+
+# -----
+# Sapporo City Tram Type A1200
+# ID:2920080066
+
+msgctxt "KM_SapporoA1200"
+msgid "Sapporo City Tram Type A1200"
+msgstr "札幌市交通局A1200形「ﾎﾟﾗﾘｽ」"
+
+# -----
+# Hiroden Type 5100
+# ID:2921404753
+
+msgctxt "KM_Hiroden5100"
+msgid "Hiroden Type 5100"
+msgstr "広島電鉄5100形"
+
+# -----
+# JR N700 Series Shinkansen
+# ID:2925286259
+
+msgctxt "KM_N700SKS"
+msgid "JR N700 Shinkansen"
+msgstr "新幹線N700系"
+
+# -----
+# JR West 681/683 Series
+# ID:2941559900
+
+msgctxt "KM_JRW681"
+msgid "JR 681 Series"
+msgstr "JR西日本681系"
+
+msgctxt "KM_JRW6830"
+msgid "JR 683-0 Series"
+msgstr "JR西日本683-0系"
+
+msgctxt "KM_JRW6834"
+msgid "JR 683-4000 Series"
+msgstr "JR西日本683-4000系"
+
+# -----
+# Sanyo 6000 Series
+# ID:2945131641
+
+msgctxt "S6000_name"
+msgid "Sanyo 6000 Series"
+msgstr "山陽電車6000系"
+
+# -----
+# JR N700-7000 Shinkansen
+# ID:2947399480
+
+msgctxt "KM_N700SKS7000"
+msgid "JR N700-7000 Shinkansen"
+msgstr "新幹線N700系7000番台"
+
+# -----
+# JNR Limited Express EMU
+# ID:2960536193
+
+msgctxt "KM_JNR_LEEMU"
+msgid "JNR Limited Express EMU"
+msgstr "国鉄特急型電車"
+
+msgctxt "KM_JNR_LEEMU_comp_Asama(489/1990)"
+msgid "KM_JNR_LEEMU_comp_Asama(489/1990)"
+msgstr "浅间(489/1990年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Asama90"
+msgid "Asama(489/1990)"
+msgstr "浅间(489/1990年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Hakucho90"
+msgid "Hakucho/Raicho(485/1990)"
+msgstr "白鳥/雷鳥(485/1990年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Hakusan72"
+msgid "Hakusan(489/1972)"
+msgstr "白山(489/1972年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Hakusan90"
+msgid "Hakusan(489/1990)"
+msgstr "白山(489/1990年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Hibari65"
+msgid "Hibari(485/1965)"
+msgstr "云雀(485/1965年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Hibari73"
+msgid "Hibari(485/1973)"
+msgstr "云雀(485/1973年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Kagayaki96"
+msgid "Kagayaki/Kirameki(485/1996)"
+msgstr "光辉·璀璨(485/1996年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Kamome76M"
+msgid "Kamome+Midori(485/1976)"
+msgstr "海鸥·绿(485/1976年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Kamoshika05"
+msgid "Kamoshika(485/2005)"
+msgstr "羚羊(485/2005年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Kodama58"
+msgid "Kodama(151/1958)"
+msgstr "回声(151/1958年)"
+
+msgctxt "KM_JNR_LEEMU_comp_SRaicho95"
+msgid "Super Raicho(485/1995)"
+msgstr "超级雷鸟(485/1995年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Shioji68"
+msgid "Shioji/Uzushio(181/1968)"
+msgstr "汐路·涡潮(181/1968年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Toki62"
+msgid "Toki(161/1962)"
+msgstr "朱鹭(161/1962年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Toki66"
+msgid "Toki/Asama(181/1966)"
+msgstr "朱鹭·浅间(181/1966年)"
+
+msgctxt "KM_JNR_LEEMU_comp_Tsubame60"
+msgid "Tsubame(151/1960)"
+msgstr "燕(151/1960年)"
+
+msgctxt "KM_JNR_LEEMU_comp_VAizu93"
+msgid "Viva Aizu(485/1993)"
+msgstr "活力会津(485/1993年)"
+
+# -----
 # NemolaLau's Utility Trains
 # ID:2994369918
 
@@ -11054,15 +11634,23 @@ msgctxt "Utility Trains (Cheat)"
 msgid "Utility Trains (Cheat)"
 msgstr "辅助列车(作弊类)"
 
+msgctxt "Utility Trains (Extra Power)"
+msgid "Utility Trains (Extra Power)"
+msgstr "辅助列车(额外动力)"
+
+msgctxt "Utility Trains (Speed Limiter)"
+msgid "Utility Trains (Speed Limiter)"
+msgstr "辅助列车(限速器)"
+
 msgctxt "nla_cheat_train_01_name"
 msgid "NLA Cheat Train"
 msgstr "NLA作弊列车"
 
-msgctxt "nla_cheat_train_02_mu_name"
+msgctxt "nla_cheat_train_02_c_1"
 msgid "NLA Cheat Train"
 msgstr "NLA作弊列车"
 
-msgctxt "nla_cheat_train_02_c_1"
+msgctxt "nla_cheat_train_02_mu_name"
 msgid "NLA Cheat Train"
 msgstr "NLA作弊列车"
 
@@ -11074,21 +11662,33 @@ msgctxt "nla_cheat_train_03_name"
 msgid "NLA Space Filler"
 msgstr "NLA空间填充"
 
-msgctxt "Utility Trains (Extra Power)"
-msgid "Utility Trains (Extra Power)"
-msgstr "辅助列车(额外动力)"
-
 msgctxt "nla_extra_power_100_name"
 msgid "NLA Extra Power 100"
 msgstr "NLA额外动力100"
+
+msgctxt "nla_extra_power_1200_name"
+msgid "NLA Extra Power 1200"
+msgstr "NLA额外动力1200"
+
+msgctxt "nla_extra_power_1500_name"
+msgid "NLA Extra Power 1500"
+msgstr "NLA额外动力1500"
 
 msgctxt "nla_extra_power_150_name"
 msgid "NLA Extra Power 150"
 msgstr "NLA额外动力150"
 
+msgctxt "nla_extra_power_3000_name"
+msgid "NLA Extra Power 3000"
+msgstr "NLA额外动力3000"
+
 msgctxt "nla_extra_power_300_name"
 msgid "NLA Extra Power 300"
 msgstr "NLA额外动力300"
+
+msgctxt "nla_extra_power_6000_name"
+msgid "NLA Extra Power 6000"
+msgstr "NLA额外动力6000"
 
 msgctxt "nla_extra_power_600_name"
 msgid "NLA Extra Power 600"
@@ -11102,41 +11702,9 @@ msgctxt "nla_extra_power_800_name"
 msgid "NLA Extra Power 800"
 msgstr "NLA额外动力800"
 
-msgctxt "nla_extra_power_1200_name"
-msgid "NLA Extra Power 1200"
-msgstr "NLA额外动力1200"
-
-msgctxt "nla_extra_power_1500_name"
-msgid "NLA Extra Power 1500"
-msgstr "NLA额外动力1500"
-
-msgctxt "nla_extra_power_3000_name"
-msgid "NLA Extra Power 3000"
-msgstr "NLA额外动力3000"
-
-msgctxt "nla_extra_power_6000_name"
-msgid "NLA Extra Power 6000"
-msgstr "NLA额外动力6000"
-
 msgctxt "nla_extra_power_9000_name"
 msgid "NLA Extra Power 9000"
 msgstr "NLA额外动力9000"
-
-msgctxt "Utility Trains (Speed Limiter)"
-msgid "Utility Trains (Speed Limiter)"
-msgstr "辅助列车(限速器)"
-
-msgctxt "nla_speed_limiter_80_name"
-msgid "NLA Speed Limiter 80"
-msgstr "NLA限速器80"
-
-msgctxt "nla_speed_limiter_90_name"
-msgid "NLA Speed Limiter 90"
-msgstr "NLA限速器90"
-
-msgctxt "nla_speed_limiter_96_name"
-msgid "NLA Speed Limiter 96"
-msgstr "NLA限速器96"
 
 msgctxt "nla_speed_limiter_100_name"
 msgid "NLA Speed Limiter 100"
@@ -11194,243 +11762,27 @@ msgctxt "nla_speed_limiter_400_name"
 msgid "NLA Speed Limiter 400"
 msgstr "NLA限速器400"
 
-# ----- 
-# Taiwan Railways Administration EMU3000 series
-# ID:2896647097
+msgctxt "nla_speed_limiter_80_name"
+msgid "NLA Speed Limiter 80"
+msgstr "NLA限速器80"
 
-msgctxt "EMU3000_ED1_2_name"
-msgid "TRA EMU3000 ED1 ED2"
-msgstr "台铁EMU3000型 ED1 ED2"
+msgctxt "nla_speed_limiter_90_name"
+msgid "NLA Speed Limiter 90"
+msgstr "NLA限速器90"
 
-msgctxt "EMU3000_EM1_6_name"
-msgid "TRA EMU3000 EM1 EM6"
-msgstr "台铁EMU3000型 EM1 EM6"
+msgctxt "nla_speed_limiter_96_name"
+msgid "NLA Speed Limiter 96"
+msgstr "NLA限速器96"
 
-msgctxt "EMU3000_EP1_name"
-msgid "TRA EMU3000 EP1"
-msgstr "台铁EMU3000型 EP1"
-
-msgctxt "EMU3000_EM2_name"
-msgid "TRA EMU3000 EM2"
-msgstr "台铁EMU3000型 EM2"
-
-msgctxt "EMU3000_ET_name"
-msgid "TRA EMU3000 ET"
-msgstr "台铁EMU3000型 ET"
-
-msgctxt "EMU3000_EM3_name"
-msgid "TRA EMU3000 EM3"
-msgstr "台铁EMU3000型 EM3"
-
-msgctxt "EMU3000_EP2_name"
-msgid "TRA EMU3000 EP2"
-msgstr "台铁EMU3000型 EP2"
-
-msgctxt "EMU3000_EM4_name"
-msgid "TRA EMU3000 EM4"
-msgstr "台铁EMU3000型 EM4"
-
-msgctxt "EMU3000_EM5_name"
-msgid "TRA EMU3000 EM5"
-msgstr "台铁EMU3000型 EM5"
-
-msgctxt "EMU3000_EP3_name"
-msgid "TRA EMU3000 EP3"
-msgstr "台铁EMU3000型 EP3"
-
-msgctxt "EMU3000_SET_name"
-msgid "TRA EMU3000"
-msgstr "台铁EMU3000型"
-
-# ----- 
-# JR Shikoku 5000 Series
-# ID:2895723311
-
-msgctxt "KM_JRS5000"
-msgid "JR Shikoku 5000 Series"
-msgstr "JR四国5000系「ﾏﾘﾝﾗｲﾅｰ」"
-
-# ----- 
-# JR West 223 Series
-# ID:2895723733
-
-msgctxt "KM_JRW223"
-msgid "JR West 223 Series"
-msgstr "JR西日本223系"
-
-# ----- 
-# JR 285 Series
-# ID:2896094484
-
-msgctxt "KM_JR285"
-msgid "JR 285 Series"
-msgstr "JR西日本285系"
-
-# ----- 
-# JNR 185 Series
-# ID:2909107642
-
-msgctxt "KM_JNR185"
-msgid "JNR 185 Series"
-msgstr "国鉄185系"
-
-# ----- 
-# JR East 215 Series
-# ID:2918065368
-
-msgctxt "KM_JRE215"
-msgid "JR East 215 Series"
-msgstr "JR東日本215系"
-
-# ----- 
-# JNR 201 Series
-# ID:2919957187
-
-msgctxt "KM_JNR201"
-msgid "JNR 201 Series"
-msgstr "国鉄201系"
-
-# ----- 
-# Sapporo City Tram Type A1200
-# ID:2920080066
-
-msgctxt "KM_SapporoA1200"
-msgid "Sapporo City Tram Type A1200"
-msgstr "札幌市交通局A1200形「ﾎﾟﾗﾘｽ」"
-
-# ----- 
-# Hiroden Type 5100
-# ID:2921404753
-
-msgctxt "KM_Hiroden5100"
-msgid "Hiroden Type 5100"
-msgstr "広島電鉄5100形"
-
-# ----- 
-# JR N700 Series Shinkansen
-# ID:2925286259
-
-msgctxt "KM_N700SKS"
-msgid "JR N700 Shinkansen"
-msgstr "新幹線N700系"
-
-# ----- 
-# JR West 681/683 Series
-# ID:2941559900
-
-msgctxt "KM_JRW681"
-msgid "JR 681 Series"
-msgstr "JR西日本681系"
-
-msgctxt "KM_JRW6830"
-msgid "JR 683-0 Series"
-msgstr "JR西日本683-0系"
-
-msgctxt "KM_JRW6834"
-msgid "JR 683-4000 Series"
-msgstr "JR西日本683-4000系"
-
-# ----- 
-# Sanyo 6000 Series
-# ID:2945131641
-
-msgctxt "S6000_name"
-msgid "Sanyo 6000 Series"
-msgstr "山陽電車6000系"
-
-# ----- 
-# JR N700-7000 Shinkansen
-# ID:2947399480
-
-msgctxt "KM_N700SKS7000"
-msgid "JR N700-7000 Shinkansen"
-msgstr "新幹線N700系7000番台"
-
-# ----- 
-# JNR Limited Express EMU
-# ID:2960536193
-
-msgctxt "KM_JNR_LEEMU"
-msgid "JNR Limited Express EMU"
-msgstr "国鉄特急型電車"
-
-msgctxt "KM_JNR_LEEMU_comp_Kodama58"
-msgid "Kodama(151/1958)"
-msgstr "回声(151/1958年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Tsubame60"
-msgid "Tsubame(151/1960)"
-msgstr "燕(151/1960年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Toki62"
-msgid "Toki(161/1962)"
-msgstr "朱鹭(161/1962年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Toki66"
-msgid "Toki/Asama(181/1966)"
-msgstr "朱鹭·浅间(181/1966年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Shioji68"
-msgid "Shioji/Uzushio(181/1968)"
-msgstr "汐路·涡潮(181/1968年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Hibari65"
-msgid "Hibari(485/1965)"
-msgstr "云雀(485/1965年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Hibari73"
-msgid "Hibari(485/1973)"
-msgstr "云雀(485/1973年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Kamome76M"
-msgid "Kamome+Midori(485/1976)"
-msgstr "海鸥·绿(485/1976年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Hakucho90"
-msgid "Hakucho/Raicho(485/1990)"
-msgstr "白鳥/雷鳥(485/1990年)"
-
-msgctxt "KM_JNR_LEEMU_comp_VAizu93"
-msgid "Viva Aizu(485/1993)"
-msgstr "活力会津(485/1993年)"
-
-msgctxt "KM_JNR_LEEMU_comp_SRaicho95"
-msgid "Super Raicho(485/1995)"
-msgstr "超级雷鸟(485/1995年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Kagayaki96"
-msgid "Kagayaki/Kirameki(485/1996)"
-msgstr "光辉·璀璨(485/1996年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Kamoshika05"
-msgid "Kamoshika(485/2005)"
-msgstr "羚羊(485/2005年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Hakusan72"
-msgid "Hakusan(489/1972)"
-msgstr "白山(489/1972年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Asama(489/1990)"
-msgid "KM_JNR_LEEMU_comp_Asama(489/1990)"
-msgstr "浅间(489/1990年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Asama90"
-msgid "Asama(489/1990)"
-msgstr "浅间(489/1990年)"
-
-msgctxt "KM_JNR_LEEMU_comp_Hakusan90"
-msgid "Hakusan(489/1990)"
-msgstr "白山(489/1990年)"
-
-# ----- 
+# -----
 # JR Central N700S Shinkansen
 # ID:3002786337
 
 msgctxt "JR-C_N700S_name"
 msgid "JR-C N700S"
-msgstr "新干线N700S系（东海道）"
+msgstr "JR东海N700S系"
 
-# ----- 
+# -----
 # Osaka Municipal Subway 80 Series
 # ID:3067817684
 
@@ -11438,7 +11790,7 @@ msgctxt "oms80s"
 msgid "Osaka Municipal Subway 80 Series"
 msgstr "大阪市交通局80系"
 
-# ----- 
+# -----
 # Osaka Monorail 2000 Series
 # ID:3067881204
 
@@ -11446,7 +11798,7 @@ msgctxt "om2000"
 msgid "Osaka Monorail 2000 Series"
 msgstr "大阪单轨2000系"
 
-# ----- 
+# -----
 # Hankyu 1300 Series
 # ID:3092627314
 
@@ -11454,39 +11806,7 @@ msgctxt "Hankyu_1300_name"
 msgid "Hankyu 1300 2nd Gen"
 msgstr "阪急1300系(2代)"
 
-# ----- 
-# JRWest221
-# ID:2447543361
-
-msgctxt "JRWest221"
-msgid "JRWest221"
-msgstr "JR西日本221系"
-
-# ----- 
-# JRCentral313
-# ID:2448602141
-
-msgctxt "JRCent313"
-msgid "JRCent313"
-msgstr "JR東海313系"
-
-# ----- 
-# JRWest287
-# ID:2459763666
-
-msgctxt "JRWest287"
-msgid "JRWest287"
-msgstr "JR西日本287系"
-
-# ----- 
-# JNR113
-# ID:2464987764
-
-msgctxt "JNR113"
-msgid "JNR113"
-msgstr "国鉄113系"
-
-# ----- 
+# -----
 # China urban railway rolling stocks (ISOMetric) | 中国等距地铁列车
 # ID:3110293709
 
@@ -11494,285 +11814,325 @@ msgctxt "nla_china_metro_a_22m_3000_head_name"
 msgid "China Metro(ISOM) A 22.8×3.0m head"
 msgstr "中国地铁等轴A型 22.8×3.0m 头车"
 
-msgctxt "nla_china_metro_a_22m_3100_head_name"
-msgid "China Metro(ISOM) A 22.8×3.1m head"
-msgstr "中国地铁等轴A型 22.8×3.1m 头车"
-
-msgctxt "nla_china_metro_a_22m_3300_head_name"
-msgid "China Metro(ISOM) A 22.8×3.3m head"
-msgstr "中国地铁等轴A型 22.8×3.3m 头车"
-
-msgctxt "nla_china_metro_sa_22m_3000_head_name"
-msgid "China Metro(ISOM) S-A 22.8×3.0m head"
-msgstr "中国地铁等轴S-A型 22.8×3.0m 头车"
-
-msgctxt "nla_china_metro_sa_22m_3100_head_name"
-msgid "China Metro(ISOM) S-A 22.8×3.1m head"
-msgstr "中国地铁等轴S-A型 22.8×3.1m 头车"
-
-msgctxt "nla_china_metro_sa_22m_3300_head_name"
-msgid "China Metro(ISOM) S-A 22.8×3.3m head"
-msgstr "中国地铁等轴S-A型 22.8×3.3m 头车"
-
 msgctxt "nla_china_metro_a_22m_3000_mhead_name"
 msgid "China Metro(ISOM) A 22.8×3.0m head with motor"
 msgstr "中国地铁等轴A型 22.8×3.0m 有动力头车"
+
+msgctxt "nla_china_metro_a_22m_3100_head_name"
+msgid "China Metro(ISOM) A 22.8×3.1m head"
+msgstr "中国地铁等轴A型 22.8×3.1m 头车"
 
 msgctxt "nla_china_metro_a_22m_3100_mhead_name"
 msgid "China Metro(ISOM) A 22.8×3.1m head with motor"
 msgstr "中国地铁等轴A型 22.8×3.1m 有动力头车"
 
+msgctxt "nla_china_metro_a_22m_3300_head_name"
+msgid "China Metro(ISOM) A 22.8×3.3m head"
+msgstr "中国地铁等轴A型 22.8×3.3m 头车"
+
 msgctxt "nla_china_metro_a_22m_3300_mhead_name"
 msgid "China Metro(ISOM) A 22.8×3.3m head with motor"
 msgstr "中国地铁等轴A型 22.8×3.3m 有动力头车"
-
-msgctxt "nla_china_metro_sa_22m_3000_mhead_name"
-msgid "China Metro(ISOM) S-A 22.8×3.0m head with motor"
-msgstr "中国地铁等轴S-A型 22.8×3.0m 有动力头车"
-
-msgctxt "nla_china_metro_sa_22m_3100_mhead_name"
-msgid "China Metro(ISOM) S-A 22.8×3.1m head with motor"
-msgstr "中国地铁等轴S-A型 22.8×3.1m 有动力头车"
-
-msgctxt "nla_china_metro_sa_22m_3300_mhead_name"
-msgid "China Metro(ISOM) S-A 22.8×3.3m head with motor"
-msgstr "中国地铁等轴S-A型 22.8×3.3m 有动力头车"
-
-msgctxt "nla_china_metro_a_24m_3000_head_name"
-msgid "China Metro(ISOM) A 24.4×3.0m head"
-msgstr "中国地铁等轴A型 24.4×3.0m 头车"
-
-msgctxt "nla_china_metro_a_24m_3000_mhead_name"
-msgid "China Metro(ISOM) A 24.4×3.0m head with motor"
-msgstr "中国地铁等轴A型 24.4×3.0m 有动力头车"
 
 msgctxt "nla_china_metro_a_24m_3000_car_name"
 msgid "China Metro(ISOM) A 24.4×3.0m car"
 msgstr "中国地铁等轴A型 24.4×3.0m 无动力车"
 
+msgctxt "nla_china_metro_a_24m_3000_head_name"
+msgid "China Metro(ISOM) A 24.4×3.0m head"
+msgstr "中国地铁等轴A型 24.4×3.0m 头车"
+
 msgctxt "nla_china_metro_a_24m_3000_mcar_name"
 msgid "China Metro(ISOM) A 24.4×3.0m car with motor"
 msgstr "中国地铁等轴A型 24.4×3.0m 动力车"
 
-msgctxt "nla_china_metro_a_24m_3100_head_name"
-msgid "China Metro(ISOM) A 24.4×3.1m head"
-msgstr "中国地铁等轴A型 24.4×3.1m 头车"
-
-msgctxt "nla_china_metro_a_24m_3100_mhead_name"
-msgid "China Metro(ISOM) A 24.4×3.1m head with motor"
-msgstr "中国地铁等轴A型 24.4×3.1m 有动力头车"
+msgctxt "nla_china_metro_a_24m_3000_mhead_name"
+msgid "China Metro(ISOM) A 24.4×3.0m head with motor"
+msgstr "中国地铁等轴A型 24.4×3.0m 有动力头车"
 
 msgctxt "nla_china_metro_a_24m_3100_car_name"
 msgid "China Metro(ISOM) A 24.4×3.1m car"
 msgstr "中国地铁等轴A型 24.4×3.1m 无动力车"
 
+msgctxt "nla_china_metro_a_24m_3100_head_name"
+msgid "China Metro(ISOM) A 24.4×3.1m head"
+msgstr "中国地铁等轴A型 24.4×3.1m 头车"
+
 msgctxt "nla_china_metro_a_24m_3100_mcar_name"
 msgid "China Metro(ISOM) A 24.4×3.1m car with motor"
 msgstr "中国地铁等轴A型 24.4×3.1m 动力车"
 
-msgctxt "nla_china_metro_a_24m_3300_head_name"
-msgid "China Metro(ISOM) A 24.4×3.3m head"
-msgstr "中国地铁等轴A型 24.4×3.3m 头车"
-
-msgctxt "nla_china_metro_a_24m_3300_mhead_name"
-msgid "China Metro(ISOM) A 24.4×3.3m head with motor"
-msgstr "中国地铁等轴A型 24.4×3.3m 有动力头车"
+msgctxt "nla_china_metro_a_24m_3100_mhead_name"
+msgid "China Metro(ISOM) A 24.4×3.1m head with motor"
+msgstr "中国地铁等轴A型 24.4×3.1m 有动力头车"
 
 msgctxt "nla_china_metro_a_24m_3300_car_name"
 msgid "China Metro(ISOM) A 24.4×3.3m car"
 msgstr "中国地铁等轴A型 24.4×3.3m 无动力车"
 
+msgctxt "nla_china_metro_a_24m_3300_head_name"
+msgid "China Metro(ISOM) A 24.4×3.3m head"
+msgstr "中国地铁等轴A型 24.4×3.3m 头车"
+
 msgctxt "nla_china_metro_a_24m_3300_mcar_name"
 msgid "China Metro(ISOM) A 24.4×3.3m car with motor"
 msgstr "中国地铁等轴A型 24.4×3.3m 动力车"
 
-msgctxt "nla_china_metro_sa_24m_3000_head_name"
-msgid "China Metro(ISOM) S-A 24.4×3.0m head"
-msgstr "中国地铁等轴S-A型 24.4×3.0m 头车"
-
-msgctxt "nla_china_metro_sa_24m_3000_mhead_name"
-msgid "China Metro(ISOM) S-A 24.4×3.0m head with motor"
-msgstr "中国地铁等轴S-A型 24.4×3.0m 有动力头车"
-
-msgctxt "nla_china_metro_sa_24m_3000_car_name"
-msgid "China Metro(ISOM) S-A 24.4×3.0m car"
-msgstr "中国地铁等轴S-A型 24.4×3.0m 无动力车"
-
-msgctxt "nla_china_metro_sa_24m_3000_mcar_name"
-msgid "China Metro(ISOM) S-A 24.4×3.0m car with motor"
-msgstr "中国地铁等轴S-A型 24.4×3.0m 动力车"
-
-msgctxt "nla_china_metro_sa_24m_3100_head_name"
-msgid "China Metro(ISOM) S-A 24.4×3.1m head"
-msgstr "中国地铁等轴S-A型 24.4×3.1m 头车"
-
-msgctxt "nla_china_metro_sa_24m_3100_mhead_name"
-msgid "China Metro(ISOM) S-A 24.4×3.1m head with motor"
-msgstr "中国地铁等轴S-A型 24.4×3.1m 有动力头车"
-
-msgctxt "nla_china_metro_sa_24m_3100_car_name"
-msgid "China Metro(ISOM) S-A 24.4×3.1m car"
-msgstr "中国地铁等轴S-A型 24.4×3.1m 无动力车"
-
-msgctxt "nla_china_metro_sa_24m_3100_mcar_name"
-msgid "China Metro(ISOM) S-A 24.4×3.1m car with motor"
-msgstr "中国地铁等轴S-A型 24.4×3.1m 动力车"
-
-msgctxt "nla_china_metro_sa_24m_3300_head_name"
-msgid "China Metro(ISOM) S-A 24.4×3.3m head"
-msgstr "中国地铁等轴S-A型 24.4×3.3m 头车"
-
-msgctxt "nla_china_metro_sa_24m_3300_mhead_name"
-msgid "China Metro(ISOM) S-A 24.4×3.3m head with motor"
-msgstr "中国地铁等轴S-A型 24.4×3.3m 有动力头车"
-
-msgctxt "nla_china_metro_sa_24m_3300_car_name"
-msgid "China Metro(ISOM) S-A 24.4×3.3m car"
-msgstr "中国地铁等轴S-A型 24.4×3.3m 无动力车"
-
-msgctxt "nla_china_metro_sa_24m_3300_mcar_name"
-msgid "China Metro(ISOM) S-A 24.4×3.3m car with motor"
-msgstr "中国地铁等轴S-A型 24.4×3.3m 动力车"
-
-msgctxt "nla_china_metro_b_20m_2800_head_name"
-msgid "China Metro(ISOM) B 19.98×2.8m head"
-msgstr "中国地铁等轴B型 19.98×2.8m 头车"
-
-msgctxt "nla_china_metro_b_20m_2800_mhead_name"
-msgid "China Metro(ISOM) B 19.98×2.8m head with motor"
-msgstr "中国地铁等轴B型 19.98×2.8m 有动力头车"
+msgctxt "nla_china_metro_a_24m_3300_mhead_name"
+msgid "China Metro(ISOM) A 24.4×3.3m head with motor"
+msgstr "中国地铁等轴A型 24.4×3.3m 有动力头车"
 
 msgctxt "nla_china_metro_b_20m_2800_car_name"
 msgid "China Metro(ISOM) B 19.98×2.8m car"
 msgstr "中国地铁等轴B型 19.98×2.8m 无动力车"
 
+msgctxt "nla_china_metro_b_20m_2800_head_name"
+msgid "China Metro(ISOM) B 19.98×2.8m head"
+msgstr "中国地铁等轴B型 19.98×2.8m 头车"
+
 msgctxt "nla_china_metro_b_20m_2800_mcar_name"
 msgid "China Metro(ISOM) B 19.98×2.8m car with motor"
 msgstr "中国地铁等轴B型 19.98×2.8m 动力车"
 
-msgctxt "nla_china_metro_b_20m_3000_head_name"
-msgid "China Metro(ISOM) B 19.98×3.0m head"
-msgstr "中国地铁等轴B型 19.98×3.0m 头车"
-
-msgctxt "nla_china_metro_b_20m_3000_mhead_name"
-msgid "China Metro(ISOM) B 19.98×3.0m head with motor"
-msgstr "中国地铁等轴B型 19.98×3.0m 有动力头车"
+msgctxt "nla_china_metro_b_20m_2800_mhead_name"
+msgid "China Metro(ISOM) B 19.98×2.8m head with motor"
+msgstr "中国地铁等轴B型 19.98×2.8m 有动力头车"
 
 msgctxt "nla_china_metro_b_20m_3000_car_name"
 msgid "China Metro(ISOM) B 19.98×3.0m car"
 msgstr "中国地铁等轴B型 19.98×3.0m 无动力车"
 
+msgctxt "nla_china_metro_b_20m_3000_head_name"
+msgid "China Metro(ISOM) B 19.98×3.0m head"
+msgstr "中国地铁等轴B型 19.98×3.0m 头车"
+
 msgctxt "nla_china_metro_b_20m_3000_mcar_name"
 msgid "China Metro(ISOM) B 19.98×3.0m car with motor"
 msgstr "中国地铁等轴B型 19.98×3.0m 动力车"
 
-msgctxt "nla_china_metro_b_20m_3100_head_name"
-msgid "China Metro(ISOM) B 19.98×3.1m head"
-msgstr "中国地铁等轴B型 19.98×3.1m 头车"
-
-msgctxt "nla_china_metro_b_20m_3100_mhead_name"
-msgid "China Metro(ISOM) B 19.98×3.1m head with motor"
-msgstr "中国地铁等轴B型 19.98×3.1m 有动力头车"
+msgctxt "nla_china_metro_b_20m_3000_mhead_name"
+msgid "China Metro(ISOM) B 19.98×3.0m head with motor"
+msgstr "中国地铁等轴B型 19.98×3.0m 有动力头车"
 
 msgctxt "nla_china_metro_b_20m_3100_car_name"
 msgid "China Metro(ISOM) B 19.98×3.1m car"
 msgstr "中国地铁等轴B型 19.98×3.1m 无动力车"
 
+msgctxt "nla_china_metro_b_20m_3100_head_name"
+msgid "China Metro(ISOM) B 19.98×3.1m head"
+msgstr "中国地铁等轴B型 19.98×3.1m 头车"
+
 msgctxt "nla_china_metro_b_20m_3100_mcar_name"
 msgid "China Metro(ISOM) B 19.98×3.1m car with motor"
 msgstr "中国地铁等轴B型 19.98×3.1m 动力车"
 
-msgctxt "nla_china_metro_b_20m_3300_head_name"
-msgid "China Metro(ISOM) B 19.98×3.3m head"
-msgstr "中国地铁等轴B型 19.98×3.3m 头车"
-
-msgctxt "nla_china_metro_b_20m_3300_mhead_name"
-msgid "China Metro(ISOM) B 19.98×3.3m head with motor"
-msgstr "中国地铁等轴B型 19.98×3.3m 有动力头车"
+msgctxt "nla_china_metro_b_20m_3100_mhead_name"
+msgid "China Metro(ISOM) B 19.98×3.1m head with motor"
+msgstr "中国地铁等轴B型 19.98×3.1m 有动力头车"
 
 msgctxt "nla_china_metro_b_20m_3300_car_name"
 msgid "China Metro(ISOM) B 19.98×3.3m car"
 msgstr "中国地铁等轴B型 19.98×3.3m 无动力车"
 
+msgctxt "nla_china_metro_b_20m_3300_head_name"
+msgid "China Metro(ISOM) B 19.98×3.3m head"
+msgstr "中国地铁等轴B型 19.98×3.3m 头车"
+
 msgctxt "nla_china_metro_b_20m_3300_mcar_name"
 msgid "China Metro(ISOM) B 19.98×3.3m car with motor"
 msgstr "中国地铁等轴B型 19.98×3.3m 动力车"
 
-msgctxt "nla_china_metro_sb_20m_2800_head_name"
-msgid "China Metro(ISOM) S-B 19.98×2.8m head"
-msgstr "中国地铁等轴S-B型 19.98×2.8m 头车"
+msgctxt "nla_china_metro_b_20m_3300_mhead_name"
+msgid "China Metro(ISOM) B 19.98×3.3m head with motor"
+msgstr "中国地铁等轴B型 19.98×3.3m 有动力头车"
 
-msgctxt "nla_china_metro_sb_20m_2800_mhead_name"
-msgid "China Metro(ISOM) S-B 19.98×2.8m head with motor"
-msgstr "中国地铁等轴S-B型 19.98×2.8m 有动力头车"
+msgctxt "nla_china_metro_sa_22m_3000_head_name"
+msgid "China Metro(ISOM) S-A 22.8×3.0m head"
+msgstr "中国地铁等轴S-A型 22.8×3.0m 头车"
+
+msgctxt "nla_china_metro_sa_22m_3000_mhead_name"
+msgid "China Metro(ISOM) S-A 22.8×3.0m head with motor"
+msgstr "中国地铁等轴S-A型 22.8×3.0m 有动力头车"
+
+msgctxt "nla_china_metro_sa_22m_3100_head_name"
+msgid "China Metro(ISOM) S-A 22.8×3.1m head"
+msgstr "中国地铁等轴S-A型 22.8×3.1m 头车"
+
+msgctxt "nla_china_metro_sa_22m_3100_mhead_name"
+msgid "China Metro(ISOM) S-A 22.8×3.1m head with motor"
+msgstr "中国地铁等轴S-A型 22.8×3.1m 有动力头车"
+
+msgctxt "nla_china_metro_sa_22m_3300_head_name"
+msgid "China Metro(ISOM) S-A 22.8×3.3m head"
+msgstr "中国地铁等轴S-A型 22.8×3.3m 头车"
+
+msgctxt "nla_china_metro_sa_22m_3300_mhead_name"
+msgid "China Metro(ISOM) S-A 22.8×3.3m head with motor"
+msgstr "中国地铁等轴S-A型 22.8×3.3m 有动力头车"
+
+msgctxt "nla_china_metro_sa_24m_3000_car_name"
+msgid "China Metro(ISOM) S-A 24.4×3.0m car"
+msgstr "中国地铁等轴S-A型 24.4×3.0m 无动力车"
+
+msgctxt "nla_china_metro_sa_24m_3000_head_name"
+msgid "China Metro(ISOM) S-A 24.4×3.0m head"
+msgstr "中国地铁等轴S-A型 24.4×3.0m 头车"
+
+msgctxt "nla_china_metro_sa_24m_3000_mcar_name"
+msgid "China Metro(ISOM) S-A 24.4×3.0m car with motor"
+msgstr "中国地铁等轴S-A型 24.4×3.0m 动力车"
+
+msgctxt "nla_china_metro_sa_24m_3000_mhead_name"
+msgid "China Metro(ISOM) S-A 24.4×3.0m head with motor"
+msgstr "中国地铁等轴S-A型 24.4×3.0m 有动力头车"
+
+msgctxt "nla_china_metro_sa_24m_3100_car_name"
+msgid "China Metro(ISOM) S-A 24.4×3.1m car"
+msgstr "中国地铁等轴S-A型 24.4×3.1m 无动力车"
+
+msgctxt "nla_china_metro_sa_24m_3100_head_name"
+msgid "China Metro(ISOM) S-A 24.4×3.1m head"
+msgstr "中国地铁等轴S-A型 24.4×3.1m 头车"
+
+msgctxt "nla_china_metro_sa_24m_3100_mcar_name"
+msgid "China Metro(ISOM) S-A 24.4×3.1m car with motor"
+msgstr "中国地铁等轴S-A型 24.4×3.1m 动力车"
+
+msgctxt "nla_china_metro_sa_24m_3100_mhead_name"
+msgid "China Metro(ISOM) S-A 24.4×3.1m head with motor"
+msgstr "中国地铁等轴S-A型 24.4×3.1m 有动力头车"
+
+msgctxt "nla_china_metro_sa_24m_3300_car_name"
+msgid "China Metro(ISOM) S-A 24.4×3.3m car"
+msgstr "中国地铁等轴S-A型 24.4×3.3m 无动力车"
+
+msgctxt "nla_china_metro_sa_24m_3300_head_name"
+msgid "China Metro(ISOM) S-A 24.4×3.3m head"
+msgstr "中国地铁等轴S-A型 24.4×3.3m 头车"
+
+msgctxt "nla_china_metro_sa_24m_3300_mcar_name"
+msgid "China Metro(ISOM) S-A 24.4×3.3m car with motor"
+msgstr "中国地铁等轴S-A型 24.4×3.3m 动力车"
+
+msgctxt "nla_china_metro_sa_24m_3300_mhead_name"
+msgid "China Metro(ISOM) S-A 24.4×3.3m head with motor"
+msgstr "中国地铁等轴S-A型 24.4×3.3m 有动力头车"
 
 msgctxt "nla_china_metro_sb_20m_2800_car_name"
 msgid "China Metro(ISOM) S-B 19.98×2.8m car"
 msgstr "中国地铁等轴S-B型 19.98×2.8m 无动力车"
 
+msgctxt "nla_china_metro_sb_20m_2800_head_name"
+msgid "China Metro(ISOM) S-B 19.98×2.8m head"
+msgstr "中国地铁等轴S-B型 19.98×2.8m 头车"
+
 msgctxt "nla_china_metro_sb_20m_2800_mcar_name"
 msgid "China Metro(ISOM) S-B 19.98×2.8m car with motor"
 msgstr "中国地铁等轴S-B型 19.98×2.8m 动力车"
 
-msgctxt "nla_china_metro_sb_20m_3000_head_name"
-msgid "China Metro(ISOM) S-B 19.98×3.0m head"
-msgstr "中国地铁等轴S-B型 19.98×3.0m 头车"
-
-msgctxt "nla_china_metro_sb_20m_3000_mhead_name"
-msgid "China Metro(ISOM) S-B 19.98×3.0m head with motor"
-msgstr "中国地铁等轴S-B型 19.98×3.0m 有动力头车"
+msgctxt "nla_china_metro_sb_20m_2800_mhead_name"
+msgid "China Metro(ISOM) S-B 19.98×2.8m head with motor"
+msgstr "中国地铁等轴S-B型 19.98×2.8m 有动力头车"
 
 msgctxt "nla_china_metro_sb_20m_3000_car_name"
 msgid "China Metro(ISOM) S-B 19.98×3.0m car"
 msgstr "中国地铁等轴S-B型 19.98×3.0m 无动力车"
 
+msgctxt "nla_china_metro_sb_20m_3000_head_name"
+msgid "China Metro(ISOM) S-B 19.98×3.0m head"
+msgstr "中国地铁等轴S-B型 19.98×3.0m 头车"
+
 msgctxt "nla_china_metro_sb_20m_3000_mcar_name"
 msgid "China Metro(ISOM) S-B 19.98×3.0m car with motor"
 msgstr "中国地铁等轴S-B型 19.98×3.0m 动力车"
 
-msgctxt "nla_china_metro_sb_20m_3100_head_name"
-msgid "China Metro(ISOM) S-B 19.98×3.1m head"
-msgstr "中国地铁等轴S-B型 19.98×3.1m 头车"
-
-msgctxt "nla_china_metro_sb_20m_3100_mhead_name"
-msgid "China Metro(ISOM) S-B 19.98×3.1m head with motor"
-msgstr "中国地铁等轴S-B型 19.98×3.1m 有动力头车"
+msgctxt "nla_china_metro_sb_20m_3000_mhead_name"
+msgid "China Metro(ISOM) S-B 19.98×3.0m head with motor"
+msgstr "中国地铁等轴S-B型 19.98×3.0m 有动力头车"
 
 msgctxt "nla_china_metro_sb_20m_3100_car_name"
 msgid "China Metro(ISOM) S-B 19.98×3.1m car"
 msgstr "中国地铁等轴S-B型 19.98×3.1m 无动力车"
 
+msgctxt "nla_china_metro_sb_20m_3100_head_name"
+msgid "China Metro(ISOM) S-B 19.98×3.1m head"
+msgstr "中国地铁等轴S-B型 19.98×3.1m 头车"
+
 msgctxt "nla_china_metro_sb_20m_3100_mcar_name"
 msgid "China Metro(ISOM) S-B 19.98×3.1m car with motor"
 msgstr "中国地铁等轴S-B型 19.98×3.1m 动力车"
 
-msgctxt "nla_china_metro_sb_20m_3300_head_name"
-msgid "China Metro(ISOM) S-B 19.98×3.3m head"
-msgstr "中国地铁等轴S-B型 19.98×3.3m 头车"
-
-msgctxt "nla_china_metro_sb_20m_3300_mhead_name"
-msgid "China Metro(ISOM) S-B 19.98×3.3m head with motor"
-msgstr "中国地铁等轴S-B型 19.98×3.3m 有动力头车"
+msgctxt "nla_china_metro_sb_20m_3100_mhead_name"
+msgid "China Metro(ISOM) S-B 19.98×3.1m head with motor"
+msgstr "中国地铁等轴S-B型 19.98×3.1m 有动力头车"
 
 msgctxt "nla_china_metro_sb_20m_3300_car_name"
 msgid "China Metro(ISOM) S-B 19.98×3.3m car"
 msgstr "中国地铁等轴S-B型 19.98×3.3m 无动力车"
 
+msgctxt "nla_china_metro_sb_20m_3300_head_name"
+msgid "China Metro(ISOM) S-B 19.98×3.3m head"
+msgstr "中国地铁等轴S-B型 19.98×3.3m 头车"
+
 msgctxt "nla_china_metro_sb_20m_3300_mcar_name"
 msgid "China Metro(ISOM) S-B 19.98×3.3m car with motor"
 msgstr "中国地铁等轴S-B型 19.98×3.3m 动力车"
 
-# ----- 
+msgctxt "nla_china_metro_sb_20m_3300_mhead_name"
+msgid "China Metro(ISOM) S-B 19.98×3.3m head with motor"
+msgstr "中国地铁等轴S-B型 19.98×3.3m 有动力头车"
+
+# -----
 # China Fictional Local Trains | 中国虚构自走客车
 # ID:3348578283
 
-msgctxt "nla_china_fic_local_cr_dmu_head_name"
-msgid "China Fic. Local Train C (DMU)"
-msgstr "中国虚构自走客车C型(DMU)"
+msgctxt "nla_china_fic_local_a_car_name"
+msgid "China Fic. Local Train A car"
+msgstr "中国虚构列车A型 无动力车"
+
+msgctxt "nla_china_fic_local_a_head_name"
+msgid "China Fic. Local Train A head"
+msgstr "中国虚构列车A型 头车"
+
+msgctxt "nla_china_fic_local_a_mcar_name"
+msgid "China Fic. Local Train A car with motor"
+msgstr "中国虚构列车A型 动力车"
+
+msgctxt "nla_china_fic_local_a_mhead_name"
+msgid "China Fic. Local Train A head with motor"
+msgstr "中国虚构列车A型 有动力头车"
+
+msgctxt "nla_china_fic_local_b_car_name"
+msgid "China Fic. Local Train B car"
+msgstr "中国虚构列车B型 无动力车"
+
+msgctxt "nla_china_fic_local_b_dmu_head_name"
+msgid "China Fic. Local Train B (DMU)"
+msgstr "中国虚构列车B型 头车(DMU)"
+
+msgctxt "nla_china_fic_local_b_head_name"
+msgid "China Fic. Local Train B head"
+msgstr "中国虚构列车B型 头车"
+
+msgctxt "nla_china_fic_local_b_mcar_name"
+msgid "China Fic. Local Train B car with motor"
+msgstr "中国虚构列车B型 动力车"
+
+msgctxt "nla_china_fic_local_b_mhead_name"
+msgid "China Fic. Local Train B head with motor"
+msgstr "中国虚构列车B型 有动力头车"
 
 msgctxt "nla_china_fic_local_cr_dmu_car_name"
 msgid "China Fic. Local Train C (DMU) with gangway"
-msgstr "中国虚构自走客车C型(DMU) 附贯通道"
+msgstr "中国虚构列车C型(DMU) 附贯通道"
+
+msgctxt "nla_china_fic_local_cr_dmu_head_name"
+msgid "China Fic. Local Train C (DMU)"
+msgstr "中国虚构列车C型(DMU)"
+
+msgctxt "nla_china_fic_local_cr_head_filp_name"
+msgid "China Fic. Local Train C head without toilet"
+msgstr "中国虚构列车C型 头车 无厕所"
 
 msgctxt "nla_china_fic_local_cr_head_name"
 msgid "China Fic. Local Train C head"
@@ -11782,85 +12142,9 @@ msgctxt "nla_china_fic_local_cr_headc_name"
 msgid "China Fic. Local Train C head with gangway"
 msgstr "中国虚构自走客车C型 头车 附贯通道"
 
-msgctxt "nla_china_fic_local_cr_head_filp_name"
-msgid "China Fic. Local Train C head without toilet"
-msgstr "中国虚构自走客车C型 头车 无厕所"
-
-msgctxt "nla_china_fic_local_a_head_name"
-msgid "China Fic. Local Train A head"
-msgstr "中国虚构自走客车A型 头车"
-
-msgctxt "nla_china_fic_local_a_mhead_name"
-msgid "China Fic. Local Train A head with motor"
-msgstr "中国虚构自走客车A型 有动力头车"
-
-msgctxt "nla_china_fic_local_a_car_name"
-msgid "China Fic. Local Train A car"
-msgstr "中国虚构自走客车A型 无动力车"
-
-msgctxt "nla_china_fic_local_a_mcar_name"
-msgid "China Fic. Local Train A car with motor"
-msgstr "中国虚构自走客车A型 动力车"
-
-msgctxt "nla_china_fic_local_b_dmu_head_name"
-msgid "China Fic. Local Train B (DMU)"
-msgstr "中国虚构自走客车B型 头车(DMU)"
-
-msgctxt "nla_china_fic_local_b_head_name"
-msgid "China Fic. Local Train B head"
-msgstr "中国虚构自走客车B型 头车"
-
-msgctxt "nla_china_fic_local_b_mhead_name"
-msgid "China Fic. Local Train B head with motor"
-msgstr "中国虚构自走客车B型 有动力头车"
-
-msgctxt "nla_china_fic_local_b_car_name"
-msgid "China Fic. Local Train B car"
-msgstr "中国虚构自走客车B型 无动力车"
-
-msgctxt "nla_china_fic_local_b_mcar_name"
-msgid "China Fic. Local Train B car with motor"
-msgstr "中国虚构自走客车B型 动力车"
-
-# ----- 
+# -----
 # 中国地铁 China urban rail transit (metro) rolling stocks 2.0
 # ID:3358826744
-
-msgctxt "nla_china_metro2_a_head_name"
-msgid "China Metro Type A head"
-msgstr "中国地铁A型 头车"
-
-msgctxt "nla_china_metro2_a_mhead_name"
-msgid "China Metro Type A head with motor"
-msgstr "中国地铁A型 有动力头车"
-
-msgctxt "nla_china_metro2_a_car_name"
-msgid "China Metro Type A car"
-msgstr "中国地铁A型 无动力车"
-
-msgctxt "nla_china_metro2_a_mcar_name"
-msgid "China Metro Type A car with motor"
-msgstr "中国地铁A型 动力车"
-
-msgctxt "nla_china_metro2_s_a_head_name"
-msgid "China Metro Type Suburb A head"
-msgstr "中国地铁市域A型 头车"
-
-msgctxt "nla_china_metro2_s_a_mhead_name"
-msgid "China Metro Type Suburb A head with motor"
-msgstr "中国地铁市域A型 有动力头车"
-
-msgctxt "nla_china_metro2_s_a_car_name"
-msgid "China Metro Type Suburb A car"
-msgstr "中国地铁市域A型 无动力车"
-
-msgctxt "nla_china_metro2_s_a_mcar_name"
-msgid "China Metro Type Suburb A car with motor"
-msgstr "中国地铁市域A型 动力车"
-
-msgctxt "nla_china_metro2_a_mu_name"
-msgid "China Metro Type A"
-msgstr "中国地铁A型列车"
 
 msgctxt "nla_china_metro2_a_c_1"
 msgid "Metro Type A (3-8 Cars)"
@@ -11874,41 +12158,73 @@ msgctxt "nla_china_metro2_a_c_3"
 msgid "Metro Type Suburb A (3-8 Cars)"
 msgstr "地铁市域A型 (3-8节)"
 
-msgctxt "nla_china_metro2_b_head_name"
-msgid "China Metro Type B head"
-msgstr "中国地铁B型 头车"
+msgctxt "nla_china_metro2_a_car_name"
+msgid "China Metro Type A car"
+msgstr "中国地铁A型 无动力车"
 
-msgctxt "nla_china_metro2_b_mhead_name"
-msgid "China Metro Type B head with motor"
-msgstr "中国地铁B型 有动力头车"
+msgctxt "nla_china_metro2_a_head_name"
+msgid "China Metro Type A head"
+msgstr "中国地铁A型 头车"
 
-msgctxt "nla_china_metro2_b_car_name"
-msgid "China Metro Type B car"
-msgstr "中国地铁B型 无动力车"
+msgctxt "nla_china_metro2_a_mcar_name"
+msgid "China Metro Type A car with motor"
+msgstr "中国地铁A型 动力车"
 
-msgctxt "nla_china_metro2_b_mcar_name"
-msgid "China Metro Type B car with motor"
-msgstr "中国地铁B型 动力车"
+msgctxt "nla_china_metro2_a_mhead_name"
+msgid "China Metro Type A head with motor"
+msgstr "中国地铁A型 有动力头车"
 
-msgctxt "nla_china_metro2_s_b_head_name"
-msgid "China Metro Type Suburb B head"
-msgstr "中国地铁市域B型 头车"
+msgctxt "nla_china_metro2_a_mu_name"
+msgid "China Metro Type A"
+msgstr "中国地铁A型列车"
 
-msgctxt "nla_china_metro2_s_b_mhead_name"
-msgid "China Metro Type Suburb B head with motor"
-msgstr "中国地铁市域B型 有动力头车"
+msgctxt "nla_china_metro2_ah_c_1"
+msgid "Metro Type AH (3-8 Cars)"
+msgstr "地铁AH型 (3-8节)"
 
-msgctxt "nla_china_metro2_s_b_car_name"
-msgid "China Metro Type Suburb B car"
-msgstr "中国地铁市域B型 无动力车"
+msgctxt "nla_china_metro2_ah_car_name"
+msgid "China Metro Type AH car"
+msgstr "中国地铁AH型 无动力车"
 
-msgctxt "nla_china_metro2_s_b_mcar_name"
-msgid "China Metro Type Suburb B car with motor"
-msgstr "中国地铁市域B型 动力车"
+msgctxt "nla_china_metro2_ah_head_name"
+msgid "China Metro Type AH head"
+msgstr "中国地铁AH型 头车"
 
-msgctxt "nla_china_metro2_b_mu_name"
-msgid "China Metro Type B"
-msgstr "中国地铁B型列车"
+msgctxt "nla_china_metro2_ah_mcar_name"
+msgid "China Metro Type AH car with motor"
+msgstr "中国地铁AH型 动力车"
+
+msgctxt "nla_china_metro2_ah_mhead_name"
+msgid "China Metro Type AH head with motor"
+msgstr "中国地铁AH型 有动力头车"
+
+msgctxt "nla_china_metro2_ah_mu_name"
+msgid "China Metro Type AH"
+msgstr "中国地铁AH型列车"
+
+msgctxt "nla_china_metro2_as_c_1"
+msgid "Metro Type AS (3-8 Cars)"
+msgstr "地铁AS型 (3-8节)"
+
+msgctxt "nla_china_metro2_as_car_name"
+msgid "China Metro Type AS car"
+msgstr "中国地铁AS型 无动力车"
+
+msgctxt "nla_china_metro2_as_head_name"
+msgid "China Metro Type AS head"
+msgstr "中国地铁AS型 头车"
+
+msgctxt "nla_china_metro2_as_mcar_name"
+msgid "China Metro Type AS car with motor"
+msgstr "中国地铁AS型 动力车"
+
+msgctxt "nla_china_metro2_as_mhead_name"
+msgid "China Metro Type AS head with motor"
+msgstr "中国地铁AS型 有动力头车"
+
+msgctxt "nla_china_metro2_as_mu_name"
+msgid "China Metro Type AS"
+msgstr "中国地铁AS型列车"
 
 msgctxt "nla_china_metro2_b_c_1"
 msgid "Metro Type B (3-8 Cars)"
@@ -11922,117 +12238,57 @@ msgctxt "nla_china_metro2_b_c_3"
 msgid "Metro Type Suburb B (3-8 Cars)"
 msgstr "地铁市域B型 (3-8节)"
 
-msgctxt "nla_china_metro2_as_head_name"
-msgid "China Metro Type AS head"
-msgstr "中国地铁AS型 头车"
+msgctxt "nla_china_metro2_b_car_name"
+msgid "China Metro Type B car"
+msgstr "中国地铁B型 无动力车"
 
-msgctxt "nla_china_metro2_as_mhead_name"
-msgid "China Metro Type AS head with motor"
-msgstr "中国地铁AS型 有动力头车"
+msgctxt "nla_china_metro2_b_head_name"
+msgid "China Metro Type B head"
+msgstr "中国地铁B型 头车"
 
-msgctxt "nla_china_metro2_as_car_name"
-msgid "China Metro Type AS car"
-msgstr "中国地铁AS型 无动力车"
+msgctxt "nla_china_metro2_b_mcar_name"
+msgid "China Metro Type B car with motor"
+msgstr "中国地铁B型 动力车"
 
-msgctxt "nla_china_metro2_as_mcar_name"
-msgid "China Metro Type AS car with motor"
-msgstr "中国地铁AS型 动力车"
+msgctxt "nla_china_metro2_b_mhead_name"
+msgid "China Metro Type B head with motor"
+msgstr "中国地铁B型 有动力头车"
 
-msgctxt "nla_china_metro2_as_mu_name"
-msgid "China Metro Type AS"
-msgstr "中国地铁AS型列车"
+msgctxt "nla_china_metro2_b_mu_name"
+msgid "China Metro Type B"
+msgstr "中国地铁B型列车"
 
-msgctxt "nla_china_metro2_as_c_1"
-msgid "Metro Type AS (3-8 Cars)"
-msgstr "地铁AS型 (3-8节)"
+msgctxt "nla_china_metro2_s_a_car_name"
+msgid "China Metro Type Suburb A car"
+msgstr "中国地铁市域A型 无动力车"
 
-msgctxt "nla_china_metro2_ah_head_name"
-msgid "China Metro Type AH head"
-msgstr "中国地铁AH型 头车"
+msgctxt "nla_china_metro2_s_a_head_name"
+msgid "China Metro Type Suburb A head"
+msgstr "中国地铁市域A型 头车"
 
-msgctxt "nla_china_metro2_ah_mhead_name"
-msgid "China Metro Type AH head with motor"
-msgstr "中国地铁AH型 有动力头车"
+msgctxt "nla_china_metro2_s_a_mcar_name"
+msgid "China Metro Type Suburb A car with motor"
+msgstr "中国地铁市域A型 动力车"
 
-msgctxt "nla_china_metro2_ah_car_name"
-msgid "China Metro Type AH car"
-msgstr "中国地铁AH型 无动力车"
+msgctxt "nla_china_metro2_s_a_mhead_name"
+msgid "China Metro Type Suburb A head with motor"
+msgstr "中国地铁市域A型 有动力头车"
 
-msgctxt "nla_china_metro2_ah_mcar_name"
-msgid "China Metro Type AH car with motor"
-msgstr "中国地铁AH型 动力车"
+msgctxt "nla_china_metro2_s_b_car_name"
+msgid "China Metro Type Suburb B car"
+msgstr "中国地铁市域B型 无动力车"
 
-msgctxt "nla_china_metro2_ah_mu_name"
-msgid "China Metro Type AH"
-msgstr "中国地铁AH型列车"
+msgctxt "nla_china_metro2_s_b_head_name"
+msgid "China Metro Type Suburb B head"
+msgstr "中国地铁市域B型 头车"
 
-msgctxt "nla_china_metro2_ah_c_1"
-msgid "Metro Type AH (3-8 Cars)"
-msgstr "地铁AH型 (3-8节)"
+msgctxt "nla_china_metro2_s_b_mcar_name"
+msgid "China Metro Type Suburb B car with motor"
+msgstr "中国地铁市域B型 动力车"
 
-msgctxt "nla_china_metro2_s_d_head_name"
-msgid "China Metro Type Suburb D head"
-msgstr "中国地铁市域D型 头车"
-
-msgctxt "nla_china_metro2_s_d_head_coupler_name"
-msgid "China Metro Type Suburb D head with coupler"
-msgstr "中国地铁市域D型 头车 附车钩"
-
-msgctxt "nla_china_metro2_s_d_mhead_name"
-msgid "China Metro Type Suburb D head with motor"
-msgstr "中国地铁市域D型 有动力头车"
-
-msgctxt "nla_china_metro2_s_d_mhead_coupler_name"
-msgid "China Metro Type Suburb D head with motor and coupler"
-msgstr "中国地铁市域D型 有动力头车 附车钩"
-
-msgctxt "nla_china_metro2_s_d_car_name"
-msgid "China Metro Type Suburb D car"
-msgstr "中国地铁市域D型 无动力车"
-
-msgctxt "nla_china_metro2_s_d_mcar_name"
-msgid "China Metro Type Suburb D car with motor"
-msgstr "中国地铁市域D型 动力车"
-
-msgctxt "nla_china_metro2_s_d_mu_name"
-msgid "China Metro Type S-D"
-msgstr "中国地铁S-D型列车"
-
-msgctxt "nla_china_metro2_s_d_c_1"
-msgid "Metro Type Suburb D (4-8 Cars)"
-msgstr "地铁市域D型 (4-8节)"
-
-msgctxt "nla_china_metro2_s_d_c_2"
-msgid "Metro Type Suburb D (3-4 Cars)"
-msgstr "地铁市域D型 (3-4节)"
-
-msgctxt "nla_china_metro2_s_c_head_name"
-msgid "China Metro Type Suburb C head"
-msgstr "中国地铁市域C型 头车"
-
-msgctxt "nla_china_metro2_s_c_head_coupler_name"
-msgid "China Metro Type Suburb C head with coupler"
-msgstr "中国地铁市域C型 头车 附车钩"
-
-msgctxt "nla_china_metro2_s_c_mhead_name"
-msgid "China Metro Type Suburb C head with motor"
-msgstr "中国地铁市域C型 有动力头车"
-
-msgctxt "nla_china_metro2_s_c_mhead_coupler_name"
-msgid "China Metro Type Suburb C head with motor and coupler"
-msgstr "中国地铁市域C型 有动力头车 附车钩"
-
-msgctxt "nla_china_metro2_s_c_car_name"
-msgid "China Metro Type Suburb C car"
-msgstr "中国地铁市域C型 无动力车"
-
-msgctxt "nla_china_metro2_s_c_mcar_name"
-msgid "China Metro Type Suburb C car with motor"
-msgstr "中国地铁市域C型 动力车"
-
-msgctxt "nla_china_metro2_s_c_mu_name"
-msgid "China Metro Type S-C"
-msgstr "中国地铁S-C型列车"
+msgctxt "nla_china_metro2_s_b_mhead_name"
+msgid "China Metro Type Suburb B head with motor"
+msgstr "中国地铁市域B型 有动力头车"
 
 msgctxt "nla_china_metro2_s_c_c_1"
 msgid "Metro Type Suburb C (4-8 Cars)"
@@ -12042,41 +12298,97 @@ msgctxt "nla_china_metro2_s_c_c_2"
 msgid "Metro Type Suburb C (3-4 Cars)"
 msgstr "地铁市域C型 (3-4节)"
 
-# ----- 
+msgctxt "nla_china_metro2_s_c_car_name"
+msgid "China Metro Type Suburb C car"
+msgstr "中国地铁市域C型 无动力车"
+
+msgctxt "nla_china_metro2_s_c_head_coupler_name"
+msgid "China Metro Type Suburb C head with coupler"
+msgstr "中国地铁市域C型 头车 附车钩"
+
+msgctxt "nla_china_metro2_s_c_head_name"
+msgid "China Metro Type Suburb C head"
+msgstr "中国地铁市域C型 头车"
+
+msgctxt "nla_china_metro2_s_c_mcar_name"
+msgid "China Metro Type Suburb C car with motor"
+msgstr "中国地铁市域C型 动力车"
+
+msgctxt "nla_china_metro2_s_c_mhead_coupler_name"
+msgid "China Metro Type Suburb C head with motor and coupler"
+msgstr "中国地铁市域C型 有动力头车 附车钩"
+
+msgctxt "nla_china_metro2_s_c_mhead_name"
+msgid "China Metro Type Suburb C head with motor"
+msgstr "中国地铁市域C型 有动力头车"
+
+msgctxt "nla_china_metro2_s_c_mu_name"
+msgid "China Metro Type S-C"
+msgstr "中国地铁S-C型列车"
+
+msgctxt "nla_china_metro2_s_d_c_1"
+msgid "Metro Type Suburb D (4-8 Cars)"
+msgstr "地铁市域D型 (4-8节)"
+
+msgctxt "nla_china_metro2_s_d_c_2"
+msgid "Metro Type Suburb D (3-4 Cars)"
+msgstr "地铁市域D型 (3-4节)"
+
+msgctxt "nla_china_metro2_s_d_car_name"
+msgid "China Metro Type Suburb D car"
+msgstr "中国地铁市域D型 无动力车"
+
+msgctxt "nla_china_metro2_s_d_head_coupler_name"
+msgid "China Metro Type Suburb D head with coupler"
+msgstr "中国地铁市域D型 头车 附车钩"
+
+msgctxt "nla_china_metro2_s_d_head_name"
+msgid "China Metro Type Suburb D head"
+msgstr "中国地铁市域D型 头车"
+
+msgctxt "nla_china_metro2_s_d_mcar_name"
+msgid "China Metro Type Suburb D car with motor"
+msgstr "中国地铁市域D型 动力车"
+
+msgctxt "nla_china_metro2_s_d_mhead_coupler_name"
+msgid "China Metro Type Suburb D head with motor and coupler"
+msgstr "中国地铁市域D型 有动力头车 附车钩"
+
+msgctxt "nla_china_metro2_s_d_mhead_name"
+msgid "China Metro Type Suburb D head with motor"
+msgstr "中国地铁市域D型 有动力头车"
+
+msgctxt "nla_china_metro2_s_d_mu_name"
+msgid "China Metro Type S-D"
+msgstr "中国地铁S-D型列车"
+
+# -----
 # 中国地铁 China urban rail transit (metro) rolling stocks SUPplementary 2.0
 # ID:3364479413
-
-msgctxt "nla_china_metro2_c1_head_name"
-msgid "China Metro Type C1 head"
-msgstr "中国地铁C1型 头车"
-
-msgctxt "nla_china_metro2_c1_mhead_name"
-msgid "China Metro Type C1 head with motor"
-msgstr "中国地铁C1型 有动力头车"
-
-msgctxt "nla_china_metro2_c1_car_name"
-msgid "China Metro Type C1 car"
-msgstr "中国地铁C1型 无动力车"
-
-msgctxt "nla_china_metro2_c1_mcar_name"
-msgid "China Metro Type C1 car with motor"
-msgstr "中国地铁C1型 动力车"
-
-msgctxt "nla_china_metro2_c1_mu_name"
-msgid "China Metro Type C1"
-msgstr "中国地铁C1型列车"
 
 msgctxt "nla_china_metro2_c1_c_1"
 msgid "Metro Type C1 (3-8 Cars)"
 msgstr "地铁C1型 (3-8节)"
 
-msgctxt "nla_china_metro2_lbgz_mhead_name"
-msgid "China Metro Type Lb head with motor"
-msgstr "中国地铁Lb型 有动力头车"
+msgctxt "nla_china_metro2_c1_car_name"
+msgid "China Metro Type C1 car"
+msgstr "中国地铁C1型 无动力车"
 
-msgctxt "nla_china_metro2_lbgz_mcar_name"
-msgid "China Metro Type Lb car with motor"
-msgstr "中国地铁Lb型 动力车"
+msgctxt "nla_china_metro2_c1_head_name"
+msgid "China Metro Type C1 head"
+msgstr "中国地铁C1型 头车"
+
+msgctxt "nla_china_metro2_c1_mcar_name"
+msgid "China Metro Type C1 car with motor"
+msgstr "中国地铁C1型 动力车"
+
+msgctxt "nla_china_metro2_c1_mhead_name"
+msgid "China Metro Type C1 head with motor"
+msgstr "中国地铁C1型 有动力头车"
+
+msgctxt "nla_china_metro2_c1_mu_name"
+msgid "China Metro Type C1"
+msgstr "中国地铁C1型列车"
 
 msgctxt "nla_china_metro2_lb_mu_name"
 msgid "China Metro Type Lb"
@@ -12086,7 +12398,15 @@ msgctxt "nla_china_metro2_lbgz_c_1"
 msgid "Metro Type Lb (4-6 Cars)"
 msgstr "地铁Lb型 (4-6节)"
 
-# ----- 
+msgctxt "nla_china_metro2_lbgz_mcar_name"
+msgid "China Metro Type Lb car with motor"
+msgstr "中国地铁Lb型 动力车"
+
+msgctxt "nla_china_metro2_lbgz_mhead_name"
+msgid "China Metro Type Lb head with motor"
+msgstr "中国地铁Lb型 有动力头车"
+
+# -----
 # 其他
 
 msgctxt "JR_Hokkaido_201_name"
@@ -12137,12 +12457,20 @@ msgctxt "MTR_Phase_V_LRV_name"
 msgid "MTR Phase V LRV"
 msgstr "港铁轻铁第五期列车"
 
+# -----
+# 日本国鉄(JNR, JR) KiHa 40
+# ID:（非公开，因为这个mod已经过时，mod作者要避免有人错误订阅旧的版本。）
 
-## ----------------------------------------------------------
-## 轨道翻译
+msgctxt "KiHa40_100_name"
+msgid "JNR KiHa 40 (Subclass-100) (Discontinued)"
+msgstr "国鉄KiHa40-100番台 (已停止支持)"
 
-# ----- 
-# Built-in tracks 
+msgctxt "KiHa40_name"
+msgid "JNR KiHa 40 (Discontinued)"
+msgstr "国鉄KiHa40 (已停止支持)"
+
+# -----
+# Built-in tracks
 
 msgctxt "waw_track_hs_1_name"
 msgid "High speed"
@@ -12156,15 +12484,15 @@ msgctxt "waw_track_tram_1_name"
 msgid "Tram"
 msgstr "有轨电车轨道"
 
-# ----- 
-# Example tracks mod 
+# -----
+# Example tracks mod
 # ID:2565113204
 
 msgctxt "waw_example_track_1_name"
 msgid "Example tracks mod"
 msgstr "轨道翻译示例"
 
-# ----- 
+# -----
 # Track Anarchy
 # ID:2565320618
 
@@ -12172,7 +12500,7 @@ msgctxt "anarchy_track_1_name"
 msgid "Track Anarchy"
 msgstr "低限制轨道"
 
-# ----- 
+# -----
 # Sea Route Marker ''tracks''
 # ID:2565497338
 
@@ -12180,13 +12508,9 @@ msgctxt "sea_lane_loc"
 msgid "Sea Route Markers"
 msgstr "海运航线标记"
 
-# ----- 
+# -----
 # 中国有砟铁路(80 120 160 200 250)
 # ID:2565500217
-
-msgctxt "China_Ballasted_80_name"
-msgid "China Ballasted 80km/h"
-msgstr "中国有砟铁路 80 km/h"
 
 msgctxt "China_Ballasted_120_name"
 msgid "China Ballasted 120km/h"
@@ -12204,7 +12528,11 @@ msgctxt "China_Ballasted_250_name"
 msgid "China Ballasted 250km/h"
 msgstr "中国有砟铁路 250 km/h"
 
-# ----- 
+msgctxt "China_Ballasted_80_name"
+msgid "China Ballasted 80km/h"
+msgstr "中国有砟铁路 80 km/h"
+
+# -----
 # High Speed Testing Tracks
 # ID:2565549404
 
@@ -12212,13 +12540,13 @@ msgctxt "CRTS II_slab_test_name"
 msgid "CRTS II_slab_test"
 msgstr "CRTS II 板式 实验冲高"
 
-# ----- 
+# -----
 # 中国铁路车站站台(China Railway Station Platform)
 # ID:2565761915
 
-msgctxt "PlatformOrdinary_name"
-msgid "PlatformOrdinary"
-msgstr "普速站台无模块"
+msgctxt "MPlatformHighSpeed_name"
+msgid "MPlatformHighSpeed"
+msgstr "高速站台有模块"
 
 msgctxt "MPlatformOrdinary_name"
 msgid "MPlatformOrdinary"
@@ -12232,37 +12560,29 @@ msgctxt "PlatformHighSpeed_name"
 msgid "PlatformHighSpeed"
 msgstr "高速站台无模块"
 
-msgctxt "MPlatformHighSpeed_name"
-msgid "MPlatformHighSpeed"
-msgstr "高速站台有模块"
-
-msgctxt "TrainStop_name"
-msgid "TrainStop"
-msgstr "普速线路车档"
+msgctxt "PlatformOrdinary_name"
+msgid "PlatformOrdinary"
+msgstr "普速站台无模块"
 
 msgctxt "StationBuilding_name"
 msgid "StationBuilding"
 msgstr "站房"
 
-# ----- 
+msgctxt "TrainStop_name"
+msgid "TrainStop"
+msgstr "普速线路车档"
+
+# -----
 # 中国道路(China Road)
 # ID:2565787030
-
-msgctxt "ChinaRoad"
-msgid "ChinaRoad"
-msgstr "中国道路"
 
 msgctxt "AirportRoad"
 msgid "AirportRoad"
 msgstr "机场滑行道"
 
-msgctxt "RampRoad"
-msgid "RampRoad"
-msgstr "中国高速公路匝道"
-
-msgctxt "ChinaSingleRoad"
-msgid "ChinaSingleRoad"
-msgstr "中国道路单侧"
+msgctxt "ChinaCountyRoad"
+msgid "ChinaCountyRoad"
+msgstr "中国村镇道路"
 
 msgctxt "ChinaDoubleYellowRoad"
 msgid "ChinaDoubleYellowRoad"
@@ -12272,11 +12592,19 @@ msgctxt "ChinaHSingleRoad"
 msgid "ChinaHSingleRoad"
 msgstr "中国高速公路单侧"
 
-msgctxt "ChinaCountyRoad"
-msgid "ChinaCountyRoad"
-msgstr "中国村镇道路"
+msgctxt "ChinaRoad"
+msgid "ChinaRoad"
+msgstr "中国道路"
 
-# ----- 
+msgctxt "ChinaSingleRoad"
+msgid "ChinaSingleRoad"
+msgstr "中国道路单侧"
+
+msgctxt "RampRoad"
+msgid "RampRoad"
+msgstr "中国高速公路匝道"
+
+# -----
 # 中国铁路换乘站台 (Transfer channel)
 # ID:2566404063
 
@@ -12284,7 +12612,7 @@ msgctxt "ChinaTransfer"
 msgid "ChinaTransfer"
 msgstr "中国铁路换乘站台"
 
-# ----- 
+# -----
 # 高速有轨电车轨道（輕軌軌道）
 # ID:2566686641
 
@@ -12296,33 +12624,17 @@ msgctxt "lrt_track_2_name"
 msgid "Light Rail (Low-profile)"
 msgstr "轻轨轨道（低调）"
 
-# ----- 
+# -----
 # 中国地铁轨道 | China Metro Railways
 # ID:2567191683
 
-msgctxt "Metro_Ballastless_v1_name"
-msgid "Metro Ballastless v1"
-msgstr "中国地铁无砟 V1"
-
-msgctxt "750V_3L_Ballastless_name"
-msgid "750V 3L Ballastless"
-msgstr "750V 无砟三轨 左"
-
-msgctxt "750V_3R_Ballastless"
-msgid "750V 3R Ballastless"
-msgstr "750V 无砟三轨 右"
-
-msgctxt "1500V_3R_Ballastless_V1"
-msgid "1500V 3R Ballastless V1"
-msgstr "1500V 无砟三轨 右 V1"
+msgctxt "1500V_3L_Ballastless_A"
+msgid "1500V 3L Ballastless A"
+msgstr "1500V 无砟三轨A车左"
 
 msgctxt "1500V_3L_Ballastless_V1"
 msgid "1500V 3L Ballastless V1"
 msgstr "1500V 无砟三轨 左 V1"
-
-msgctxt "1500V_3R_Ballastless_V2"
-msgid "1500V 3R Ballastless V2"
-msgstr "1500V 无砟三轨 右 V2"
 
 msgctxt "1500V_3L_Ballastless_V2"
 msgid "1500V 3L Ballastless V2"
@@ -12332,49 +12644,33 @@ msgctxt "1500V_3R_Ballastless_A"
 msgid "1500V 3R Ballastless A"
 msgstr "1500V 无砟三轨A车右"
 
-msgctxt "1500V_3L_Ballastless_A"
-msgid "1500V 3L Ballastless A"
-msgstr "1500V 无砟三轨A车左"
+msgctxt "1500V_3R_Ballastless_V1"
+msgid "1500V 3R Ballastless V1"
+msgstr "1500V 无砟三轨 右 V1"
+
+msgctxt "1500V_3R_Ballastless_V2"
+msgid "1500V 3R Ballastless V2"
+msgstr "1500V 无砟三轨 右 V2"
+
+msgctxt "750V_3L_Ballastless_name"
+msgid "750V 3L Ballastless"
+msgstr "750V 无砟三轨 左"
+
+msgctxt "750V_3R_Ballastless"
+msgid "750V 3R Ballastless"
+msgstr "750V 无砟三轨 右"
+
+msgctxt "Metro_Ballastless_v1_name"
+msgid "Metro Ballastless v1"
+msgstr "中国地铁无砟 V1"
 
 msgctxt "Metro_Ballastless_v2"
 msgid "Metro Ballastless v2"
 msgstr "中国地铁无砟 V2"
 
-# ----- 
+# -----
 # 中国高速无砟轨道 | CRTS Tracks MOD
 # ID:2568105179
-
-msgctxt "CRTS II_slab_420_name"
-msgid "CRTS II_slab_420"
-msgstr "CRTS II 型板式无砟轨道 420"
-
-msgctxt "CRTS II_slab_380_name"
-msgid "CRTS II_slab_380"
-msgstr "CRTS II 型板式无砟轨道 380"
-
-msgctxt "CRTS II_slab_350_name"
-msgid "CRTS II_slab_350"
-msgstr "CRTS II 型板式无砟轨道 350"
-
-msgctxt "CRTS II_slab_310_name"
-msgid "CRTS II_slab_310"
-msgstr "CRTS II 型板式无砟轨道 310"
-
-msgctxt "CRTS III_350_name"
-msgid "CRTS III_350"
-msgstr "CRTS III 型板式无砟轨道 350"
-
-msgctxt "CRTS III_310_name"
-msgid "CRTS III_310"
-msgstr "CRTS III 型板式无砟轨道 310"
-
-msgctxt "CRTS III_250_name"
-msgid "CRTS III_250"
-msgstr "CRTS III 型板式无砟轨道 250"
-
-msgctxt "CRTS II_double block_350_name"
-msgid "CRTS II_DBL_350"
-msgstr "CRTS II 型双块无砟轨道 350"
 
 msgctxt "CRTS I Slab1_320_name"
 msgid "CRTS I Slab1_320"
@@ -12384,15 +12680,47 @@ msgctxt "CRTS I Slab2_320_name"
 msgid "CRTS I Slab2_320"
 msgstr "CRTS I 型板式无砟轨道B 320"
 
-msgctxt "CRTS I_double block_350_name"
-msgid "CRTS I_double block_350"
-msgstr "CRTS I 型双块无砟轨道 350"
+msgctxt "CRTS III_250_name"
+msgid "CRTS III_250"
+msgstr "CRTS III 型板式无砟轨道 250"
+
+msgctxt "CRTS III_310_name"
+msgid "CRTS III_310"
+msgstr "CRTS III 型板式无砟轨道 310"
+
+msgctxt "CRTS III_350_name"
+msgid "CRTS III_350"
+msgstr "CRTS III 型板式无砟轨道 350"
+
+msgctxt "CRTS II_double block_350_name"
+msgid "CRTS II_DBL_350"
+msgstr "CRTS II 型双块无砟轨道 350"
+
+msgctxt "CRTS II_slab_310_name"
+msgid "CRTS II_slab_310"
+msgstr "CRTS II 型板式无砟轨道 310"
+
+msgctxt "CRTS II_slab_350_name"
+msgid "CRTS II_slab_350"
+msgstr "CRTS II 型板式无砟轨道 350"
+
+msgctxt "CRTS II_slab_380_name"
+msgid "CRTS II_slab_380"
+msgstr "CRTS II 型板式无砟轨道 380"
+
+msgctxt "CRTS II_slab_420_name"
+msgid "CRTS II_slab_420"
+msgstr "CRTS II 型板式无砟轨道 420"
 
 msgctxt "CRTS I_double block_310_name"
 msgid "CRTS I_double block_310"
 msgstr "CRTS I 型双块无砟轨道 310"
 
-# ----- 
+msgctxt "CRTS I_double block_350_name"
+msgid "CRTS I_double block_350"
+msgstr "CRTS I 型双块无砟轨道 350"
+
+# -----
 # Ground Mod
 # ID:2571054837
 
@@ -12400,9 +12728,13 @@ msgctxt "ChinaGround-Concrete"
 msgid "ChinaGround-Concrete"
 msgstr "中国地面 - 混凝土"
 
-msgctxt "ChinaGround-Land"
-msgid "ChinaGround-Land"
-msgstr "中国地面 - 泥土"
+msgctxt "ChinaGround-Desert"
+msgid "ChinaGround-Desert"
+msgstr "中国地面 - 沙漠"
+
+msgctxt "ChinaGround-DryLand"
+msgid "ChinaGround-DryLand"
+msgstr "中国地面 - 旱地"
 
 msgctxt "ChinaGround-GrassLand"
 msgid "ChinaGround-GrassLand"
@@ -12412,19 +12744,15 @@ msgctxt "ChinaGround-IceLand"
 msgid "ChinaGround-IceLand"
 msgstr "中国地面 - 雪地"
 
-msgctxt "ChinaGround-DryLand"
-msgid "ChinaGround-DryLand"
-msgstr "中国地面 - 旱地"
-
-msgctxt "ChinaGround-Desert"
-msgid "ChinaGround-Desert"
-msgstr "中国地面 - 沙漠"
+msgctxt "ChinaGround-Land"
+msgid "ChinaGround-Land"
+msgstr "中国地面 - 泥土"
 
 msgctxt "ChinaGround-Tree"
 msgid "ChinaGround-Tree"
 msgstr "中国地面 - 树"
 
-# ----- 
+# -----
 # Japanese Shinkansen Ballastless Slab Tracks
 # ID:2574419347
 
@@ -12436,7 +12764,7 @@ msgctxt "J-Slab2_320_name"
 msgid "J-Slab2_320"
 msgstr "日本无砟轨道B 320"
 
-# ----- 
+# -----
 # 1067mm 轨距轨道（窄轨轨道）
 # ID:2576317814
 
@@ -12492,7 +12820,7 @@ msgctxt "1067mm_200_track_name"
 msgid "G.1067mm (200 km/h)"
 msgstr "窄轨1067mm (200km/h)"
 
-# ----- 
+# -----
 # 特种日本轨道
 # ID:2576538254
 
@@ -12504,31 +12832,31 @@ msgctxt "jp_dual_gauge_2_name"
 msgid "JP. Seikan T. Dual Gauge"
 msgstr "日本青函隧道套轨"
 
-# ----- 
+# -----
 # 中国地铁轨道增补包 | China Metro Railways Add-on
 # ID:2580333103
-
-msgctxt "750V_3L_Ballastless_old_name"
-msgid "750V 3L Ballastless old"
-msgstr "750V 老化无砟三轨 左"
-
-msgctxt "750V_3R_Ballastless_old_name"
-msgid "750V 3R Ballastless old"
-msgstr "750V 老化无砟三轨 右"
 
 msgctxt "750V_3L_Ballasted_old_name"
 msgid "750V 3L Ballasted old"
 msgstr "750V 老化有砟三轨 左"
 
+msgctxt "750V_3L_Ballastless_old_name"
+msgid "750V 3L Ballastless old"
+msgstr "750V 老化无砟三轨 左"
+
 msgctxt "750V_3R_Ballasted_old_name"
 msgid "750V 3R Ballasted old"
 msgstr "750V 老化有砟三轨 右"
+
+msgctxt "750V_3R_Ballastless_old_name"
+msgid "750V 3R Ballastless old"
+msgstr "750V 老化无砟三轨 右"
 
 msgctxt "Merto_Ballasted_name"
 msgid "Merto Ballasted"
 msgstr "中国地铁有砟"
 
-# ----- 
+# -----
 # China Branches | 中国铁路道岔
 # ID:2592434100
 
@@ -12544,39 +12872,39 @@ msgctxt "China_Branches_wide_name"
 msgid "China Branches wide"
 msgstr "中国有砟宽轨枕"
 
-# ----- 
+# -----
 # China High-speed Ballast Tracks | 中国高速有砟轨道
 # ID:2592459548
-
-msgctxt "China_High-Speed_Ballast_350_name"
-msgid "China High-Speed Ballast 350"
-msgstr "中国有砟高速轨道 350km/h"
-
-msgctxt "China_High-Speed_Ballast_310_name"
-msgid "China High-Speed Ballast 310"
-msgstr "中国有砟高速轨道 310km/h"
 
 msgctxt "China_High-Speed_Ballast_250_name"
 msgid "China High-Speed Ballast 250"
 msgstr "中国有砟高速轨道 250km/h"
 
-# ----- 
+msgctxt "China_High-Speed_Ballast_310_name"
+msgid "China High-Speed Ballast 310"
+msgstr "中国有砟高速轨道 310km/h"
+
+msgctxt "China_High-Speed_Ballast_350_name"
+msgid "China High-Speed Ballast 350"
+msgstr "中国有砟高速轨道 350km/h"
+
+# -----
 # China Ballast Tracks | 中国普速有砟轨道
 # ID:2592468114
-
-msgctxt "China_Ballast_160_name"
-msgid "China Ballast 160"
-msgstr "真实国铁有砟轨道 160km/h"
 
 msgctxt "China_Ballast_120_name"
 msgid "China Ballast 120"
 msgstr "真实国铁有砟轨道 120km/h"
 
+msgctxt "China_Ballast_160_name"
+msgid "China Ballast 160"
+msgstr "真实国铁有砟轨道 160km/h"
+
 msgctxt "China_Ballast_80_name"
 msgid "China Ballast 80"
 msgstr "真实国铁有砟轨道 80km/h"
 
-# ----- 
+# -----
 # Nemolalau's Utility Tracks
 # ID:2759342434
 
@@ -12588,12 +12916,16 @@ msgctxt "nla_utility_track_2_name"
 msgid "NLA Airway"
 msgstr "NLA 空中航线"
 
-
-## ----------------------------------------------------------
-## 建筑翻译
-
-# ----- 
+# -----
 # Built-in buildings
+
+msgctxt "waw_corr_01_name"
+msgid "Corrugated translucent"
+msgstr "波纹半透明"
+
+msgctxt "waw_corr_02_name"
+msgid "Corrugated"
+msgstr "波纹"
 
 msgctxt "waw_glass_01_name"
 msgid "Glass tile"
@@ -12630,6 +12962,10 @@ msgstr "天窗面板"
 msgctxt "waw_glass_07b_name"
 msgid "Skylight panel, 9-patch"
 msgstr "天窗面板（可拉伸）"
+
+msgctxt "waw_mortar_name"
+msgid "Mortar"
+msgstr "水泥"
 
 msgctxt "waw_tile_01_name"
 msgid "Pavement tile"
@@ -12719,10 +13055,6 @@ msgctxt "waw_tile_21_name"
 msgid "Grass"
 msgstr "草地"
 
-msgctxt "waw_mortar_name"
-msgid "Mortar"
-msgstr "水泥"
-
 msgctxt "waw_wall_profile_name"
 msgid "Wall profile"
 msgstr "墙面"
@@ -12731,15 +13063,7 @@ msgctxt "waw_white_name"
 msgid "Solid color"
 msgstr "纯色"
 
-msgctxt "waw_corr_01_name"
-msgid "Corrugated translucent"
-msgstr "波纹半透明"
-
-msgctxt "waw_corr_02_name"
-msgid "Corrugated"
-msgstr "波纹"
-
-# ----- 
+# -----
 # 中国铁路标志
 # ID:2769476247
 
@@ -12811,43 +13135,35 @@ msgctxt "CRS-Warning-Prop"
 msgid "CRS-Warning-Prop"
 msgstr "中国CRS摆件-注意无电区"
 
-# ----- 
+# -----
 # 树摆件 TreeProp
 # ID:2770535532
-
-msgctxt "TEP-Tree-Prop"
-msgid "TEP-Tree-Prop"
-msgstr "树摆件-树"
-
-msgctxt "TEP-GinkgoTree-Prop"
-msgid "TEP-GinkgoTree-Prop"
-msgstr "树摆件-银杏树"
-
-msgctxt "TEP-CoconutTree-Prop"
-msgid "TEP-CoconutTree-Prop"
-msgstr "树摆件-椰子树"
-
-msgctxt "TEP-CircleHaystack-Prop"
-msgid "TEP-CircleHaystack-Prop"
-msgstr "树摆件-圆形干草堆"
 
 msgctxt "TEP-Bushes-Prop"
 msgid "TEP-Bushes-Prop"
 msgstr "树摆件-灌木"
 
+msgctxt "TEP-CircleHaystack-Prop"
+msgid "TEP-CircleHaystack-Prop"
+msgstr "树摆件-圆形干草堆"
+
+msgctxt "TEP-CoconutTree-Prop"
+msgid "TEP-CoconutTree-Prop"
+msgstr "树摆件-椰子树"
+
+msgctxt "TEP-GinkgoTree-Prop"
+msgid "TEP-GinkgoTree-Prop"
+msgstr "树摆件-银杏树"
+
 msgctxt "TEP-GreenBelt-Prop"
 msgid "TEP-GreenBelt-Prop"
 msgstr "树摆件-绿化带"
 
-# ----- 
-# Flat Color "Building"
-# ID:（非公开，因为这个mod已经过时，mod作者要避免有人错误订阅旧的版本。）
+msgctxt "TEP-Tree-Prop"
+msgid "TEP-Tree-Prop"
+msgstr "树摆件-树"
 
-msgctxt "nla_flat_color_base_name"
-msgid "Flat color(Disable it now)"
-msgstr "单色地面 (请尽快停用)"
-
-# ----- 
+# -----
 # 日本国铁与JR站台边缘
 # ID:2771812962
 
@@ -12867,6 +13183,10 @@ msgctxt "nla_jp_platform_04_name"
 msgid "Jp. Platform Border 04"
 msgstr "日本站台边缘 04"
 
+msgctxt "nla_jp_platform_overpass_name"
+msgid "Jp. Plat. Overpass"
+msgstr "日本站台跨线桥"
+
 msgctxt "nla_jp_platform_overpass_s_01_name"
 msgid "Jp. Plat. Overpass Stairs 01"
 msgstr "日本站台跨线桥 楼梯01"
@@ -12875,41 +13195,13 @@ msgctxt "nla_jp_platform_overpass_s_02_name"
 msgid "Jp. Plat. Overpass Stairs 02"
 msgstr "日本站台跨线桥 楼梯02"
 
-msgctxt "nla_jp_platform_overpass_name"
-msgid "Jp. Plat. Overpass"
-msgstr "日本站台跨线桥"
-
-# ----- 
+# -----
 # China Railway Station Building Collection | 中国国铁铁建筑包
 # ID:2772447345
 
-msgctxt "CRH_(H)platform_border_name"
-msgid "CRH_(H)platform_border"
-msgstr "CRH-(H)中国高速站台"
-
-msgctxt "CRH_(HO)platform_border_name"
-msgid "CRH_(HO)platform_border"
-msgstr "CRH-(HO)中国普速高站台"
-
-msgctxt "CRH_(O)platform_border_name"
-msgid "CRH_(O)platform_border"
-msgstr "CRH-(O)中国普速站台"
-
-msgctxt "CRH_(OD)platform_border_name"
-msgid "CRH_(OD)platform_border"
-msgstr "CRH-(OD)中国普速站台"
-
-msgctxt "CRH_(T)platform_ground_name"
-msgid "CRH_(T)platform_ground"
-msgstr "CRH-(T)中国高速地面瓷砖"
-
-msgctxt "CRH_(OT)platform_ground_name"
-msgid "CRH_(OT)platform_ground"
-msgstr "CRH-(OT)中国普速地面瓷砖"
-
-msgctxt "CRH_(H)sign_caution_gap_name"
-msgid "CRH_(H)sign_caution_gap"
-msgstr "CRH-(H)小心间隙地面标志"
+msgctxt "CRH_(H)pillared_shutter_name"
+msgid "CRH_(H)pillared_shutter"
+msgstr "CRH-(H)有柱雨棚-密顶"
 
 msgctxt "CRH_(H)pillarless_shutter_hollow_name"
 msgid "CRH_(H)pillarless_shutter_hollow"
@@ -12919,23 +13211,47 @@ msgctxt "CRH_(H)pillarless_shutter_name"
 msgid "CRH_(H)pillarless_shutter"
 msgstr "CRH-(H)无柱雨棚-密顶"
 
-msgctxt "CRH_(H)pillared_shutter_name"
-msgid "CRH_(H)pillared_shutter"
-msgstr "CRH-(H)有柱雨棚-密顶"
+msgctxt "CRH_(H)platform_border_name"
+msgid "CRH_(H)platform_border"
+msgstr "CRH-(H)中国高速站台"
 
-msgctxt "CRH_(HO)PlatformCanopy_shutter"
-msgid "CRH_(HO)PlatformCanopy_shutter"
-msgstr "CRH-(HO)中国高速普通雨棚"
+msgctxt "CRH_(H)sign_caution_gap_name"
+msgid "CRH_(H)sign_caution_gap"
+msgstr "CRH-(H)小心间隙地面标志"
 
 msgctxt "CRH_(HO)ElevatorCanopy_shutter"
 msgid "CRH_(HO)ElevatorCanopy_shutter"
 msgstr "CRH-(HO)中国铁路电梯棚"
 
+msgctxt "CRH_(HO)PlatformCanopy_shutter"
+msgid "CRH_(HO)PlatformCanopy_shutter"
+msgstr "CRH-(HO)中国高速普通雨棚"
+
+msgctxt "CRH_(HO)platform_border_name"
+msgid "CRH_(HO)platform_border"
+msgstr "CRH-(HO)中国普速高站台"
+
 msgctxt "CRH_(O)PlatformCanopy_shutter"
 msgid "CRH_(O)PlatformCanopy_shutter"
 msgstr "CRH-(O)中国普速雨棚"
 
-# ----- 
+msgctxt "CRH_(O)platform_border_name"
+msgid "CRH_(O)platform_border"
+msgstr "CRH-(O)中国普速站台"
+
+msgctxt "CRH_(OD)platform_border_name"
+msgid "CRH_(OD)platform_border"
+msgstr "CRH-(OD)中国普速站台"
+
+msgctxt "CRH_(OT)platform_ground_name"
+msgid "CRH_(OT)platform_ground"
+msgstr "CRH-(OT)中国普速地面瓷砖"
+
+msgctxt "CRH_(T)platform_ground_name"
+msgid "CRH_(T)platform_ground"
+msgstr "CRH-(T)中国高速地面瓷砖"
+
+# -----
 # Smaller built-in buildings
 # ID:2779938162
 
@@ -12963,37 +13279,37 @@ msgctxt "s_waw_glass_07b_name"
 msgid "Skylight panel, 9-patch (s)"
 msgstr "天窗面板 (可拉伸) (s)"
 
-msgctxt "s_waw_tile_01_60_name"
-msgid "Pavement tile (60²cm²)"
-msgstr "地砖 (60²cm²)"
-
 msgctxt "s_waw_tile_01_100_name"
 msgid "Pavement tile (100²cm²)"
 msgstr "地砖 (100²cm²)"
 
-msgctxt "s_waw_tile_02_60_name"
-msgid "Checkerboard tile (60²cm²)"
-msgstr "棋盘地砖 (60²cm²)"
+msgctxt "s_waw_tile_01_60_name"
+msgid "Pavement tile (60²cm²)"
+msgstr "地砖 (60²cm²)"
 
 msgctxt "s_waw_tile_02_100_name"
 msgid "Checkerboard tile (100²cm²)"
 msgstr "棋盘地砖 (100²cm²)"
 
-msgctxt "s_waw_tile_03_60_name"
-msgid "Shiny tile (60²cm²)"
-msgstr "闪亮的地砖 (60²cm²)"
+msgctxt "s_waw_tile_02_60_name"
+msgid "Checkerboard tile (60²cm²)"
+msgstr "棋盘地砖 (60²cm²)"
 
 msgctxt "s_waw_tile_03_100_name"
 msgid "Shiny tile (100²cm²)"
 msgstr "闪亮的地砖 (100²cm²)"
 
-msgctxt "s_waw_tile_04_60_name"
-msgid "Granite tile (60²cm²)"
-msgstr "花岗岩地砖 (60²cm²)"
+msgctxt "s_waw_tile_03_60_name"
+msgid "Shiny tile (60²cm²)"
+msgstr "闪亮的地砖 (60²cm²)"
 
 msgctxt "s_waw_tile_04_100_name"
 msgid "Granite tile (100²cm²)"
 msgstr "花岗岩地砖 (100²cm²)"
+
+msgctxt "s_waw_tile_04_60_name"
+msgid "Granite tile (60²cm²)"
+msgstr "花岗岩地砖 (60²cm²)"
 
 msgctxt "s_waw_tile_05_30_name"
 msgid "Pavement tile, light border (s)"
@@ -13027,6 +13343,10 @@ msgctxt "s_waw_tile_14_100_name"
 msgid "Vaulted roof (~100cm)"
 msgstr "拱形屋顶 (~100cm)"
 
+msgctxt "s_waw_wall_profile_100_name"
+msgid "Wall (100cm)"
+msgstr "墙面 (100cm)"
+
 msgctxt "s_waw_wall_profile_20_name"
 msgid "Wall (20cm)"
 msgstr "墙面 (20cm)"
@@ -13035,33 +13355,9 @@ msgctxt "s_waw_wall_profile_50_name"
 msgid "Wall (50cm)"
 msgstr "墙面 (50cm)"
 
-msgctxt "s_waw_wall_profile_100_name"
-msgid "Wall (100cm)"
-msgstr "墙面 (100cm)"
-
-# ----- 
+# -----
 # Transfer Access | 换乘通道
 # ID:2782859410
-
-msgctxt "unroofed_stairs_name"
-msgid "unroofed_stairs"
-msgstr "换乘通道-楼梯"
-
-msgctxt "unroofed_stairs_with_elevator_name"
-msgid "unroofed_stairs_with_elevator"
-msgstr "换乘通道-楼梯+自动扶梯"
-
-msgctxt "roofed_aisle_name"
-msgid "uroofed_aisle"
-msgstr "换乘通道-有遮盖通道"
-
-msgctxt "unroofed_aisle_name"
-msgid "unroofed_aisle"
-msgstr "换乘通道-无遮盖通道"
-
-msgctxt "roofed_skylight_aisle_name"
-msgid "roofed_skylight_aisle"
-msgstr "换乘通道-有遮盖通道附天窗"
 
 msgctxt "glassed_aisle_name"
 msgid "glassed_aisle"
@@ -13071,105 +13367,37 @@ msgctxt "glassed_roof_name"
 msgid "glassed_roof"
 msgstr "换乘通道-天窗"
 
+msgctxt "roofed_aisle_name"
+msgid "uroofed_aisle"
+msgstr "换乘通道-有遮盖通道"
+
+msgctxt "roofed_skylight_aisle_name"
+msgid "roofed_skylight_aisle"
+msgstr "换乘通道-有遮盖通道附天窗"
+
+msgctxt "unroofed_aisle_name"
+msgid "unroofed_aisle"
+msgstr "换乘通道-无遮盖通道"
+
 msgctxt "unroofed_footway_name"
 msgid "unroofed_footway_cross"
 msgstr "换乘通道 (无遮盖)"
 
-# ----- 
+msgctxt "unroofed_stairs_name"
+msgid "unroofed_stairs"
+msgstr "换乘通道-楼梯"
+
+msgctxt "unroofed_stairs_with_elevator_name"
+msgid "unroofed_stairs_with_elevator"
+msgstr "换乘通道-楼梯+自动扶梯"
+
+# -----
 # More E&M Equipments
 # ID:2798036123
-
-msgctxt "more-e_grating_1_name"
-msgid "Metal Grating (Rectangular)"
-msgstr "金属格栅地板 (矩形)"
-
-msgctxt "more-e_grating_2_name"
-msgid "Metal Grating (Rectangular Rounded)"
-msgstr "金属格栅地板 (圆角矩形)"
-
-msgctxt "more-e_grating_3_name"
-msgid "Metal Grating (Circle Holes)"
-msgstr "金属格栅地板 (圆形)"
-
-msgctxt "more-e_fan_1_name"
-msgid "Exhaust Fan 1"
-msgstr "排气扇 1"
-
-msgctxt "more-e_fan_2_name"
-msgid "Exhaust Fan 2"
-msgstr "排气扇 2"
-
-msgctxt "more-e_fan_v_name"
-msgid "Exhaust Fan (vertical)"
-msgstr "排气扇 (垂直)"
-
-msgctxt "more-e_solar_panel_1_name"
-msgid "Solar Panel"
-msgstr "太阳能光伏板"
-
-msgctxt "more-e_chequer_plate_1_name"
-msgid "Metal Chequer Plate"
-msgstr "防滑金属地板"
-
-msgctxt "more-e_tank_1_name"
-msgid "Storage Tank"
-msgstr "卧式储罐"
-
-msgctxt "more-e_cooling_tower_1_name"
-msgid "Cooling Tower 1"
-msgstr "中央空调冷却塔 1"
-
-msgctxt "more-e_cooling_tower_2_name"
-msgid "Cooling Tower 2"
-msgstr "中央空调冷却塔 2"
-
-msgctxt "more-e_roof_fan_1_name"
-msgid "Rooftop Fan"
-msgstr "屋顶通风扇"
 
 msgctxt "more-e_ac_1_name"
 msgid "Air Conditioner (small)"
 msgstr "空调 (小型)"
-
-msgctxt "more-e_pump_1_name"
-msgid "Centrifugal Pump 1"
-msgstr "离心泵 1"
-
-msgctxt "more-e_pump_2_name"
-msgid "Centrifugal Pump 2"
-msgstr "离心泵 2"
-
-msgctxt "more-e_pump_3_name"
-msgid "Centrifugal Pump 3"
-msgstr "离心泵 3"
-
-msgctxt "more-e_transformer_1_name"
-msgid "Transformer 1"
-msgstr "变压器 1"
-
-msgctxt "more-e_transformer_2_name"
-msgid "Transformer 2"
-msgstr "变压器 2"
-
-msgctxt "more-e_elec_panel_1_name"
-msgid "Electrical Panel 1"
-msgstr "配电板 1"
-
-msgctxt "more-e_elec_panel_2_name"
-msgid "Electrical Panel 2"
-msgstr "配电板 2"
-
-msgctxt "more-e_elec_panel_3_name"
-msgid "Electrical Panel 3"
-msgstr "配电板 3"
-
-msgctxt "more-e_psd_1_name"
-msgid "Platform Screen Door"
-msgstr "站台门与面板"
-
-msgctxt "more-e_psg_1_name"
-msgid "Platform Screen Gate"
-msgstr "半高站台门与屏障"
 
 msgctxt "more-e_ahu_1_name"
 msgid "Air Handling Unit"
@@ -13191,6 +13419,46 @@ msgctxt "more-e_bufferstop_steel_3_name"
 msgid "Buffer Stop (Steel) 3"
 msgstr "车档(钢) 3"
 
+msgctxt "more-e_catenary_1_f_name"
+msgid "Catenary 1 (flipped)"
+msgstr "接触网电线杆 1(反向)"
+
+msgctxt "more-e_catenary_1_name"
+msgid "Catenary 1"
+msgstr "接触网电线杆 1"
+
+msgctxt "more-e_catenary_2_f_name"
+msgid "Catenary 2 (flipped)"
+msgstr "接触网电线杆 2(反向)"
+
+msgctxt "more-e_catenary_2_name"
+msgid "Catenary 2"
+msgstr "接触网电线杆 2"
+
+msgctxt "more-e_catenary_3_f_name"
+msgid "Catenary 3 (flipped)"
+msgstr "接触网电线杆 3(反向)"
+
+msgctxt "more-e_catenary_3_name"
+msgid "Catenary 3"
+msgstr "接触网电线杆 3"
+
+msgctxt "more-e_catenary_4_name"
+msgid "Catenary 4"
+msgstr "接触网电线杆 4"
+
+msgctxt "more-e_catenary_t_f_name"
+msgid "Catenary type T (flipped)"
+msgstr "接触网电线杆 T型(反向)"
+
+msgctxt "more-e_catenary_t_name"
+msgid "Catenary type T"
+msgstr "接触网电线杆 T型"
+
+msgctxt "more-e_chequer_plate_1_name"
+msgid "Metal Chequer Plate"
+msgstr "防滑金属地板"
+
 msgctxt "more-e_chiller_1_name"
 msgid "Chiller 1"
 msgstr "中央空调冷却器 1"
@@ -13199,73 +13467,101 @@ msgctxt "more-e_chiller_2_name"
 msgid "Chiller 2"
 msgstr "中央空调冷却器 2"
 
+msgctxt "more-e_condenser_1_name"
+msgid "Heat Pump Condenser"
+msgstr "热泵冷凝器"
+
+msgctxt "more-e_cooling_tower_1_name"
+msgid "Cooling Tower 1"
+msgstr "中央空调冷却塔 1"
+
+msgctxt "more-e_cooling_tower_2_name"
+msgid "Cooling Tower 2"
+msgstr "中央空调冷却塔 2"
+
+msgctxt "more-e_elec_panel_1_name"
+msgid "Electrical Panel 1"
+msgstr "配电板 1"
+
+msgctxt "more-e_elec_panel_2_name"
+msgid "Electrical Panel 2"
+msgstr "配电板 2"
+
+msgctxt "more-e_elec_panel_3_name"
+msgid "Electrical Panel 3"
+msgstr "配电板 3"
+
 msgctxt "more-e_elevator_1_name"
 msgid "Elevator"
 msgstr "电梯"
 
-msgctxt "more-e_condenser_1_name"
-msgid "Heat Pump Condenser"
-msgstr "热泵冷凝器"
+msgctxt "more-e_fan_1_name"
+msgid "Exhaust Fan 1"
+msgstr "排气扇 1"
+
+msgctxt "more-e_fan_2_name"
+msgid "Exhaust Fan 2"
+msgstr "排气扇 2"
+
+msgctxt "more-e_fan_v_name"
+msgid "Exhaust Fan (vertical)"
+msgstr "排气扇 (垂直)"
+
+msgctxt "more-e_grating_1_name"
+msgid "Metal Grating (Rectangular)"
+msgstr "金属格栅地板 (矩形)"
+
+msgctxt "more-e_grating_2_name"
+msgid "Metal Grating (Rectangular Rounded)"
+msgstr "金属格栅地板 (圆角矩形)"
+
+msgctxt "more-e_grating_3_name"
+msgid "Metal Grating (Circle Holes)"
+msgstr "金属格栅地板 (圆形)"
+
+msgctxt "more-e_psd_1_name"
+msgid "Platform Screen Door"
+msgstr "站台门"
+
+msgctxt "more-e_psg_1_name"
+msgid "Platform Screen Gate"
+msgstr "半高站台门"
+
+msgctxt "more-e_pump_1_name"
+msgid "Centrifugal Pump 1"
+msgstr "离心泵 1"
+
+msgctxt "more-e_pump_2_name"
+msgid "Centrifugal Pump 2"
+msgstr "离心泵 2"
+
+msgctxt "more-e_pump_3_name"
+msgid "Centrifugal Pump 3"
+msgstr "离心泵 3"
+
+msgctxt "more-e_roof_fan_1_name"
+msgid "Rooftop Fan"
+msgstr "屋顶通风扇"
 
 msgctxt "more-e_slope_ladder_1_name"
 msgid "Inclined Ladder"
 msgstr "斜梯"
 
-msgctxt "more-e_working_platform_1_name"
-msgid "Working Platform"
-msgstr "脚手架"
+msgctxt "more-e_solar_panel_1_name"
+msgid "Solar Panel"
+msgstr "太阳能光伏板"
 
-msgctxt "more-e_working_platform_stair_1_name"
-msgid "Working Platform Stair"
-msgstr "脚手架楼梯"
+msgctxt "more-e_tank_1_name"
+msgid "Storage Tank"
+msgstr "卧式储罐"
 
-msgctxt "more-e_working_escalator_b_name"
-msgid "Escalator (bottom)"
-msgstr "自动扶梯 (底部)"
+msgctxt "more-e_transformer_1_name"
+msgid "Transformer 1"
+msgstr "变压器 1"
 
-msgctxt "more-e_working_escalator_t_name"
-msgid "Escalator (top)"
-msgstr "自动扶梯 (顶部)"
-
-msgctxt "more-e_working_escalator_m_name"
-msgid "Escalator (middle)"
-msgstr "自动扶梯 (中间)"
-
-msgctxt "more-e_catenary_1_name"
-msgid "Catenary 1"
-msgstr "接触网电线杆 1"
-
-msgctxt "more-e_catenary_1_f_name"
-msgid "Catenary 1 (flipped)"
-msgstr "接触网电线杆 1(反向)"
-
-msgctxt "more-e_catenary_2_name"
-msgid "Catenary 2"
-msgstr "接触网电线杆 2"
-
-msgctxt "more-e_catenary_2_f_name"
-msgid "Catenary 2 (flipped)"
-msgstr "接触网电线杆 2(反向)"
-
-msgctxt "more-e_catenary_3_name"
-msgid "Catenary 3"
-msgstr "接触网电线杆 3"
-
-msgctxt "more-e_catenary_3_f_name"
-msgid "Catenary 3 (flipped)"
-msgstr "接触网电线杆 3(反向)"
-
-msgctxt "more-e_catenary_4_name"
-msgid "Catenary 4"
-msgstr "接触网电线杆 4"
-
-msgctxt "more-e_catenary_t_name"
-msgid "Catenary type T"
-msgstr "接触网电线杆 T型"
-
-msgctxt "more-e_catenary_t_f_name"
-msgid "Catenary type T (flipped)"
-msgstr "接触网电线杆 T型(反向)"
+msgctxt "more-e_transformer_2_name"
+msgid "Transformer 2"
+msgstr "变压器 2"
 
 msgctxt "more-e_wire_1_name"
 msgid "Overhead Wire 1"
@@ -13279,9 +13575,37 @@ msgctxt "more-e_wire_t_name"
 msgid "Overhead Wire type T"
 msgstr "接触网电缆 T型"
 
-# ----- 
+msgctxt "more-e_working_escalator_b_name"
+msgid "Escalator (bottom)"
+msgstr "自动扶梯 (底部)"
+
+msgctxt "more-e_working_escalator_m_name"
+msgid "Escalator (middle)"
+msgstr "自动扶梯 (中间)"
+
+msgctxt "more-e_working_escalator_t_name"
+msgid "Escalator (top)"
+msgstr "自动扶梯 (顶部)"
+
+msgctxt "more-e_working_platform_1_name"
+msgid "Working Platform"
+msgstr "工作平台"
+
+msgctxt "more-e_working_platform_stair_1_name"
+msgid "Working Platform Stair"
+msgstr "工作平台楼梯"
+
+# -----
 # More Civil Structures
 # ID:2798037491
+
+msgctxt "more-c_bar_awing_name"
+msgid "Bar Awing"
+msgstr "条状雨棚"
+
+msgctxt "more-c_carpark_1_name"
+msgid "Carpark"
+msgstr "停车车位"
 
 msgctxt "more-c_conc_circle_name"
 msgid "Concrete (single circle)"
@@ -13295,6 +13619,42 @@ msgctxt "more-c_conc_triangle_2_name"
 msgid "Concrete (congruent triangle)"
 msgstr "混凝土 (全等三角形)"
 
+msgctxt "more-c_deco_ceiling_linear_name"
+msgid "Deco Ceiling 1"
+msgstr "装饰天花板 1"
+
+msgctxt "more-c_deco_ceiling_linear_opening_name"
+msgid "Deco Ceiling 1 w/ opening"
+msgstr "装饰天花板 1(带开口)"
+
+msgctxt "more-c_deco_ceiling_skylights_name"
+msgid "Deco Ceiling 3"
+msgstr "装饰天花板 3"
+
+msgctxt "more-c_deco_ceiling_triangle_window_name"
+msgid "Deco Ceiling 2"
+msgstr "装饰天花板 2"
+
+msgctxt "more-c_glass_shaft_name"
+msgid "Glass Shaft"
+msgstr "玻璃电梯井"
+
+msgctxt "more-c_glass_shaft_opening_name"
+msgid "Glass Shaft w/ Opening"
+msgstr "玻璃电梯井 (带开口)"
+
+msgctxt "more-c_memebrane_repeat_1_name"
+msgid "Architectural Membrane 1"
+msgstr "建筑膜结构 1"
+
+msgctxt "more-c_memebrane_repeat_2_name"
+msgid "Architectural Membrane 2"
+msgstr "建筑膜结构 2"
+
+msgctxt "more-c_memebrane_single_name"
+msgid "Architectural Membrane (single)"
+msgstr "建筑膜结构 (单个)"
+
 msgctxt "more-c_mortar_circle_name"
 msgid "Mortar (single circle)"
 msgstr "水泥 (单个圆形)"
@@ -13307,6 +13667,54 @@ msgctxt "more-c_mortar_triangle_2_name"
 msgid "Mortar (congruent triangle)"
 msgstr "水泥 (全等三角形)"
 
+msgctxt "more-c_mosaic_tiles_name"
+msgid "Mosaic Tiles"
+msgstr "马赛克瓷砖"
+
+msgctxt "more-c_noise_barrier_1_name"
+msgid "Noise Barrier"
+msgstr "隔音屏障"
+
+msgctxt "more-c_stair_conc_name"
+msgid "Stairs (concrtete)"
+msgstr "楼梯 (混凝土)"
+
+msgctxt "more-c_stair_conc_shaft_name"
+msgid "Stairs Shaft (concrtete)"
+msgstr "楼梯井 (混凝土)"
+
+msgctxt "more-c_stair_nosing_name"
+msgid "Stairs (nosing only)"
+msgstr "楼梯 (仅防滑条)"
+
+msgctxt "more-c_stair_tile_01_name"
+msgid "Stairs (pavement tile)"
+msgstr "楼梯 (地砖)"
+
+msgctxt "more-c_stair_tile_01_shaft_name"
+msgid "Stairs Shaft (pavement tile)"
+msgstr "楼梯井 (地砖)"
+
+msgctxt "more-c_stair_tile_04_name"
+msgid "Stairs (granite tile)"
+msgstr "楼梯 (花岗岩地砖)"
+
+msgctxt "more-c_stair_tile_04_shaft_name"
+msgid "Stairs Shaft (granite tile)"
+msgstr "楼梯井 (花岗岩地砖)"
+
+msgctxt "more-c_stair_tile_08_name"
+msgid "Stairs (octogonal tile)"
+msgstr "楼梯 (八角形地砖)"
+
+msgctxt "more-c_stair_tile_08_shaft_name"
+msgid "Stairs Shaft (octogonal tile)"
+msgstr "楼梯井 (八角形地砖)"
+
+msgctxt "more-c_truss_1_name"
+msgid "Truss"
+msgstr "桁架"
+
 msgctxt "more-c_wall_shaft_name"
 msgid "Wall Shaft"
 msgstr "电梯井"
@@ -13315,125 +13723,49 @@ msgctxt "more-c_wall_shaft_opening_name"
 msgid "Wall Shaft w/ Opening"
 msgstr "电梯井 (带开口)"
 
-msgctxt "more-c_glass_shaft_name"
-msgid "Glass Shaft"
-msgstr "玻璃电梯井"
-
-msgctxt "more-c_glass_shaft_opening_name"
-msgid "Glass Shaft w/ Opening"
-msgstr "玻璃电梯井 (带开口)"
-
-msgctxt "more-c_stair_nosing_name"
-msgid "Stairs (nosing only)"
-msgstr "楼梯 (仅限尖端)"
-
-msgctxt "more-c_stair_conc_name"
-msgid "Stairs (concrtete)"
-msgstr "楼梯 (混凝土)"
-
-msgctxt "more-c_stair_tile_01_name"
-msgid "Stairs (pavement tile)"
-msgstr "楼梯 (地砖)"
-
-msgctxt "more-c_stair_tile_04_name"
-msgid "Stairs (granite tile)"
-msgstr "楼梯 (花岗岩地砖)"
-
-msgctxt "more-c_stair_tile_08_name"
-msgid "Stairs (octogonal tile)"
-msgstr "楼梯 (八角地砖)"
-
-msgctxt "more-c_stair_conc_shaft_name"
-msgid "Stairs Shaft (concrtete)"
-msgstr "楼梯井 (混凝土)"
-
-msgctxt "more-c_stair_tile_01_shaft_name"
-msgid "Stairs Shaft (pavement tile)"
-msgstr "楼梯井 (地砖)"
-
-msgctxt "more-c_stair_tile_04_shaft_name"
-msgid "Stairs Shaft (granite tile)"
-msgstr "楼梯井 (花岗岩地砖)"
-
-msgctxt "more-c_stair_tile_08_shaft_name"
-msgid "Stairs Shaft (octogonal tile)"
-msgstr "楼梯井 (八角地砖)"
-
-msgctxt "more-c_deco_ceiling_linear_name"
-msgid "Deco Ceiling 1"
-msgstr "装饰天花板 1"
-
-msgctxt "more-c_deco_ceiling_linear_opening_name"
-msgid "Deco Ceiling 1 w/ opening"
-msgstr "装饰天花板 1(带开口)"
-
-msgctxt "more-c_memebrane_single_name"
-msgid "Architectural Membrane (single)"
-msgstr "建筑膜结构 (单个)"
-
-msgctxt "more-c_memebrane_repeat_1_name"
-msgid "Architectural Membrane 1"
-msgstr "建筑膜结构 1"
-
-msgctxt "more-c_memebrane_repeat_2_name"
-msgid "Architectural Membrane 2"
-msgstr "建筑膜结构 2"
-
-msgctxt "more-c_noise_barrier_1_name"
-msgid "Noise Barrier"
-msgstr "隔音屏障"
-
-msgctxt "more-c_deco_ceiling_triangle_window_name"
-msgid "Deco Ceiling 2"
-msgstr "装饰天花板 2"
-
-msgctxt "more-c_deco_ceiling_skylights_name"
-msgid "Deco Ceiling 3"
-msgstr "装饰天花板 3"
-
-msgctxt "more-c_mosaic_tiles_name"
-msgid "Mosaic Tiles"
-msgstr "马赛克瓷砖"
-
-msgctxt "more-c_carpark_1_name"
-msgid "Carpark"
-msgstr "停车车位"
-
-msgctxt "more-c_bar_awing_name"
-msgid "Bar Awing"
-msgstr "雨棚 (条状)"
-
-msgctxt "more-c_truss_1_name"
-msgid "Truss"
-msgstr "桁架"
-
-# ----- 
+# -----
 # 站台门和半高站台门
 # ID:2801724482
 
-msgctxt "more_e_psd_psp_name"
-msgid "Plat. Screen Door Panel"
-msgstr "站台门面板"
+msgctxt "more_e_psd_chi_metro_a_name"
+msgid "Plat. Door CHI M-A"
+msgstr "站台门 芝加哥地铁 A 型"
+
+msgctxt "more_e_psd_chi_metro_b_name"
+msgid "Plat. Door CHI M-B"
+msgstr "站台门 芝加哥地铁 B 型"
+
+msgctxt "more_e_psd_chi_metro_d_g_name"
+msgid "Plat. Door CHI M-D"
+msgstr "站台门 芝加哥地铁 D 型"
+
+msgctxt "more_e_psd_jpn_20m_4d_name"
+msgid "Plat. Door JPN 20m 4 Door"
+msgstr "站台门 日本 20m 4门"
 
 msgctxt "more_e_psd_psd_name"
 msgid "Plat. Screen Door"
 msgstr "站台门"
 
-msgctxt "more_e_psd_jpn_20m_4d_name"
-msgid "Plat. Door JPN 20m 4 Door"
-msgstr "站台门 JPN 20m 4门车"
+msgctxt "more_e_psd_psp_name"
+msgid "Plat. Screen Door Panel"
+msgstr "站台门面板"
 
-msgctxt "more_e_psd_chi_metro_a_name"
-msgid "Plat. Door CHI M-A"
-msgstr "站台门 CHI A型地铁"
+msgctxt "more_e_psg_chi_metro_a_name"
+msgid "Plat. Gate CHI M-A"
+msgstr "半高站台门 芝加哥地铁 A 型"
 
-msgctxt "more_e_psd_chi_metro_b_name"
-msgid "Plat. Door CHI M-B"
-msgstr "站台门 CHI B型地铁"
+msgctxt "more_e_psg_chi_metro_b_name"
+msgid "Plat. Gate CHI M-B"
+msgstr "半高站台门 芝加哥地铁 B 型"
 
-msgctxt "more_e_psd_chi_metro_d_g_name"
-msgid "Plat. Door CHI M-D"
-msgstr "站台门 CHI D型地铁"
+msgctxt "more_e_psg_chi_metro_d_g_name"
+msgid "Plat. Gate CHI M-D"
+msgstr "半高站台门 芝加哥地铁 D 型"
+
+msgctxt "more_e_psg_jpn_20m_4d_name"
+msgid "Plat. Gate JPN 20m 4 Door"
+msgstr "半高站台门 日本 20m 4门"
 
 msgctxt "more_e_psg_pgb_name"
 msgid "Plat. Gate Barrier"
@@ -13443,23 +13775,7 @@ msgctxt "more_e_psg_psg_name"
 msgid "Plat. Gate"
 msgstr "半高站台门"
 
-msgctxt "more_e_psg_jpn_20m_4d_name"
-msgid "Plat. Gate JPN 20m 4 Door"
-msgstr "半高站台门 JPN 20m 4门车"
-
-msgctxt "more_e_psg_chi_metro_a_name"
-msgid "Plat. Gate CHI M-A"
-msgstr "半高站台门 CHI A型地铁"
-
-msgctxt "more_e_psg_chi_metro_b_name"
-msgid "Plat. Gate CHI M-B"
-msgstr "半高站台门 CHI B型地铁"
-
-msgctxt "more_e_psg_chi_metro_d_g_name"
-msgid "Plat. Gate CHI M-D"
-msgstr "半高站台门 CHI D型地铁"
-
-# ----- 
+# -----
 # Lights and Shadow Pack
 # ID:2873471390
 
@@ -13499,53 +13815,17 @@ msgctxt "LASCircle75"
 msgid "LAS-Circle-75%"
 msgstr "LAS-圆形-75%"
 
-msgctxt "LASSoftcircle25"
-msgid "LAS-Softcircle-25%"
-msgstr "LAS-圆形柔和-25%"
-
-msgctxt "LASSoftcircle50"
-msgid "LAS-Softcircle-50%"
-msgstr "LAS-圆形柔和-50%"
-
-msgctxt "LASSoftcircle75"
-msgid "LAS-Softcircle-75%"
-msgstr "LAS-圆形柔和-75%"
-
-msgctxt "LASVegetation25"
-msgid "LAS-Vegetation-25%"
-msgstr "LAS-植物-25%"
-
-msgctxt "LASVegetation50"
-msgid "LAS-Vegetation-50%"
-msgstr "LAS-植物-50%"
-
-msgctxt "LASVegetation75"
-msgid "LAS-Vegetation-75%"
-msgstr "LAS-植物-75%"
-
 msgctxt "LASCleanGrad25"
 msgid "LAS-CleanGrad-25%"
-msgstr "LAS-方形锐利-25%"
+msgstr "LAS-清晰渐变-25%"
 
 msgctxt "LASCleanGrad50"
 msgid "LAS-CleanGrad-50%"
-msgstr "LAS-方形锐利-50%"
+msgstr "LAS-清晰渐变-50%"
 
 msgctxt "LASCleanGrad75"
 msgid "LAS-CleanGrad-75%"
-msgstr "LAS-方形锐利-75%"
-
-msgctxt "LASTreeline25"
-msgid "LAS-Treeline-25%"
-msgstr "LAS-树线-25%"
-
-msgctxt "LASTreeline50"
-msgid "LAS-Treeline-50%"
-msgstr "LAS-树线-50%"
-
-msgctxt "LASTreeline75"
-msgid "LAS-Treeline-75%"
-msgstr "LAS-树线-75%"
+msgstr "LAS-清晰渐变-75%"
 
 msgctxt "LASOvalline25"
 msgid "LAS-Ovalline-25%"
@@ -13559,11 +13839,65 @@ msgctxt "LASOvalline75"
 msgid "LAS-Ovalline-75%"
 msgstr "LAS-椭圆形-75%"
 
-# ----- 
-# Trees and Vegetation Pack
-# ID:2873472265
+msgctxt "LASSoftcircle25"
+msgid "LAS-Softcircle-25%"
+msgstr "LAS-圆形柔和-25%"
+
+msgctxt "LASSoftcircle50"
+msgid "LAS-Softcircle-50%"
+msgstr "LAS-圆形柔和-50%"
+
+msgctxt "LASSoftcircle75"
+msgid "LAS-Softcircle-75%"
+msgstr "LAS-圆形柔和-75%"
+
+msgctxt "LASTreeline25"
+msgid "LAS-Treeline-25%"
+msgstr "LAS-树线-25%"
+
+msgctxt "LASTreeline50"
+msgid "LAS-Treeline-50%"
+msgstr "LAS-树线-50%"
+
+msgctxt "LASTreeline75"
+msgid "LAS-Treeline-75%"
+msgstr "LAS-树线-75%"
+
+msgctxt "LASVegetation25"
+msgid "LAS-Vegetation-25%"
+msgstr "LAS-植物-25%"
+
+msgctxt "LASVegetation50"
+msgid "LAS-Vegetation-50%"
+msgstr "LAS-植物-50%"
+
+msgctxt "LASVegetation75"
+msgid "LAS-Vegetation-75%"
+msgstr "LAS-植物-75%"
+
+# -----
 # Trees and Vegetation Pack Pre-Shadowed
 # ID:2876526520
+
+msgctxt "Bushline01R"
+msgid "TAV-Bushline01-R"
+msgstr "TAV-灌木丛带01-重复"
+
+msgctxt "Grass01"
+msgid "TAV-Grass01"
+msgstr "TAV-草地01"
+
+msgctxt "Grass01R"
+msgid "TAV-Grass01-R"
+msgstr "TAV-草地01-重复"
+
+msgctxt "GroundScatter01"
+msgid "TAV-GroundScatter01"
+msgstr "TAV-落叶01"
+
+msgctxt "GroundScatter01R"
+msgid "TAV-GroundScatter01-R"
+msgstr "TAV-落叶01-重复"
 
 msgctxt "Hedge01R"
 msgid "TAV-Hedge01-R"
@@ -13689,33 +14023,9 @@ msgctxt "Weeds01R"
 msgid "TAV-Weeds01-R"
 msgstr "TAV-杂草01-重复"
 
-msgctxt "GroundScatter01"
-msgid "TAV-GroundScatter01"
-msgstr "TAV-落叶01"
-
-msgctxt "GroundScatter01R"
-msgid "TAV-GroundScatter01-R"
-msgstr "TAV-落叶01-重复"
-
-msgctxt "Bushline01R"
-msgid "TAV-Bushline01-R"
-msgstr "TAV-灌木丛带01-重复"
-
-msgctxt "Grass01"
-msgid "TAV-Grass01"
-msgstr "TAV-草地01"
-
-msgctxt "Grass01R"
-msgid "TAV-Grass01-R"
-msgstr "TAV-草地01-重复"
-
-# ----- 
+# -----
 # Station Elements Pack
 # ID:2886256319
-
-msgctxt "Stairs01R"
-msgid "SE-Stairs01-R"
-msgstr "SE-楼梯01-重复"
 
 msgctxt "Bench01R"
 msgid "SE-Bench01-R"
@@ -13725,13 +14035,89 @@ msgctxt "Bench02R"
 msgid "SE-Bench02-R"
 msgstr "SE-长椅02-重复"
 
-msgctxt "Sign01R"
-msgid "SE-Sign01-R"
-msgstr "SE-标志01-重复"
+msgctxt "Carpark01R"
+msgid "SE-Carpark01-R"
+msgstr "SE-停车场01-重复"
 
-msgctxt "Ticketmachine01R"
-msgid "SE-Ticketmachine01-R"
-msgstr "SE-售票机01-重复"
+msgctxt "Carpark02R"
+msgid "SE-Carpark02-R"
+msgstr "SE-停车场02-重复"
+
+msgctxt "Carpark03R"
+msgid "SE-Carpark03-R"
+msgstr "SE-停车场03-重复"
+
+msgctxt "Catenary_Gantry01R"
+msgid "SE_Catenary_Gantry01-R"
+msgstr "SE_接触网横向支柱01-重复"
+
+msgctxt "Catenary_Mast_Left01R"
+msgid "SE_Catenary_Mast_Left01-R"
+msgstr "SE_接触网电线杆左01-重复"
+
+msgctxt "Catenary_Mast_Left02R"
+msgid "SE_Catenary_Mast_Left02-R"
+msgstr "SE_接触网电线杆左02-重复"
+
+msgctxt "Catenary_Mast_Right01R"
+msgid "SE_Catenary_Mast_Right01-R"
+msgstr "SE_接触网电线杆右01-重复"
+
+msgctxt "Catenary_Mast_Right02R"
+msgid "SE_Catenary_Mast_Right02-R"
+msgstr "SE_接触网电线杆右02-重复"
+
+msgctxt "Catenary_WireClamp01R"
+msgid "SE_Catenary_WireClamp01-R"
+msgstr "SE_接触网导线夹子01-重复"
+
+msgctxt "Catenary_Wires01R"
+msgid "SE_Catenary_Wires01-R"
+msgstr "SE_接触网导线01-重复"
+
+msgctxt "Concrete01R"
+msgid "SE-Concrete01-R"
+msgstr "SE-混凝土01-重复"
+
+msgctxt "Lamp01OFFR"
+msgid "SE-Lamp01OFF-R"
+msgstr "SE-路灯01(关闭)-重复"
+
+msgctxt "Lamp01ONR"
+msgid "SE-Lamp01ON-R"
+msgstr "SE-路灯01(开启)-重复"
+
+msgctxt "LuggageTrolley01R"
+msgid "SE-LuggageTrolley01-R"
+msgstr "SE-行李手推车01-重复"
+
+msgctxt "LuggageTrolley02R"
+msgid "SE-LuggageTrolley02-R"
+msgstr "SE-行李手推车02-重复"
+
+msgctxt "Pax_01"
+msgid "SE_Pax_01"
+msgstr "SE-乘客-01"
+
+msgctxt "Pax_01R"
+msgid "SE_Pax_01-R"
+msgstr "SE-乘客-01-重复"
+
+msgctxt "Planter01R"
+msgid "SE-Planter01-R"
+msgstr "SE-花槽01-重复"
+
+msgctxt "Planter02R"
+msgid "SE-Planter02-R"
+msgstr "SE-花槽02-重复"
+
+msgctxt "Planter03R"
+msgid "SE-Planter03-R"
+msgstr "SE-花槽03-重复"
+
+msgctxt "RoadStripes01R"
+msgid "SE-RoadStripes01-R"
+msgstr "SE-路面标志线01-重复"
 
 msgctxt "RoofGlass01R"
 msgid "SE-RoofGlass01-R"
@@ -13757,86 +14143,23 @@ msgctxt "RoofWooden01R"
 msgid "SE-RoofWooden01-R"
 msgstr "SE-木质房顶01-重复"
 
-msgctxt "Carpark01R"
-msgid "SE-Carpark01-R"
-msgstr "SE-停车场01-重复"
+msgctxt "Sign01R"
+msgid "SE-Sign01-R"
+msgstr "SE-标志01-重复"
 
-msgctxt "Carpark02R"
-msgid "SE-Carpark02-R"
-msgstr "SE-停车场02-重复"
+msgctxt "Stairs01R"
+msgid "SE-Stairs01-R"
+msgstr "SE-楼梯01-重复"
 
-msgctxt "Carpark03R"
-msgid "SE-Carpark03-R"
-msgstr "SE-停车场03-重复"
+msgctxt "Ticketmachine01R"
+msgid "SE-Ticketmachine01-R"
+msgstr "SE-售票机01-重复"
 
-msgctxt "Concrete01R"
-msgid "SE-Concrete01-R"
-msgstr "SE-混凝土01-重复"
+# -----
+# Flat Color "Building"
+# ID:（非公开，因为这个mod已经过时，mod作者要避免有人错误订阅旧的版本。）
 
-msgctxt "RoadStripes01R"
-msgid "SE-RoadStripes01-R"
-msgstr "SE-路面标志线01-重复"
+msgctxt "nla_flat_color_base_name"
+msgid "Flat color(Disable it now)"
+msgstr "单色地面 (请尽快停用)"
 
-msgctxt "Lamp01OFFR"
-msgid "SE-Lamp01OFF-R"
-msgstr "SE-路灯01(关闭)-重复"
-
-msgctxt "Lamp01ONR"
-msgid "SE-Lamp01ON-R"
-msgstr "SE-路灯01(开启)-重复"
-
-msgctxt "Planter01R"
-msgid "SE-Planter01-R"
-msgstr "SE-花槽01-重复"
-
-msgctxt "Planter02R"
-msgid "SE-Planter02-R"
-msgstr "SE-花槽02-重复"
-
-msgctxt "Planter03R"
-msgid "SE-Planter03-R"
-msgstr "SE-花槽03-重复"
-
-msgctxt "LuggageTrolley01R"
-msgid "SE-LuggageTrolley01-R"
-msgstr "SE-行李手推车01-重复"
-
-msgctxt "LuggageTrolley02R"
-msgid "SE-LuggageTrolley02-R"
-msgstr "SE-行李手推车02-重复"
-
-msgctxt "Catenary_Wires01R"
-msgid "SE_Catenary_Wires01-R"
-msgstr "SE_接触网导线01-重复"
-
-msgctxt "Catenary_Mast_Left01R"
-msgid "SE_Catenary_Mast_Left01-R"
-msgstr "SE_接触网电线杆左01-重复"
-
-msgctxt "Catenary_Mast_Left02R"
-msgid "SE_Catenary_Mast_Left02-R"
-msgstr "SE_接触网电线杆左02-重复"
-
-msgctxt "Catenary_Mast_Right01R"
-msgid "SE_Catenary_Mast_Right01-R"
-msgstr "SE_接触网电线杆右01-重复"
-
-msgctxt "Catenary_Mast_Right02R"
-msgid "SE_Catenary_Mast_Right02-R"
-msgstr "SE_接触网电线杆右02-重复"
-
-msgctxt "Catenary_WireClamp01R"
-msgid "SE_Catenary_WireClamp01-R"
-msgstr "SE_接触网导线夹子01-重复"
-
-msgctxt "Catenary_Gantry01R"
-msgid "SE_Catenary_Gantry01-R"
-msgstr "SE_接触网横向支柱01-重复"
-
-msgctxt "Pax_01"
-msgid "SE_Pax_01"
-msgstr "SE-乘客-01"
-
-msgctxt "Pax_01R"
-msgid "SE_Pax_01-R"
-msgstr "SE-乘客-01-重复"
